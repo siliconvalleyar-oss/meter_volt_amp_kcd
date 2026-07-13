@@ -22,3 +22,6 @@ __pycache__/
 
 # MiMoCode
 .mimocode/
+
+# VS Code Local History
+.history/
