@@ -446,7 +446,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 03a118e0-b7a0-4093-8604-ce41cf37e258)
     (at 90.8928 121.3104 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -493,14 +493,14 @@
       (net 17 "Net-(D904-A)") (pintype "passive") (tstamp 974106ef-fda7-42da-9d96-3d1bdec9fbdb))
     (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "RD7") (pintype "passive") (tstamp a268d9ae-82fd-406d-9f28-6f8306b005d7))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 04e569a6-f909-48a8-8944-ae52604d0baf)
     (at 134.574 96.454)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -547,7 +547,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp ee6edfa8-26f8-4c47-9424-a71cefeb2b87))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 80aefb82-56fb-4d6d-ba5d-4aa1a9a9470c))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -737,7 +737,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 10785bc7-679b-4ced-9cbc-ac9ef2f0c8fe)
     (at 76.835 114.3)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -784,7 +784,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 75bec930-6a75-483a-b4cd-9f1ec948ef56))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 8d0ec86e-1ec0-45a9-86f5-9cf733e20c2f))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1156,7 +1156,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 175c04e0-2cca-484f-83e4-2acc5e13cafc)
     (at 101.917 113.191 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1203,7 +1203,7 @@
       (net 10 "Net-(U201-OSC1{slash}CLKI{slash}RA7)") (pintype "passive") (tstamp f2bbaf47-7795-43b5-9bd7-c36b6e442d80))
     (pad "2" smd roundrect (at 0.775 0 180) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 46ac0897-a491-4e7c-9337-bab619269f50))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1254,7 +1254,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 1efa8525-29d3-46c8-af28-cf02d7ad6ef9)
     (at 134.574 71.864)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1301,7 +1301,7 @@
       (net 13 "/ucontroller_pic18F46j50/VUSB") (pintype "passive") (tstamp 97f0af8d-ad66-41d5-b1fb-fa457be08338))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 85b57a46-5da6-4d6f-afd4-936ec7056f30))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1459,7 +1459,7 @@
       (net 82 "GPIO23") (pinfunction "Pin_1") (pintype "passive") (tstamp f7de9067-1c45-42f5-a740-77b45fe09de2))
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 33687aa0-680d-4f26-843f-846fb2f1a4b3)
     (at 131.064 120.269)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1506,7 +1506,7 @@
       (net 82 "GPIO23") (pintype "passive") (tstamp 9043a28e-fdb4-4d17-9757-b19192406164))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 86 "Net-(SW1004A-D)") (pintype "passive") (tstamp ad77eb44-c978-40a2-bf9a-a7625d0f13ca))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1589,7 +1589,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 3cf24ccc-8132-4d65-8164-fd8cd2c8b845)
     (at 122.06 79.0056)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1636,14 +1636,14 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp af602168-4ab3-4cb1-9f9e-66c90e5851fb))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 6b9cf5e7-4657-4a74-b162-a0a3cd576e23))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 3d180cbc-0e71-4c1e-b021-8774f3654803)
     (at 120.269 130.175)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1690,7 +1690,7 @@
       (net 81 "GPIO21") (pintype "passive") (tstamp 3e56e989-5fae-4689-909d-fa40ec999960))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 85 "Net-(SW1003A-D)") (pintype "passive") (tstamp 1091cb34-031c-4f22-9297-b848900fe35d))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1751,7 +1751,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 4600b004-2fba-4f73-853e-b011cc67b2c3)
     (at 122.06 81.5156)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1798,7 +1798,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 07a09346-716a-4813-875a-64512f0b0530))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 1af32573-0c39-4771-a2ce-4a24de26dc21))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2288,7 +2288,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 4ffd686d-ebd2-4974-a2b8-649a151c86f5)
     (at 68.58 64.516)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2335,7 +2335,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 53d0f0d8-d064-442d-8317-5255c09d5553))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "SDA_2") (pintype "passive") (tstamp cbdd4c1e-3a3b-4657-ae31-5a90adc93d71))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2439,7 +2439,7 @@
       (net 81 "GPIO21") (pinfunction "Pin_1") (pintype "passive") (tstamp cbc24341-e451-43a4-ac58-7099038fb90f))
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 5445e6fd-3bb8-42a0-ad34-6935aa81610e)
     (at 67.691 113.157 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2486,14 +2486,14 @@
       (net 2 "+5F") (pintype "passive") (tstamp 64d2dcde-9a4c-4ae5-8fb8-78b63ab6d053))
     (pad "2" smd roundrect (at 0.775 0 270) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp c3a6b405-9df2-4f2a-a90c-e4b6dff5a350))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 55e6ea32-fba8-4cd6-bcc4-046d7d5eeb21)
     (at 134.574 93.944)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2540,7 +2540,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 26440c7a-9d20-4531-a0ca-705b9318ff14))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp cd40f1b4-2924-46dd-8882-a3100f231198))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2753,7 +2753,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 624d1f5f-488b-4292-a06c-bb4faf9fe3e8)
     (at 116.332 115.062 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2800,7 +2800,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp d6557273-52f8-42d7-b2c8-650915b33ab1))
     (pad "2" smd roundrect (at 0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 80 "GPIO20") (pintype "passive") (tstamp ed538077-1d64-41a2-8090-8bb99bf73614))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2865,7 +2865,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 66ec33a8-8d44-4ab5-aca0-b737549de0f4)
     (at 134.574 91.434)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2912,14 +2912,14 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp fa61245d-2cd3-4279-91d2-66685b019493))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp ee394867-3463-416d-a72d-06dddc4b6264))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 679da6ca-b425-42ae-954d-5d99637fee7a)
     (at 125.7067 66.4153)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2966,7 +2966,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 87b820a0-7c84-40bb-86e0-48b38bf2ea0d))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "SDA_2") (pintype "passive") (tstamp 4ddd7045-9cc2-45bc-855f-325f5d359b59))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2998,7 +2998,7 @@
       (net 80 "GPIO20") (pinfunction "Pin_1") (pintype "passive") (tstamp 34b30fdb-790a-4596-930c-15845f8400a9))
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 67fd2e99-5b06-4c21-946c-16d6c86e17f7)
     (at 68.58 62.006)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -3045,7 +3045,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 9a675a11-b6f5-431f-9126-9dc5a5ac0018))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 12 "SCL_2") (pintype "passive") (tstamp 1ccf344e-d771-4905-8574-d2c92f6539be))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3352,7 +3352,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 757ae12a-bafc-49dc-9f01-9ea199a84264)
     (at 96.266 99.949)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -3399,7 +3399,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 8a2d666c-d6ad-4a98-9828-5b60fc2830bf))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp dea1da60-8108-433b-8df4-75a22571137a))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3532,7 +3532,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 7995b784-54a0-4de0-97bf-8627e1dc4569)
     (at 64.516 83.82)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -3579,7 +3579,7 @@
       (net 76 "/ucontroller_pic18F46j50/d-") (pintype "passive") (tstamp 1b3be889-7df2-47ae-abb3-02f234472c52))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 94 "Net-(J204-D+)") (pintype "passive") (tstamp e07130ce-0341-42ca-8569-1ad0c89e8c35))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3792,7 +3792,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 89feb0df-f6b2-4c0f-9da2-91b17d793918)
     (at 120.777 109.982 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -3839,7 +3839,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 62f83dc3-48e0-4d57-a5b0-82a9870aebe1))
     (pad "2" smd roundrect (at 0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 83 "GPIO24") (pintype "passive") (tstamp 45a96b24-9fea-482f-8d39-9211c1d0d1af))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3943,7 +3943,7 @@
       (net 79 "GPIO22") (pinfunction "Pin_1") (pintype "passive") (tstamp bfc6b1ad-0fc0-43f3-8219-e73f257d07c2))
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 934c0f2e-2bbc-437b-9943-4172e2e06c37)
     (at 119.126 98.552)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -3990,14 +3990,14 @@
       (net 79 "GPIO22") (pintype "passive") (tstamp f2373b59-2f85-4a71-901f-d3cd5df72ac0))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 87 "Net-(SW1001A-D)") (pintype "passive") (tstamp 98b342d0-f1ee-45a9-a336-be5d46364037))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 95a130b1-37da-4870-9476-c63402174d91)
     (at 120.714 112.014)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4044,7 +4044,7 @@
       (net 83 "GPIO24") (pintype "passive") (tstamp 68f07f45-381a-4ad8-b006-402d3a60c6e2))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 88 "Net-(SW1005A-D)") (pintype "passive") (tstamp 035ac48a-cb47-420f-910d-9ec402270c10))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4149,7 +4149,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 97fdb197-d8eb-4e6e-a514-3fb4cacfb763)
     (at 122.301 91.059)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4196,14 +4196,14 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp a891eb0a-6482-452f-94a1-30b255ddb720))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 38ed0248-47ab-4b17-8e60-5b119d51e713))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 98660f27-6324-4b4e-9263-f84d2e38a4e5)
     (at 122.06 76.4956)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4250,7 +4250,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 8ee5c32c-e003-41fb-9ad3-9de30f8ba8a3))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp c1bbb33f-7414-4365-b2c1-870552f29c33))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4311,7 +4311,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp a13ad754-9a8a-4d90-8df2-14efc9ece62a)
     (at 122.06 73.9856)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4358,7 +4358,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 76e44c1f-4431-4f48-b927-2017003b183a))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 2c00cfd6-7fd7-46c9-a318-6837a32e644e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4496,7 +4496,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp a69d7f01-300b-454e-80eb-99980e235ba8)
     (at 122.428 88.138)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4543,7 +4543,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 2b518e8b-88f2-4247-8189-f5b6a4bee623))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp f1574690-45a5-4941-94e1-1b18098a34af))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4594,7 +4594,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp a875f6a1-1970-428c-8b52-90d0ce1400ed)
     (at 83.3628 121.3104 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4641,14 +4641,14 @@
       (net 14 "Net-(D901-A)") (pintype "passive") (tstamp a6c34960-aa6c-425e-ab14-ed2d7e3ee482))
     (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 23 "RD4") (pintype "passive") (tstamp 6bc4e91d-beb8-45a6-9c54-17d3266f436d))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp a9313ffa-f2a2-46f2-a4e4-879a988dbb9c)
     (at 119.952 128.016 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4695,7 +4695,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp a4bdd58a-b04f-4b0f-905f-51ae0a8862b6))
     (pad "2" smd roundrect (at 0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 81 "GPIO21") (pintype "passive") (tstamp ef0a626a-e9c3-4136-8ea5-1fc49ad7101b))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4800,7 +4800,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp b65cc5ec-1d73-4a1e-a12d-670838f2b395)
     (at 103.632 114.173)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4847,14 +4847,14 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp f10607d0-89e6-4f43-809b-c451a93afffc))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp f83bc088-7461-448e-9d1d-e53bd26bc905))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp ba7ac4d5-c8ee-4438-ae86-ddbee7dc05d4)
     (at 134.574 69.354)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4901,14 +4901,14 @@
       (net 13 "/ucontroller_pic18F46j50/VUSB") (pintype "passive") (tstamp e772203f-ccdc-4015-b08c-e3d0677de665))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 90486330-a3ae-4a2a-b08d-674350259d38))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp bb81dae9-b524-4e70-a9f3-a283bfd352e5)
     (at 120.65 65.405 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4955,14 +4955,14 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 3a106cb3-ac5d-4f49-bb5a-575a1c822cf8))
     (pad "2" smd roundrect (at 0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 12 "SCL_2") (pintype "passive") (tstamp d4a83caa-56df-46d1-adcc-c65c94079a9c))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp bf842185-215e-43e0-ac8f-84cb780fcc24)
     (at 115.6858 98.5658)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5009,7 +5009,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 9596285c-af44-4c25-9307-c44055ed98e9))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 79 "GPIO22") (pintype "passive") (tstamp 42ed0dc4-457c-462c-933e-73ef391854f8))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5240,7 +5240,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp c833c6f4-fecd-4ed5-901b-b2e7363335f2)
     (at 101.917 105.474)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5287,7 +5287,7 @@
       (net 6 "Net-(U201-OSC2{slash}CLKO{slash}RA6)") (pintype "passive") (tstamp 73e2ef28-6a89-487a-9806-00388853ab1c))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 3d882d92-e0a7-4220-96a0-b57178a47ddd))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5543,7 +5543,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp cbfff748-c725-416a-bfe6-3a6a9ce4e07a)
     (at 88.3828 121.3104 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5590,14 +5590,14 @@
       (net 16 "Net-(D903-A)") (pintype "passive") (tstamp 01552707-f01e-42e1-90b9-77fa823c0f97))
     (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 25 "RD6") (pintype "passive") (tstamp 6354f514-7aa2-4099-ab78-8efaea32dd44))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp cf8e69ad-63c6-46c8-a8ee-73857bdd3eda)
     (at 116.332 116.967)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5644,7 +5644,7 @@
       (net 80 "GPIO20") (pintype "passive") (tstamp 1451e3ab-d381-41e0-beb1-934d158d08c1))
     (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 84 "Net-(SW1002A-D)") (pintype "passive") (tstamp 7cc6d261-3f9f-47a4-bc31-edee272c0d08))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5793,7 +5793,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp d9866ccd-b6bf-40b7-b186-ebc36235580a)
     (at 134.574 98.964)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5840,14 +5840,14 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp a761c523-d7d6-48d3-9254-12f1b0151f08))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 1f9e6589-e0c8-4c30-917e-8c8e6f1c7e39))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp dc5afbb4-c0e5-44dd-9a91-1be3b4948486)
     (at 75.311 135.827 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5894,7 +5894,7 @@
       (net 77 "/ucontroller_pic18F46j50/d+") (pintype "passive") (tstamp e7341da3-5bfe-4133-8906-3b6fec214b39))
     (pad "2" smd roundrect (at 0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 93 "Net-(J204-D-)") (pintype "passive") (tstamp 92afc666-2931-438f-a4d6-db12538633c8))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6280,7 +6280,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp e3214bda-dedb-46a6-b74e-ec58b9050377)
     (at 85.8728 121.3104 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -6327,7 +6327,7 @@
       (net 15 "Net-(D902-A)") (pintype "passive") (tstamp 4bbff706-2569-4e08-8589-1d52282796bb))
     (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 24 "RD5") (pintype "passive") (tstamp 1a56a648-bb22-46fa-a25a-b1aa3084a90b))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6770,7 +6770,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
+  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp eee711fc-5266-406a-b181-58ae86b2e265)
     (at 131.064 122.047 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -6817,7 +6817,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 7ad5107c-ee57-498a-881e-a41524592741))
     (pad "2" smd roundrect (at 0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 82 "GPIO23") (pintype "passive") (tstamp 988b5d63-a27e-4e7d-b2b7-ab928bfab1e8))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7194,7 +7194,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp f957b6e3-85e4-4816-8f82-c63bde48453d)
     (at 96.228 121.0696)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -7241,14 +7241,14 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp 04f3e551-6f5e-45ad-b577-66e8726336b5))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 42ecc560-8666-4618-bf10-d2f55eabf971))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp f9e75003-00ce-42f0-871a-231abaa65a46)
     (at 64.643 112.776 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -7295,7 +7295,7 @@
       (net 1 "+3.3V") (pintype "passive") (tstamp ad4bced8-d8ed-4835-8f04-97137a064cee))
     (pad "2" smd roundrect (at 0.775 0 180) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "GND") (pintype "passive") (tstamp 3a2bee14-729c-4396-b507-04c9aa276817))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

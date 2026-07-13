@@ -1,1106 +1,2878 @@
-(kicad_sch (version 20231121) (generator eeschema)
-
-  (uuid 85bce703-975a-4f27-876e-9aae9fa99ae6)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Jumper:SolderJumper_2_Open" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "JP" (at 0 2.032 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SolderJumper_2_Open" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "solder jumper SPST" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Solder Jumper, 2-pole, open" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SolderJumper*Open*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SolderJumper_2_Open_0_1"
-        (arc (start -0.254 1.016) (mid -1.2656 0) (end -0.254 -1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start -0.254 1.016) (mid -1.2656 0) (end -0.254 -1.016)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -0.254 1.016)
-            (xy -0.254 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.016)
-            (xy 0.254 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0.254 -1.016) (mid 1.2656 0) (end 0.254 1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0.254 -1.016) (mid 1.2656 0) (end 0.254 1.016)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "SolderJumper_2_Open_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Regulator_Linear:LM1117DT-3.3" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -3.81 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "LM1117DT-3.3" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "linear regulator ldo fixed positive" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO?252*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LM1117DT-3.3_0_1"
-        (rectangle (start -5.08 -5.08) (end 5.08 1.905)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "LM1117DT-3.3_1_1"
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 7.62 0 180) (length 2.54)
-          (name "VO" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -7.62 0 0) (length 2.54)
-          (name "VI" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+5F" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5F" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5F\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5F_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+5F_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5F" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 128.143 106.68) (diameter 0) (color 0 0 0 0)
-    (uuid 335b4234-63cb-4a53-9673-3ed56fa6d364)
-  )
-  (junction (at 128.143 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid 46e79c99-85a0-4406-882e-ff80b9cbfc81)
-  )
-  (junction (at 163.322 47.498) (diameter 0) (color 0 0 0 0)
-    (uuid 4f8ef4ac-eaf1-449d-8695-fcbbcced51e2)
-  )
-  (junction (at 151.892 47.498) (diameter 0) (color 0 0 0 0)
-    (uuid 85982b58-7bcd-4047-a338-539f80d8b75a)
-  )
-  (junction (at 111.633 118.11) (diameter 0) (color 0 0 0 0)
-    (uuid 8c9778af-260d-4c5a-ad51-ee4519507e94)
-  )
-  (junction (at 93.853 106.68) (diameter 0) (color 0 0 0 0)
-    (uuid 8f9eaddd-e1c4-4242-9e03-0a1c8a429d48)
-  )
-  (junction (at 88.773 106.68) (diameter 0) (color 0 0 0 0)
-    (uuid be4a3529-1ded-455a-ab7d-a88cf9d98100)
-  )
-  (junction (at 199.009 87.757) (diameter 0) (color 0 0 0 0)
-    (uuid cbf57c41-3a8a-4d8f-9315-5543d2a23f4f)
-  )
-  (junction (at 163.322 69.088) (diameter 0) (color 0 0 0 0)
-    (uuid f0054c8b-4083-4f2d-85ba-bb620ed36c82)
-  )
-
-  (wire (pts (xy 111.633 114.3) (xy 111.633 118.11))
-    (stroke (width 0) (type default))
-    (uuid 03ee3db9-3fea-4a60-b0cc-15f1339f0673)
-  )
-  (wire (pts (xy 104.013 106.68) (xy 93.853 106.68))
-    (stroke (width 0) (type default))
-    (uuid 0c80eae5-668c-4cb9-9e59-f1c467b2ac06)
-  )
-  (wire (pts (xy 111.633 118.11) (xy 93.853 118.11))
-    (stroke (width 0) (type default))
-    (uuid 159a68b3-b361-4669-b07e-b82f2d8a139d)
-  )
-  (wire (pts (xy 151.892 47.498) (xy 151.892 53.848))
-    (stroke (width 0) (type default))
-    (uuid 19ac7f86-43f8-4a96-acfe-1f915903b9e5)
-  )
-  (wire (pts (xy 199.009 87.757) (xy 199.009 99.187))
-    (stroke (width 0) (type default))
-    (uuid 1e71f66c-efe6-40ad-a67d-6813782b3837)
-  )
-  (wire (pts (xy 163.322 47.498) (xy 163.322 53.848))
-    (stroke (width 0) (type default))
-    (uuid 2593bf7e-94e2-4cda-9c61-0eb796d40336)
-  )
-  (wire (pts (xy 128.143 115.57) (xy 128.143 118.11))
-    (stroke (width 0) (type default))
-    (uuid 28d3b29c-574e-4286-87b7-3eb65930587b)
-  )
-  (wire (pts (xy 186.309 106.807) (xy 186.309 116.967))
-    (stroke (width 0) (type default))
-    (uuid 3bb14341-35af-4e62-bfb8-24a439a82f22)
-  )
-  (wire (pts (xy 151.892 61.468) (xy 151.892 69.088))
-    (stroke (width 0) (type default))
-    (uuid 421ed899-f1a2-48dc-886d-78333737cbad)
-  )
-  (wire (pts (xy 199.009 106.807) (xy 199.009 116.967))
-    (stroke (width 0) (type default))
-    (uuid 53f4e372-35a6-4894-99d9-f332dc485b98)
-  )
-  (wire (pts (xy 111.633 118.11) (xy 111.633 119.38))
-    (stroke (width 0) (type default))
-    (uuid 5595ad85-57ea-4890-82fa-66e882124a26)
-  )
-  (wire (pts (xy 128.143 99.06) (xy 128.143 106.68))
-    (stroke (width 0) (type default))
-    (uuid 5a0038b1-32fc-4a5d-a6d4-0292a07f1250)
-  )
-  (wire (pts (xy 176.022 69.088) (xy 176.022 61.468))
-    (stroke (width 0) (type default))
-    (uuid 6072dae0-8248-4acf-a9c8-6dab97846bea)
-  )
-  (wire (pts (xy 186.309 99.187) (xy 186.309 87.757))
-    (stroke (width 0) (type default))
-    (uuid 61d86de0-fe31-4981-9448-308c8e1bf7be)
-  )
-  (wire (pts (xy 163.322 61.468) (xy 163.322 69.088))
-    (stroke (width 0) (type default))
-    (uuid 67c8aa6f-9295-4ff2-9845-7e2bc1c12d70)
-  )
-  (wire (pts (xy 93.853 118.11) (xy 93.853 114.3))
-    (stroke (width 0) (type default))
-    (uuid 6bd24b3d-cb3d-462b-93cf-88be78099a95)
-  )
-  (wire (pts (xy 176.022 53.848) (xy 176.022 47.498))
-    (stroke (width 0) (type default))
-    (uuid 6c3e48e0-f7c2-484c-a4fd-8c1f9831396d)
-  )
-  (wire (pts (xy 128.143 97.79) (xy 128.143 99.06))
-    (stroke (width 0) (type default))
-    (uuid 8b97a661-592e-4141-854c-95b493db517d)
-  )
-  (wire (pts (xy 128.143 118.11) (xy 111.633 118.11))
-    (stroke (width 0) (type default))
-    (uuid 8f8b86d0-6323-4511-81e0-57ef12c4cd6a)
-  )
-  (wire (pts (xy 163.322 47.498) (xy 151.892 47.498))
-    (stroke (width 0) (type default))
-    (uuid 946122b1-964c-4d5d-99a4-7e2ac9a0298a)
-  )
-  (wire (pts (xy 88.773 116.84) (xy 82.423 116.84))
-    (stroke (width 0) (type default))
-    (uuid 98dca0b8-818b-4238-9d69-e8ea2a84a8d9)
-  )
-  (wire (pts (xy 186.309 87.757) (xy 199.009 87.757))
-    (stroke (width 0) (type default))
-    (uuid 9c05d7c1-0884-4061-8115-c743818509a6)
-  )
-  (wire (pts (xy 88.773 99.06) (xy 88.773 106.68))
-    (stroke (width 0) (type default))
-    (uuid a92a4c60-69f4-49e8-8fa2-672361481431)
-  )
-  (wire (pts (xy 151.892 69.088) (xy 163.322 69.088))
-    (stroke (width 0) (type default))
-    (uuid aa47ebec-0adc-4e76-adf0-733d8d59db1f)
-  )
-  (wire (pts (xy 88.773 106.68) (xy 88.773 116.84))
-    (stroke (width 0) (type default))
-    (uuid abd72eb2-1adb-4798-be3d-91e1d89c4c94)
-  )
-  (wire (pts (xy 128.143 99.06) (xy 102.743 99.06))
-    (stroke (width 0) (type default))
-    (uuid b205ca90-e090-4985-8978-c90870dd511c)
-  )
-  (wire (pts (xy 210.439 87.757) (xy 199.009 87.757))
-    (stroke (width 0) (type default))
-    (uuid b26f7a3f-ea40-4f78-874c-4cb879d10154)
-  )
-  (wire (pts (xy 210.439 82.677) (xy 210.439 87.757))
-    (stroke (width 0) (type default))
-    (uuid b4fbd8bd-01a5-456d-9f21-f4ea7680ba1b)
-  )
-  (wire (pts (xy 128.143 106.68) (xy 128.143 107.95))
-    (stroke (width 0) (type default))
-    (uuid b6924e36-8944-4c8b-9094-fc135ceb32cd)
-  )
-  (wire (pts (xy 93.853 106.68) (xy 88.773 106.68))
-    (stroke (width 0) (type default))
-    (uuid c0597d9e-f5e3-40af-a5d9-5b7507e225ae)
-  )
-  (wire (pts (xy 119.253 106.68) (xy 128.143 106.68))
-    (stroke (width 0) (type default))
-    (uuid d1f5fcba-676f-41d2-a87e-8377c0be0619)
-  )
-  (wire (pts (xy 163.322 69.088) (xy 176.022 69.088))
-    (stroke (width 0) (type default))
-    (uuid d5ae5bd6-abfb-48b1-acc8-91e617451280)
-  )
-  (wire (pts (xy 88.773 99.06) (xy 95.123 99.06))
-    (stroke (width 0) (type default))
-    (uuid d9dbb08e-7f16-41be-a8cb-deffc9559942)
-  )
-  (wire (pts (xy 176.022 47.498) (xy 163.322 47.498))
-    (stroke (width 0) (type default))
-    (uuid dacec2a3-a4ec-451e-8519-2ab75a7fe834)
-  )
-
-  (symbol (lib_id "power:GND") (at 163.322 69.088 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 024a3961-f035-43d0-b599-d29e02614367)
-    (property "Reference" "#PWR?" (at 163.322 75.438 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 163.322 74.168 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 163.322 69.088 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 163.322 69.088 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7e1e5632-c006-4fa2-9086-97c4d06b162f))
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "#PWR0605") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 98.933 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 09978c77-d7c6-4eb5-a770-3d8205a99e95)
-    (property "Reference" "JP?" (at 98.933 92.71 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SolderJumper_2_Open" (at 98.933 95.25 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (at 98.933 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 98.933 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 94458635-1373-4c96-8bd4-e22a0b490fd2))
-    (pin "2" (uuid 2eae600f-77a3-42fa-bb60-23bf8276dbbd))
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "JP?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "JP601") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "JP?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 199.009 102.997 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0b90e732-6d2c-41b3-8199-426fe861cc35)
-    (property "Reference" "C?" (at 202.819 101.727 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 202.819 104.267 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 199.9742 106.807 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 199.009 102.997 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e1683778-7649-4af7-83fc-5602cbf70f78))
-    (pin "2" (uuid 80981e3e-7466-4a25-8d79-46520190e22e))
-    (instances
-      (project "gaussmeter"
-        (path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "C?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "C607") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
-          (reference "C?") (unit 1)
-        )
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "C?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Regulator_Linear:LM1117DT-3.3") (at 111.633 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 321fc8e9-b81b-4d53-b637-abb9e69e89ae)
-    (property "Reference" "U?" (at 111.633 100.33 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM1117DT-3.3" (at 111.633 102.87 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (at 111.633 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (at 111.633 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6b03e9b8-05e8-4455-b198-6f406e7996f2))
-    (pin "2" (uuid ccb6725f-fae0-42f4-809e-21617542cbdf))
-    (pin "3" (uuid 70fc4d62-1701-4591-99ae-73eccd61ad03))
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "U?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "U601") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "U?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 151.892 57.658 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 35852f12-dbc2-47c3-93a4-cccb9bf34ea3)
-    (property "Reference" "C?" (at 155.702 56.388 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 155.702 58.928 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 152.8572 61.468 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 151.892 57.658 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 009f80f1-215e-41c4-a684-c840fb368fbc))
-    (pin "2" (uuid 50779e37-83d2-40a2-a04d-7e9909c6e11c))
-    (instances
-      (project "gaussmeter"
-        (path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "C?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "C603") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
-          (reference "C?") (unit 1)
-        )
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "C?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 93.853 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3e7c6c87-801b-4dab-8c5b-b98b693f42e3)
-    (property "Reference" "C?" (at 97.663 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 97.663 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 94.8182 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 93.853 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 629e3b89-7dd9-4288-a90f-0b636fe9b63f))
-    (pin "2" (uuid cf57537d-3108-4a0b-9d7e-11e11b330304))
-    (instances
-      (project "gaussmeter"
-        (path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "C?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "C601") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
-          (reference "C?") (unit 1)
-        )
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "C?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 163.322 57.658 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 57dc4fd8-3521-446d-9806-45ad9463b035)
-    (property "Reference" "C?" (at 167.132 56.388 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 167.132 58.928 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 164.2872 61.468 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 163.322 57.658 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 825d4df3-83fb-4fc8-b902-a64e6f676929))
-    (pin "2" (uuid c58d4944-ef4f-4e24-a796-2874d4fce03e))
-    (instances
-      (project "gaussmeter"
-        (path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "C?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "C604") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
-          (reference "C?") (unit 1)
-        )
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "C?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 199.009 116.967 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 64d3ac11-43d3-44d0-b33a-717933c99e12)
-    (property "Reference" "#PWR?" (at 199.009 123.317 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 199.009 122.047 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 199.009 116.967 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 199.009 116.967 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid abd4b389-c5a3-4e6b-afe4-866735a9b6a0))
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "#PWR0607") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 186.309 116.967 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6b7b8a73-3491-4ebe-a767-8930d13ca1fd)
-    (property "Reference" "#PWR?" (at 186.309 123.317 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 186.309 122.047 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 186.309 116.967 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 186.309 116.967 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 18f30286-0255-439c-a5e9-ad93129a6ff6))
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "#PWR0606") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 151.892 47.498 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6ca59948-ac58-4722-ad30-3ca85c58e4b4)
-    (property "Reference" "#PWR?" (at 151.892 51.308 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 151.892 42.418 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 151.892 47.498 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 151.892 47.498 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bce7cb7a-d09c-48a7-a325-ecaefcbf1f04))
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "#PWR0604") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 176.022 57.658 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 751d48ab-bb01-437d-a8ed-99f328e68468)
-    (property "Reference" "C?" (at 179.832 56.388 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 179.832 58.928 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 176.9872 61.468 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 176.022 57.658 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e9c173d0-3ffd-4398-b016-b6e4891e8751))
-    (pin "2" (uuid 68d82b22-4e90-4c17-be75-4e53dce851d9))
-    (instances
-      (project "gaussmeter"
-        (path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "C?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "C605") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
-          (reference "C?") (unit 1)
-        )
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "C?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 210.439 82.677 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 79e37c0e-8551-477d-9c5b-9279e28ba08d)
-    (property "Reference" "#PWR?" (at 210.439 86.487 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 210.439 77.597 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 210.439 82.677 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 210.439 82.677 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 02720fe7-ebc0-4096-bbd4-53a34e10bd19))
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "#PWR0608") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 128.143 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 837e22c2-3637-4bd6-84ef-e176d154804a)
-    (property "Reference" "#PWR?" (at 128.143 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 128.143 92.71 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 128.143 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 128.143 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3c48a255-9d4f-4506-9cfb-45ea7e40ada7))
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "#PWR0603") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 128.143 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 83bf314d-402b-43c1-8e00-882a4d436a5a)
-    (property "Reference" "C?" (at 131.953 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 131.953 113.03 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 129.1082 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 128.143 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 63424324-a0ea-4f1c-a1d1-360c1b9c1054))
-    (pin "2" (uuid 0bb6113b-f866-4538-ab27-3235d0a6d8ff))
-    (instances
-      (project "gaussmeter"
-        (path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "C?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "C602") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
-          (reference "C?") (unit 1)
-        )
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "C?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 111.633 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 87ee635e-3248-433b-8ff5-5759190f09c6)
-    (property "Reference" "#PWR?" (at 111.633 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 111.633 124.46 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 111.633 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.633 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8f59c7c3-cc00-48a7-a92b-842657b0038f))
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "#PWR0602") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5F") (at 82.423 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 94a7a6d4-65ac-45a3-9c5a-34b83b226c93)
-    (property "Reference" "#PWR?" (at 82.423 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5F" (at 82.423 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 82.423 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 82.423 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f348ef44-5a4c-4275-b0be-0cd0376e807f))
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "#PWR0601") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 186.309 102.997 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e9552809-f17f-435b-9451-9ad63da5da57)
-    (property "Reference" "C?" (at 190.119 101.727 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 190.119 104.267 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 187.2742 106.807 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 186.309 102.997 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 56964d62-27e2-40d4-bcf1-8e0fbc41b777))
-    (pin "2" (uuid 21d5c87a-8f7b-4162-a3c4-023c7e5d62cb))
-    (instances
-      (project "gaussmeter"
-        (path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-          (reference "C?") (unit 1)
-        )
-        (path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
-          (reference "C606") (unit 1)
-        )
-      )
-      (project "rpi2w_epaper_zigbee"
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
-          (reference "C?") (unit 1)
-        )
-        (path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
-          (reference "C?") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "85bce703-975a-4f27-876e-9aae9fa99ae6")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:LM1117DT-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM1117DT-3.3"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?252*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM1117DT-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM1117DT-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5F"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5F"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5F\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5F_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5F_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 128.143 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "335b4234-63cb-4a53-9673-3ed56fa6d364")
+	)
+	(junction
+		(at 128.143 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46e79c99-85a0-4406-882e-ff80b9cbfc81")
+	)
+	(junction
+		(at 163.322 47.498)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f8ef4ac-eaf1-449d-8695-fcbbcced51e2")
+	)
+	(junction
+		(at 151.892 47.498)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85982b58-7bcd-4047-a338-539f80d8b75a")
+	)
+	(junction
+		(at 111.633 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c9778af-260d-4c5a-ad51-ee4519507e94")
+	)
+	(junction
+		(at 93.853 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f9eaddd-e1c4-4242-9e03-0a1c8a429d48")
+	)
+	(junction
+		(at 88.773 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be4a3529-1ded-455a-ab7d-a88cf9d98100")
+	)
+	(junction
+		(at 199.009 87.757)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbf57c41-3a8a-4d8f-9315-5543d2a23f4f")
+	)
+	(junction
+		(at 163.322 69.088)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0054c8b-4083-4f2d-85ba-bb620ed36c82")
+	)
+	(wire
+		(pts
+			(xy 111.633 114.3) (xy 111.633 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ee3db9-3fea-4a60-b0cc-15f1339f0673")
+	)
+	(wire
+		(pts
+			(xy 104.013 106.68) (xy 93.853 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c80eae5-668c-4cb9-9e59-f1c467b2ac06")
+	)
+	(wire
+		(pts
+			(xy 111.633 118.11) (xy 93.853 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159a68b3-b361-4669-b07e-b82f2d8a139d")
+	)
+	(wire
+		(pts
+			(xy 151.892 47.498) (xy 151.892 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ac7f86-43f8-4a96-acfe-1f915903b9e5")
+	)
+	(wire
+		(pts
+			(xy 199.009 87.757) (xy 199.009 99.187)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e71f66c-efe6-40ad-a67d-6813782b3837")
+	)
+	(wire
+		(pts
+			(xy 163.322 47.498) (xy 163.322 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2593bf7e-94e2-4cda-9c61-0eb796d40336")
+	)
+	(wire
+		(pts
+			(xy 128.143 115.57) (xy 128.143 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d3b29c-574e-4286-87b7-3eb65930587b")
+	)
+	(wire
+		(pts
+			(xy 186.309 106.807) (xy 186.309 116.967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb14341-35af-4e62-bfb8-24a439a82f22")
+	)
+	(wire
+		(pts
+			(xy 151.892 61.468) (xy 151.892 69.088)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421ed899-f1a2-48dc-886d-78333737cbad")
+	)
+	(wire
+		(pts
+			(xy 199.009 106.807) (xy 199.009 116.967)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f4e372-35a6-4894-99d9-f332dc485b98")
+	)
+	(wire
+		(pts
+			(xy 111.633 118.11) (xy 111.633 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5595ad85-57ea-4890-82fa-66e882124a26")
+	)
+	(wire
+		(pts
+			(xy 128.143 99.06) (xy 128.143 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0038b1-32fc-4a5d-a6d4-0292a07f1250")
+	)
+	(wire
+		(pts
+			(xy 176.022 69.088) (xy 176.022 61.468)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6072dae0-8248-4acf-a9c8-6dab97846bea")
+	)
+	(wire
+		(pts
+			(xy 186.309 99.187) (xy 186.309 87.757)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d86de0-fe31-4981-9448-308c8e1bf7be")
+	)
+	(wire
+		(pts
+			(xy 163.322 61.468) (xy 163.322 69.088)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c8aa6f-9295-4ff2-9845-7e2bc1c12d70")
+	)
+	(wire
+		(pts
+			(xy 93.853 118.11) (xy 93.853 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd24b3d-cb3d-462b-93cf-88be78099a95")
+	)
+	(wire
+		(pts
+			(xy 176.022 53.848) (xy 176.022 47.498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3e48e0-f7c2-484c-a4fd-8c1f9831396d")
+	)
+	(wire
+		(pts
+			(xy 128.143 97.79) (xy 128.143 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b97a661-592e-4141-854c-95b493db517d")
+	)
+	(wire
+		(pts
+			(xy 128.143 118.11) (xy 111.633 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8b86d0-6323-4511-81e0-57ef12c4cd6a")
+	)
+	(wire
+		(pts
+			(xy 163.322 47.498) (xy 151.892 47.498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946122b1-964c-4d5d-99a4-7e2ac9a0298a")
+	)
+	(wire
+		(pts
+			(xy 88.773 116.84) (xy 82.423 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dca0b8-818b-4238-9d69-e8ea2a84a8d9")
+	)
+	(wire
+		(pts
+			(xy 186.309 87.757) (xy 199.009 87.757)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c05d7c1-0884-4061-8115-c743818509a6")
+	)
+	(wire
+		(pts
+			(xy 88.773 99.06) (xy 88.773 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92a4c60-69f4-49e8-8fa2-672361481431")
+	)
+	(wire
+		(pts
+			(xy 151.892 69.088) (xy 163.322 69.088)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa47ebec-0adc-4e76-adf0-733d8d59db1f")
+	)
+	(wire
+		(pts
+			(xy 88.773 106.68) (xy 88.773 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd72eb2-1adb-4798-be3d-91e1d89c4c94")
+	)
+	(wire
+		(pts
+			(xy 128.143 99.06) (xy 102.743 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b205ca90-e090-4985-8978-c90870dd511c")
+	)
+	(wire
+		(pts
+			(xy 210.439 87.757) (xy 199.009 87.757)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26f7a3f-ea40-4f78-874c-4cb879d10154")
+	)
+	(wire
+		(pts
+			(xy 210.439 82.677) (xy 210.439 87.757)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fbd8bd-01a5-456d-9f21-f4ea7680ba1b")
+	)
+	(wire
+		(pts
+			(xy 128.143 106.68) (xy 128.143 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6924e36-8944-4c8b-9094-fc135ceb32cd")
+	)
+	(wire
+		(pts
+			(xy 93.853 106.68) (xy 88.773 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0597d9e-f5e3-40af-a5d9-5b7507e225ae")
+	)
+	(wire
+		(pts
+			(xy 119.253 106.68) (xy 128.143 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f5fcba-676f-41d2-a87e-8377c0be0619")
+	)
+	(wire
+		(pts
+			(xy 163.322 69.088) (xy 176.022 69.088)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ae5bd6-abfb-48b1-acc8-91e617451280")
+	)
+	(wire
+		(pts
+			(xy 88.773 99.06) (xy 95.123 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9dbb08e-7f16-41be-a8cb-deffc9559942")
+	)
+	(wire
+		(pts
+			(xy 176.022 47.498) (xy 163.322 47.498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dacec2a3-a4ec-451e-8519-2ab75a7fe834")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.322 69.088 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "024a3961-f035-43d0-b599-d29e02614367")
+		(property "Reference" "#PWR?"
+			(at 163.322 75.438 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.322 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.322 69.088 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.322 69.088 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.322 69.088 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e1e5632-c006-4fa2-9086-97c4d06b162f")
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "#PWR0605")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 98.933 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09978c77-d7c6-4eb5-a770-3d8205a99e95")
+		(property "Reference" "JP?"
+			(at 98.933 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 98.933 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 98.933 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 98.933 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 98.933 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94458635-1373-4c96-8bd4-e22a0b490fd2")
+		)
+		(pin "2"
+			(uuid "2eae600f-77a3-42fa-bb60-23bf8276dbbd")
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "JP601")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.009 102.997 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b90e732-6d2c-41b3-8199-426fe861cc35")
+		(property "Reference" "C?"
+			(at 202.819 101.727 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 202.819 104.267 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 199.9742 106.807 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.009 102.997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 199.009 102.997 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1683778-7649-4af7-83fc-5602cbf70f78")
+		)
+		(pin "2"
+			(uuid "80981e3e-7466-4a25-8d79-46520190e22e")
+		)
+		(instances
+			(project "gaussmeter"
+				(path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "C607")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117DT-3.3")
+		(at 111.633 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "321fc8e9-b81b-4d53-b637-abb9e69e89ae")
+		(property "Reference" "U?"
+			(at 111.633 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117DT-3.3"
+			(at 111.633 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 111.633 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 111.633 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.633 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b03e9b8-05e8-4455-b198-6f406e7996f2")
+		)
+		(pin "2"
+			(uuid "ccb6725f-fae0-42f4-809e-21617542cbdf")
+		)
+		(pin "3"
+			(uuid "70fc4d62-1701-4591-99ae-73eccd61ad03")
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "U601")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.892 57.658 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35852f12-dbc2-47c3-93a4-cccb9bf34ea3")
+		(property "Reference" "C?"
+			(at 155.702 56.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 155.702 58.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 152.8572 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.892 57.658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 151.892 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "009f80f1-215e-41c4-a684-c840fb368fbc")
+		)
+		(pin "2"
+			(uuid "50779e37-83d2-40a2-a04d-7e9909c6e11c")
+		)
+		(instances
+			(project "gaussmeter"
+				(path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "C603")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.853 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e7c6c87-801b-4dab-8c5b-b98b693f42e3")
+		(property "Reference" "C?"
+			(at 97.663 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 97.663 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 94.8182 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.853 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.853 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "629e3b89-7dd9-4288-a90f-0b636fe9b63f")
+		)
+		(pin "2"
+			(uuid "cf57537d-3108-4a0b-9d7e-11e11b330304")
+		)
+		(instances
+			(project "gaussmeter"
+				(path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "C601")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.322 57.658 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57dc4fd8-3521-446d-9806-45ad9463b035")
+		(property "Reference" "C?"
+			(at 167.132 56.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 167.132 58.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 164.2872 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.322 57.658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.322 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "825d4df3-83fb-4fc8-b902-a64e6f676929")
+		)
+		(pin "2"
+			(uuid "c58d4944-ef4f-4e24-a796-2874d4fce03e")
+		)
+		(instances
+			(project "gaussmeter"
+				(path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "C604")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.009 116.967 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d3ac11-43d3-44d0-b33a-717933c99e12")
+		(property "Reference" "#PWR?"
+			(at 199.009 123.317 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.009 122.047 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.009 116.967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.009 116.967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 199.009 116.967 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abd4b389-c5a3-4e6b-afe4-866735a9b6a0")
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "#PWR0607")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.309 116.967 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b7b8a73-3491-4ebe-a767-8930d13ca1fd")
+		(property "Reference" "#PWR?"
+			(at 186.309 123.317 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.309 122.047 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.309 116.967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.309 116.967 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 186.309 116.967 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18f30286-0255-439c-a5e9-ad93129a6ff6")
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "#PWR0606")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 151.892 47.498 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ca59948-ac58-4722-ad30-3ca85c58e4b4")
+		(property "Reference" "#PWR?"
+			(at 151.892 51.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 151.892 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.892 47.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.892 47.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 151.892 47.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bce7cb7a-d09c-48a7-a325-ecaefcbf1f04")
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "#PWR0604")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.022 57.658 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "751d48ab-bb01-437d-a8ed-99f328e68468")
+		(property "Reference" "C?"
+			(at 179.832 56.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 179.832 58.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 176.9872 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.022 57.658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.022 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9c173d0-3ffd-4398-b016-b6e4891e8751")
+		)
+		(pin "2"
+			(uuid "68d82b22-4e90-4c17-be75-4e53dce851d9")
+		)
+		(instances
+			(project "gaussmeter"
+				(path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "C605")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 210.439 82.677 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79e37c0e-8551-477d-9c5b-9279e28ba08d")
+		(property "Reference" "#PWR?"
+			(at 210.439 86.487 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 210.439 77.597 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.439 82.677 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.439 82.677 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 210.439 82.677 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02720fe7-ebc0-4096-bbd4-53a34e10bd19")
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "#PWR0608")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 128.143 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "837e22c2-3637-4bd6-84ef-e176d154804a")
+		(property "Reference" "#PWR?"
+			(at 128.143 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 128.143 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.143 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.143 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.143 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c48a255-9d4f-4506-9cfb-45ea7e40ada7")
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "#PWR0603")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.143 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83bf314d-402b-43c1-8e00-882a4d436a5a")
+		(property "Reference" "C?"
+			(at 131.953 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 131.953 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.1082 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.143 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.143 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63424324-a0ea-4f1c-a1d1-360c1b9c1054")
+		)
+		(pin "2"
+			(uuid "0bb6113b-f866-4538-ab27-3235d0a6d8ff")
+		)
+		(instances
+			(project "gaussmeter"
+				(path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "C602")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.633 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87ee635e-3248-433b-8ff5-5759190f09c6")
+		(property "Reference" "#PWR?"
+			(at 111.633 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.633 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.633 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.633 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.633 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f59c7c3-cc00-48a7-a92b-842657b0038f")
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "#PWR0602")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5F")
+		(at 82.423 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94a7a6d4-65ac-45a3-9c5a-34b83b226c93")
+		(property "Reference" "#PWR?"
+			(at 82.423 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5F"
+			(at 82.423 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.423 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.423 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.423 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f348ef44-5a4c-4275-b0be-0cd0376e807f")
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "#PWR0601")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.309 102.997 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9552809-f17f-435b-9451-9ad63da5da57")
+		(property "Reference" "C?"
+			(at 190.119 101.727 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 190.119 104.267 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 187.2742 106.807 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.309 102.997 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 186.309 102.997 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56964d62-27e2-40d4-bcf1-8e0fbc41b777")
+		)
+		(pin "2"
+			(uuid "21d5c87a-8f7b-4162-a3c4-023c7e5d62cb")
+		)
+		(instances
+			(project "gaussmeter"
+				(path "/21f11a9b-ab0b-4e73-b79c-288ebb2e7a94"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746/68bcc12b-0984-4adb-86dc-c2f584e11a9e"
+					(reference "C606")
+					(unit 1)
+				)
+				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "rpi2w_epaper_zigbee"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

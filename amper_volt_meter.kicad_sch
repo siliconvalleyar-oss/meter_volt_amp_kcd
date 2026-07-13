@@ -1,201 +1,519 @@
-(kicad_sch (version 20231121) (generator eeschema)
-
-  (uuid 606ef755-236d-4283-a129-fc8150c20746)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 133.35 125.349) (size 41.275 33.147) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0b301535-cd84-4a21-805d-be4f537ebfda)
-    (property "Sheetname" "Digital_Control" (at 133.35 124.6374 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Digital_Control.kicad_sch" (at 133.35 159.0806 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 207.772 74.041) (size 35.179 36.068) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 283e249b-17fa-4123-ad59-a4970e9d33a5)
-    (property "Sheetname" "Display_Oled_Left" (at 207.772 73.3294 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Display_Oled_Left.kicad_sch" (at 207.772 110.6936 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 66.929 124.206) (size 37.846 34.29) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2914e67b-33d9-4834-b079-0a9220979c82)
-    (property "Sheetname" "Display_LCD" (at 66.929 123.4944 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Display_LCD.kicad_sch" (at 66.929 159.0806 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 127.254 164.9476) (size 38.4048 24.0284) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4eb2191c-ed2d-4fff-a056-0bccc5ca9826)
-    (property "Sheetname" "oS_AnalogDevices" (at 127.254 164.236 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oS_AnaloDev.kicad_sch" (at 127.254 189.5606 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "12"))
-      )
-    )
-  )
-
-  (sheet (at 66.421 165.862) (size 39.624 25.654) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 549296ff-1096-4a6f-924b-a01494d8442e)
-    (property "Sheetname" "PIM100" (at 66.421 165.1504 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PIM100.kicad_sch" (at 66.421 192.1006 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 201.041 125.349) (size 38.989 34.036) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 68bcc12b-0984-4adb-86dc-c2f584e11a9e)
-    (property "Sheetname" "Power_Distribution" (at 201.041 124.6374 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power_Distribution.kicad_sch" (at 201.041 159.9696 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 67.183 32.004) (size 37.846 29.718) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 74c3696e-dda9-4e41-9c02-5e756dc00ace)
-    (property "Sheetname" "Buttons" (at 67.183 31.2924 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Buttons.kicad_sch" (at 67.183 62.3066 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 133.477 73.914) (size 40.894 36.576) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b0ca9638-e9a2-4d8a-9c73-ce5c437e0625)
-    (property "Sheetname" "ucontroller_pic18F46j50" (at 133.477 73.2024 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "ucontroller_pic18F46j50.kicad_sch" (at 133.477 111.0746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 134.366 32.131) (size 41.148 29.464) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid c7d419ee-db35-4680-9f83-e183810d9dc3)
-    (property "Sheetname" "Leds_Ports" (at 134.366 31.4194 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Leds_Ports.kicad_sch" (at 134.366 62.1796 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 201.676 32.131) (size 41.275 29.845) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d2810356-5733-4cf4-b1b4-37081fe01530)
-    (property "Sheetname" "Analogs_Control" (at 201.676 31.4194 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Analogs_Control.kicad_sch" (at 201.676 62.5606 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 66.929 73.66) (size 37.592 37.846) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f62fc848-fb80-4104-826c-eb02129eaaef)
-    (property "Sheetname" "Display_Oled_Rigth" (at 66.929 72.9484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Display_Oled.kicad_sch" (at 66.929 112.0906 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "amper_volt_meter"
-        (path "/606ef755-236d-4283-a129-fc8150c20746" (page "4"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "606ef755-236d-4283-a129-fc8150c20746")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 133.35 125.349)
+		(size 41.275 33.147)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0b301535-cd84-4a21-805d-be4f537ebfda")
+		(property "Sheetname" "Digital_Control"
+			(at 133.35 124.6374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Digital_Control.kicad_sch"
+			(at 133.35 159.0806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.772 74.041)
+		(size 35.179 36.068)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "283e249b-17fa-4123-ad59-a4970e9d33a5")
+		(property "Sheetname" "Display_Oled_Left"
+			(at 207.772 73.3294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display_Oled_Left.kicad_sch"
+			(at 207.772 110.6936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.929 124.206)
+		(size 37.846 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2914e67b-33d9-4834-b079-0a9220979c82")
+		(property "Sheetname" "Display_LCD"
+			(at 66.929 123.4944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display_LCD.kicad_sch"
+			(at 66.929 159.0806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127.254 164.9476)
+		(size 38.4048 24.0284)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4eb2191c-ed2d-4fff-a056-0bccc5ca9826")
+		(property "Sheetname" "oS_AnalogDevices"
+			(at 127.254 164.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oS_AnaloDev.kicad_sch"
+			(at 127.254 189.5606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.421 165.862)
+		(size 39.624 25.654)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "549296ff-1096-4a6f-924b-a01494d8442e")
+		(property "Sheetname" "PIM100"
+			(at 66.421 165.1504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PIM100.kicad_sch"
+			(at 66.421 192.1006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.041 125.349)
+		(size 38.989 34.036)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "68bcc12b-0984-4adb-86dc-c2f584e11a9e")
+		(property "Sheetname" "Power_Distribution"
+			(at 201.041 124.6374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Distribution.kicad_sch"
+			(at 201.041 159.9696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.183 32.004)
+		(size 37.846 29.718)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "74c3696e-dda9-4e41-9c02-5e756dc00ace")
+		(property "Sheetname" "Buttons"
+			(at 67.183 31.2924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buttons.kicad_sch"
+			(at 67.183 62.3066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.477 73.914)
+		(size 40.894 36.576)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b0ca9638-e9a2-4d8a-9c73-ce5c437e0625")
+		(property "Sheetname" "ucontroller_pic18F46j50"
+			(at 133.477 73.2024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ucontroller_pic18F46j50.kicad_sch"
+			(at 133.477 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.366 32.131)
+		(size 41.148 29.464)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c7d419ee-db35-4680-9f83-e183810d9dc3")
+		(property "Sheetname" "Leds_Ports"
+			(at 134.366 31.4194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Leds_Ports.kicad_sch"
+			(at 134.366 62.1796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.676 32.131)
+		(size 41.275 29.845)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d2810356-5733-4cf4-b1b4-37081fe01530")
+		(property "Sheetname" "Analogs_Control"
+			(at 201.676 31.4194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analogs_Control.kicad_sch"
+			(at 201.676 62.5606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.929 73.66)
+		(size 37.592 37.846)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f62fc848-fb80-4104-826c-eb02129eaaef")
+		(property "Sheetname" "Display_Oled_Rigth"
+			(at 66.929 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display_Oled.kicad_sch"
+			(at 66.929 112.0906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amper_volt_meter"
+				(path "/606ef755-236d-4283-a129-fc8150c20746"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
