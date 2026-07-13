@@ -1,0 +1,24 @@
+# Archivos KiCad - Backup
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Cache de footprints
+fp-info-cache
+
+# ZIP (no subir)
+*.zip
+
+# Temporales
+*.tmp
+*.bak
+*~
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# MiMoCode
+.mimocode/
