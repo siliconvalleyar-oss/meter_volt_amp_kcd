@@ -43,6 +43,78 @@
 				(justify left top)
 			)
 		)
+				(hierarchical_label
+			(name "RC7")
+			(shape bidirectional)
+			(at 48.514 90.678 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "dc8b3da4-abc7-4fe4-b2b5-d2b906164a51")
+		)
+		(hierarchical_label
+			(name "RE2")
+			(shape bidirectional)
+			(at 137.795 119.761 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "9412c25b-73e9-423b-88ce-e1ae5ee7c4d1")
+		)
+		(hierarchical_label
+			(name "RE0")
+			(shape bidirectional)
+			(at 49.276 105.918 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "e75e6c8b-df70-4e52-8dc8-da8c74d661e9")
+		)
+		(hierarchical_label
+			(name "CS_4")
+			(shape bidirectional)
+			(at 188.341 118.618 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "4b87c8c1-99f1-4e0b-b743-3c87053a73df")
+		)
+		(hierarchical_label
+			(name "RE1")
+			(shape bidirectional)
+			(at 93.98 119.507 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "11388eb3-3b7d-4ed3-94f5-b8402be3709f")
+		)
+		(hierarchical_label
+			(name "RC6")
+			(shape bidirectional)
+			(at 37.211 86.868 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "81710df5-fe7b-48ef-8af3-ac626e6e06fa")
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -89,6 +161,90 @@
 				(justify left top)
 			)
 		)
+				(hierarchical_label
+			(name "SDA_1")
+			(shape bidirectional)
+			(at 84.709 101.6 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "d1b1910c-ef7a-49d3-a1ef-36f42f164165")
+		)
+		(hierarchical_label
+			(name "BLK_RPI")
+			(shape bidirectional)
+			(at 84.709 109.22 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "c4faa66e-b96b-4529-a96a-a9d425ec60f0")
+		)
+		(hierarchical_label
+			(name "DC_RPI")
+			(shape bidirectional)
+			(at 84.709 106.68 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "2fbf35e2-a243-488c-aa33-c7654b7271d6")
+		)
+		(hierarchical_label
+			(name "SCL_1")
+			(shape bidirectional)
+			(at 84.709 99.06 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "afbe27da-d400-4310-b75d-83566fde46b3")
+		)
+		(hierarchical_label
+			(name "RES_RPI")
+			(shape bidirectional)
+			(at 84.709 104.14 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "0a036032-8cfd-4345-b06e-06fbedec1064")
+		)
+		(hierarchical_label
+			(name "SCL_2")
+			(shape bidirectional)
+			(at 128.524 97.663 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "76a35a7d-ff19-48ef-aa9c-1d2502bdf78b")
+		)
+		(hierarchical_label
+			(name "SDA_2")
+			(shape bidirectional)
+			(at 137.414 99.822 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "6badb2e7-a083-4aea-9aa3-a5873eb25e2f")
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -134,6 +290,102 @@
 				)
 				(justify left top)
 			)
+		)
+				(hierarchical_label
+			(name "RC1")
+			(shape bidirectional)
+			(at 205.8416 105.7656 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "72da944c-d76c-4e59-b0db-ac2dd0a2eec6")
+		)
+		(hierarchical_label
+			(name "RD2")
+			(shape bidirectional)
+			(at 163.6776 93.0656 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "8c372474-528c-45f1-ba71-4efc0d60ec07")
+		)
+		(hierarchical_label
+			(name "RE1")
+			(shape bidirectional)
+			(at 206.0956 113.3856 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "86f464fc-bb3f-4a95-93cc-578d285a6865")
+		)
+		(hierarchical_label
+			(name "RC0")
+			(shape bidirectional)
+			(at 112.3696 109.6772 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "8a531b8a-cbc3-4e47-9184-9baa8da43ce0")
+		)
+		(hierarchical_label
+			(name "RE2")
+			(shape bidirectional)
+			(at 206.0956 110.8456 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "02562004-bc58-4ac7-8916-0166dff77a87")
+		)
+		(hierarchical_label
+			(name "VO")
+			(shape bidirectional)
+			(at 138.7856 93.0656 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "b3d2b179-7102-4ba3-a6d9-fc472a66810f")
+		)
+		(hierarchical_label
+			(name "RD3")
+			(shape bidirectional)
+			(at 163.6268 98.1456 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "34b54fb1-52a7-4c00-bb1c-c535818461f8")
+		)
+		(hierarchical_label
+			(name "VO")
+			(shape bidirectional)
+			(at 108.6104 86.8172 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "af9a00ae-0de6-4640-b8d5-533b5ecccbbd")
 		)
 		(instances
 			(project "amper_volt_meter"
@@ -227,6 +479,1026 @@
 				(justify left top)
 			)
 		)
+				(hierarchical_label
+			(name "rb10")
+			(shape bidirectional)
+			(at 189.865 67.31 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "d85458ac-1c68-44cc-84fd-9c8cbe9c60c8")
+		)
+		(hierarchical_label
+			(name "rg9")
+			(shape bidirectional)
+			(at 90.805 135.89 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "5af1df1c-3ccc-4ed1-9c7a-b570cab29d3c")
+		)
+		(hierarchical_label
+			(name "VREF-")
+			(shape bidirectional)
+			(at 90.805 39.37 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "3ba7b804-3762-4fac-b276-3088baafb289")
+		)
+		(hierarchical_label
+			(name "rf8")
+			(shape bidirectional)
+			(at 189.865 143.51 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "97b10203-c91e-45ca-9d0d-00457bbcd860")
+		)
+		(hierarchical_label
+			(name "ra15")
+			(shape bidirectional)
+			(at 90.805 62.23 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "5fbf9de1-4bf1-49f6-abcd-6535206a0c62")
+		)
+		(hierarchical_label
+			(name "RD5")
+			(shape bidirectional)
+			(at 189.865 97.79 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "557f4367-8ef6-4eb7-89af-486d077498bf")
+		)
+		(hierarchical_label
+			(name "re9")
+			(shape bidirectional)
+			(at 90.805 113.03 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "1c17ac4a-8e6f-45f3-bf6d-b484762f7c38")
+		)
+		(hierarchical_label
+			(name "RD2")
+			(shape bidirectional)
+			(at 189.865 90.17 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "a7cbe68a-9a88-478a-82e2-6a565be0a881")
+		)
+		(hierarchical_label
+			(name "rd11")
+			(shape bidirectional)
+			(at 189.865 113.03 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "9e286a20-1da3-4ca8-b636-cc1d8945d4ad")
+		)
+		(hierarchical_label
+			(name "rg12")
+			(shape bidirectional)
+			(at 90.805 138.43 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "f4d1d680-f1b9-4128-9516-0c5404b91cf6")
+		)
+		(hierarchical_label
+			(name "RC1")
+			(shape bidirectional)
+			(at 90.805 67.31 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "1567c31e-e857-4ec1-b8b0-5aa00bba5b25")
+		)
+		(hierarchical_label
+			(name "RC4")
+			(shape bidirectional)
+			(at 90.805 74.93 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "de459e1c-a9d0-4181-ba63-be2c3a7e8732")
+		)
+		(hierarchical_label
+			(name "re6")
+			(shape bidirectional)
+			(at 90.805 105.41 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "707b9a16-07e4-4834-b285-06f08980f657")
+		)
+		(hierarchical_label
+			(name "RB7")
+			(shape bidirectional)
+			(at 189.865 59.69 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "baa42bb7-226b-4d6c-9ae2-9a98e73f0c23")
+		)
+		(hierarchical_label
+			(name "rg1")
+			(shape bidirectional)
+			(at 90.805 120.65 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "db2826bc-0d97-41dc-b510-c401776aac85")
+		)
+		(hierarchical_label
+			(name "rd8")
+			(shape bidirectional)
+			(at 189.865 105.41 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "d2b9084f-67ad-4057-bec6-82dc1ce98ff0")
+		)
+		(hierarchical_label
+			(name "RE2")
+			(shape bidirectional)
+			(at 90.805 95.25 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "fef41808-aa80-4884-91e8-afb62fe70136")
+		)
+		(hierarchical_label
+			(name "rg15")
+			(shape bidirectional)
+			(at 90.805 146.05 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "077288ab-7768-4541-aef7-4fc7ad6ff186")
+		)
+		(hierarchical_label
+			(name "rg13")
+			(shape bidirectional)
+			(at 90.805 140.97 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "a7c799c7-4b3e-4ad0-8a14-6d35eb9524a2")
+		)
+		(hierarchical_label
+			(name "RC3")
+			(shape bidirectional)
+			(at 90.805 72.39 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "6c7f7c6b-e0d8-45a1-ad01-9d5735888859")
+		)
+		(hierarchical_label
+			(name "rf1")
+			(shape bidirectional)
+			(at 189.865 130.81 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "77aeb265-7d89-46c0-9e6c-bd53b3b2c32c")
+		)
+		(hierarchical_label
+			(name "RB0")
+			(shape bidirectional)
+			(at 151.765 46.99 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "ed0cdc99-b61d-4cba-96a9-ab47f57c7d9d")
+		)
+		(hierarchical_label
+			(name "RD3")
+			(shape bidirectional)
+			(at 189.865 92.71 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "5809713b-7659-4086-a219-f886ddb72485")
+		)
+		(hierarchical_label
+			(name "rc14")
+			(shape bidirectional)
+			(at 90.805 82.55 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "91733ea2-f52f-423b-bb27-39a2233a231f")
+		)
+		(hierarchical_label
+			(name "AN9")
+			(shape bidirectional)
+			(at 151.765 52.07 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "b25cf536-3f43-412c-9c61-0a9a1c107d51")
+		)
+		(hierarchical_label
+			(name "AN8")
+			(shape bidirectional)
+			(at 151.765 49.53 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "38eecf3b-4e89-4aa7-b41e-c3161460e018")
+		)
+		(hierarchical_label
+			(name "RD0")
+			(shape bidirectional)
+			(at 189.865 85.09 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "e8f14da5-f43b-450c-951f-cb30a171270f")
+		)
+		(hierarchical_label
+			(name "RD1")
+			(shape bidirectional)
+			(at 189.865 87.63 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "1bee0a54-e3f2-4399-8139-b557a6d6dee5")
+		)
+		(hierarchical_label
+			(name "RA4")
+			(shape bidirectional)
+			(at 90.805 44.45 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "8a83e498-8865-4870-96c4-a6128596faa6")
+		)
+		(hierarchical_label
+			(name "rc13")
+			(shape bidirectional)
+			(at 90.805 80.01 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "810951b5-09f3-4367-8595-19e172a9bf17")
+		)
+		(hierarchical_label
+			(name "RD6")
+			(shape bidirectional)
+			(at 189.865 100.33 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "a88f043f-19c8-4d16-bc7d-a8eeb88a555b")
+		)
+		(hierarchical_label
+			(name "PGC")
+			(shape bidirectional)
+			(at 189.865 44.45 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "a7a52282-6a2b-4158-9e98-bfb64af9c209")
+		)
+		(hierarchical_label
+			(name "RC2")
+			(shape bidirectional)
+			(at 90.805 69.85 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "22b3d791-2628-4eb4-bd7a-962cd61af175")
+		)
+		(hierarchical_label
+			(name "RA5")
+			(shape bidirectional)
+			(at 90.805 46.99 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "f5eadcbc-c3e3-4e57-baf1-42a655bec2e3")
+		)
+		(hierarchical_label
+			(name "ra6")
+			(shape bidirectional)
+			(at 90.805 49.53 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "119a32c2-2679-4a31-8c41-ec75e277c836")
+		)
+		(hierarchical_label
+			(name "re7")
+			(shape bidirectional)
+			(at 90.805 107.95 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "37218c44-ae50-4548-8d4f-e6834028d79d")
+		)
+		(hierarchical_label
+			(name "rd15")
+			(shape bidirectional)
+			(at 189.865 123.19 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "db0ce4b8-72e9-4455-8860-3f0cf6275bc3")
+		)
+		(hierarchical_label
+			(name "rb9")
+			(shape bidirectional)
+			(at 189.865 64.77 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "caade41a-6769-4d44-80f0-ad057698ccec")
+		)
+		(hierarchical_label
+			(name "RD4")
+			(shape bidirectional)
+			(at 189.865 95.25 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "4c25f695-1c88-479f-b94e-669788ffd7a5")
+		)
+		(hierarchical_label
+			(name "ra9")
+			(shape bidirectional)
+			(at 90.805 54.61 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "e265a6ac-1ae2-41cc-a45a-7c8f1cf6bc62")
+		)
+		(hierarchical_label
+			(name "RD7")
+			(shape bidirectional)
+			(at 189.865 102.87 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "b34face8-3d6a-4abe-a190-e597672f4ad8")
+		)
+		(hierarchical_label
+			(name "rd14")
+			(shape bidirectional)
+			(at 189.865 120.65 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "38b31171-8a27-45e6-a5af-3b0c6b45eb05")
+		)
+		(hierarchical_label
+			(name "ra7")
+			(shape bidirectional)
+			(at 90.805 52.07 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "e632db90-fcbd-4c63-919a-bab941497482")
+		)
+		(hierarchical_label
+			(name "mclr")
+			(shape bidirectional)
+			(at 189.865 36.83 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "5d319d0a-3a38-436e-83db-cb04597eee20")
+		)
+		(hierarchical_label
+			(name "rb13")
+			(shape bidirectional)
+			(at 189.865 74.93 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "232112b3-a0b2-40d2-ac0e-d36cac79e3c9")
+		)
+		(hierarchical_label
+			(name "PGD")
+			(shape bidirectional)
+			(at 189.865 41.91 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "33b42e43-6c83-4bfc-85f2-5a1036b7e08e")
+		)
+		(hierarchical_label
+			(name "rg3_d-")
+			(shape bidirectional)
+			(at 81.915 125.73 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "f6463bb2-ea9d-425a-99cc-21cfd454cea9")
+		)
+		(hierarchical_label
+			(name "RB6")
+			(shape bidirectional)
+			(at 189.865 57.15 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "217965b7-f08b-49b5-a821-485160e91ee8")
+		)
+		(hierarchical_label
+			(name "rg8")
+			(shape bidirectional)
+			(at 90.805 133.35 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "ca1f3922-7c2c-4b5f-84da-6a64aa6573d3")
+		)
+		(hierarchical_label
+			(name "RA0")
+			(shape bidirectional)
+			(at 90.805 34.29 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "395a7f4d-724b-4860-8266-5d5429097319")
+		)
+		(hierarchical_label
+			(name "AN10")
+			(shape bidirectional)
+			(at 151.765 54.61 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "7bc69aca-8a54-46e0-b7ac-5e4eb5016f2c")
+		)
+		(hierarchical_label
+			(name "rd9")
+			(shape bidirectional)
+			(at 189.865 107.95 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "b7a297cf-825d-4a9f-b56e-151314a0ee3f")
+		)
+		(hierarchical_label
+			(name "RE0")
+			(shape bidirectional)
+			(at 90.805 90.17 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "595304cd-b094-4f34-9279-f35cc4b0404f")
+		)
+		(hierarchical_label
+			(name "re8")
+			(shape bidirectional)
+			(at 90.805 110.49 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "f252ddc5-2509-4b03-8296-6173fa8a0ecf")
+		)
+		(hierarchical_label
+			(name "rf4")
+			(shape bidirectional)
+			(at 189.865 138.43 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "6a18b3b9-82ae-42b3-888d-5e3387fede25")
+		)
+		(hierarchical_label
+			(name "osc1")
+			(shape bidirectional)
+			(at 80.645 77.47 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "ff446948-2dd8-4cf7-af75-ad747b46a416")
+		)
+		(hierarchical_label
+			(name "osc2")
+			(shape bidirectional)
+			(at 80.645 85.09 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "7d54be3b-a13e-4d3e-9355-95203ee8f24a")
+		)
+		(hierarchical_label
+			(name "rf2")
+			(shape bidirectional)
+			(at 189.865 133.35 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "a0c3d892-6c84-4b0f-ac36-656c4e49ed1c")
+		)
+		(hierarchical_label
+			(name "vbus")
+			(shape bidirectional)
+			(at 80.772 151.003 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "165308d3-9c55-4727-be21-39ae5def4249")
+		)
+		(hierarchical_label
+			(name "rd10")
+			(shape bidirectional)
+			(at 189.865 110.49 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "fd4263d4-9bfa-4237-92ad-5ed50244c2c8")
+		)
+		(hierarchical_label
+			(name "RA1")
+			(shape bidirectional)
+			(at 90.805 36.83 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "10e874d0-3fff-4975-8525-33d09a58cf5b")
+		)
+		(hierarchical_label
+			(name "rg0")
+			(shape bidirectional)
+			(at 90.805 118.11 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "8c3a0e81-90e2-4511-8221-c74a3657799c")
+		)
+		(hierarchical_label
+			(name "rf13")
+			(shape bidirectional)
+			(at 189.865 148.59 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "2aefe033-817f-4aaa-b1a8-21390ba459a7")
+		)
+		(hierarchical_label
+			(name "VREF+")
+			(shape bidirectional)
+			(at 90.805 41.91 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "d3fc809f-5dab-4bb9-b9eb-ec361e90ca21")
+		)
+		(hierarchical_label
+			(name "rd13")
+			(shape bidirectional)
+			(at 189.865 118.11 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "dd4778de-26fb-465c-90e6-6974ee64c2ff")
+		)
+		(hierarchical_label
+			(name "rg14")
+			(shape bidirectional)
+			(at 90.805 143.51 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "6e9079c0-8377-4cce-a67e-0d8296daaca7")
+		)
+		(hierarchical_label
+			(name "rf12")
+			(shape bidirectional)
+			(at 189.865 146.05 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "7d5ae565-bb1a-4da0-814e-0f995891dc45")
+		)
+		(hierarchical_label
+			(name "RE3")
+			(shape bidirectional)
+			(at 90.805 97.79 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "b0660975-b80b-43f6-8cfb-a09cf057ecbb")
+		)
+		(hierarchical_label
+			(name "rf5")
+			(shape bidirectional)
+			(at 189.865 140.97 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "0bd32c75-e505-4d4d-a6ea-e5a4aa8d38ee")
+		)
+		(hierarchical_label
+			(name "rg7")
+			(shape bidirectional)
+			(at 90.805 130.81 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "4f1ea75b-e874-4371-8b33-fe5cf2c7e383")
+		)
+		(hierarchical_label
+			(name "RE4")
+			(shape bidirectional)
+			(at 90.805 100.33 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "edad8cef-ab9d-4841-927e-89a82eca4bab")
+		)
+		(hierarchical_label
+			(name "RE5")
+			(shape bidirectional)
+			(at 90.805 102.87 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "5ea433e6-fd85-49a3-952f-412c96e76411")
+		)
+		(hierarchical_label
+			(name "ra10")
+			(shape bidirectional)
+			(at 90.805 57.15 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "1ba339fe-2124-4262-9b4d-99ffc43842b5")
+		)
+		(hierarchical_label
+			(name "rb14")
+			(shape bidirectional)
+			(at 189.865 77.47 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "066ccb8e-ad91-48ff-92ca-79eaa4d52147")
+		)
+		(hierarchical_label
+			(name "rb11")
+			(shape bidirectional)
+			(at 189.865 69.85 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "aa636916-65a7-49da-8843-31cb8b0314cd")
+		)
+		(hierarchical_label
+			(name "rf0")
+			(shape bidirectional)
+			(at 189.865 128.27 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "2123177c-56a3-4d07-8a8a-098e539815cf")
+		)
+		(hierarchical_label
+			(name "rg6")
+			(shape bidirectional)
+			(at 90.805 128.27 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "87e5ae6a-5d4b-4060-9d8d-b2d0facbd055")
+		)
+		(hierarchical_label
+			(name "rd12")
+			(shape bidirectional)
+			(at 189.865 115.57 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "86a24479-9992-425c-8bcb-efca751e2f6f")
+		)
+		(hierarchical_label
+			(name "rb12")
+			(shape bidirectional)
+			(at 189.865 72.39 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "cbe37625-5b1c-4299-a5f7-c4e5513a366b")
+		)
+		(hierarchical_label
+			(name "rg2_d+")
+			(shape bidirectional)
+			(at 81.915 123.19 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "83d78250-9c99-4a5b-93a9-10bf9091eb4b")
+		)
+		(hierarchical_label
+			(name "ra14")
+			(shape bidirectional)
+			(at 90.805 59.69 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "da699910-924e-427c-a8b5-a16c59d441a3")
+		)
+		(hierarchical_label
+			(name "RE1")
+			(shape bidirectional)
+			(at 90.805 92.71 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "f1ff0f47-b97d-4ace-b21f-c6df92b86a4c")
+		)
+		(hierarchical_label
+			(name "rb8")
+			(shape bidirectional)
+			(at 189.865 62.23 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "54d43284-663c-4d05-9a2c-4cab4efb17ed")
+		)
+		(hierarchical_label
+			(name "rb15")
+			(shape bidirectional)
+			(at 189.865 80.01 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "578c804a-9325-45fe-9da5-fe7d6e0f6fa4")
+		)
+		(hierarchical_label
+			(name "rf3")
+			(shape bidirectional)
+			(at 189.865 135.89 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "da55eac3-daa2-4206-af7f-769f1b762529")
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -319,6 +1591,66 @@
 				(justify left top)
 			)
 		)
+				(hierarchical_label
+			(name "GPIO21")
+			(shape bidirectional)
+			(at 142.621 94.107 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "49577d75-c30d-4746-be48-075fb5f00035")
+		)
+		(hierarchical_label
+			(name "GPIO23")
+			(shape bidirectional)
+			(at 144.272 105.537 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "aa77ac73-ef83-4a5d-aef6-0f7dc2f17f52")
+		)
+		(hierarchical_label
+			(name "GPIO24")
+			(shape bidirectional)
+			(at 199.517 73.66 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "2dfe095a-be3a-4d6a-8541-533bf3b3faee")
+		)
+		(hierarchical_label
+			(name "GPIO22")
+			(shape bidirectional)
+			(at 149.098 115.697 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "a045a4ff-39c7-443f-a71b-a42648c33d88")
+		)
+		(hierarchical_label
+			(name "GPIO20")
+			(shape bidirectional)
+			(at 140.335 72.517 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "c01dba3e-995f-4840-bd8d-dd59d5740afd")
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -364,6 +1696,414 @@
 				)
 				(justify left top)
 			)
+		)
+				(hierarchical_label
+			(name "VDD_CORE")
+			(shape bidirectional)
+			(at 198.374 42.418 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "242eaf24-f6b5-4797-8c09-cc99a6887fe5")
+		)
+		(hierarchical_label
+			(name "pgd")
+			(shape bidirectional)
+			(at 194.818 70.358 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "f2306249-4e11-4872-ba2d-3b1b1e2898f6")
+		)
+		(hierarchical_label
+			(name "RE2")
+			(shape bidirectional)
+			(at 88.138 123.698 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "7c17db44-2082-4c25-9f34-8b141a5ba58a")
+		)
+		(hierarchical_label
+			(name "RD4")
+			(shape bidirectional)
+			(at 200.66 105.918 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "7a3e1d6b-2998-4a8f-9f40-817e75e37442")
+		)
+		(hierarchical_label
+			(name "RC0")
+			(shape bidirectional)
+			(at 88.138 93.218 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "ef71d968-36e0-4ac4-bc92-fa9b2c8e6b7f")
+		)
+		(hierarchical_label
+			(name "RC7")
+			(shape bidirectional)
+			(at 198.628 100.838 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "b9e62816-18cd-4118-82f5-71be9c87a3b1")
+		)
+		(hierarchical_label
+			(name "pgc")
+			(shape bidirectional)
+			(at 262.2296 59.3344 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "11ddf268-2e13-4af0-8e38-7b89fe783058")
+		)
+		(hierarchical_label
+			(name "mclr")
+			(shape bidirectional)
+			(at 88.138 47.498 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "b63de271-7bc7-48af-91da-74cad6da850a")
+		)
+		(hierarchical_label
+			(name "RC6")
+			(shape bidirectional)
+			(at 198.628 98.298 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "037b68f6-13d7-4b7a-b252-f5dfed31f9c3")
+		)
+		(hierarchical_label
+			(name "AN11")
+			(shape bidirectional)
+			(at 88.138 98.298 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "bd946d4c-7d91-4777-964a-fc954163b96e")
+		)
+		(hierarchical_label
+			(name "SDA_1")
+			(shape bidirectional)
+			(at 194.818 65.278 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "50471945-5b2b-4277-bf0f-77c41bc4261d")
+		)
+		(hierarchical_label
+			(name "SCL_1")
+			(shape bidirectional)
+			(at 194.818 62.738 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "15404c90-b35c-4074-9f60-569decf2fbd6")
+		)
+		(hierarchical_label
+			(name "VREF+")
+			(shape bidirectional)
+			(at 88.138 57.658 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "d5829a2c-b65a-4e4f-853b-f7cae779652d")
+		)
+		(hierarchical_label
+			(name "RA0")
+			(shape bidirectional)
+			(at 88.138 50.038 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "84359617-fed8-40b3-8983-da30d5e180c5")
+		)
+		(hierarchical_label
+			(name "RA1")
+			(shape bidirectional)
+			(at 88.138 52.578 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "7f21e491-8dae-4631-b420-b989a6ef70ef")
+		)
+		(hierarchical_label
+			(name "RD7")
+			(shape bidirectional)
+			(at 200.66 113.538 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "b949d980-31a2-4392-a739-9fb2f311cd34")
+		)
+		(hierarchical_label
+			(name "mclr")
+			(shape bidirectional)
+			(at 256.6416 49.1744 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "c7e4a606-ee68-42fc-b9c0-440a768d47c6")
+		)
+		(hierarchical_label
+			(name "pgd")
+			(shape bidirectional)
+			(at 262.1534 56.7944 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "d442d22a-efaa-4c40-b96c-3645fd1d4ecb")
+		)
+		(hierarchical_label
+			(name "pgc")
+			(shape bidirectional)
+			(at 194.818 67.818 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "bc99f231-1582-4d2e-b0bc-cf5d307260d3")
+		)
+		(hierarchical_label
+			(name "RE0")
+			(shape bidirectional)
+			(at 88.138 118.618 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "d0889e6d-af9e-4dfa-b89c-157710b57e26")
+		)
+		(hierarchical_label
+			(name "RD6")
+			(shape bidirectional)
+			(at 200.66 110.998 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "404ea977-5dea-4bcb-a8f2-668271e81b68")
+		)
+		(hierarchical_label
+			(name "SCL_2")
+			(shape bidirectional)
+			(at 88.138 105.918 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "60d1d95b-d3b8-4b74-83f8-1685c9d96587")
+		)
+		(hierarchical_label
+			(name "RD3")
+			(shape bidirectional)
+			(at 88.138 113.538 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "3e9c71b3-6ecc-45c0-a76d-b4c316e9adee")
+		)
+		(hierarchical_label
+			(name "RB0")
+			(shape bidirectional)
+			(at 88.138 62.738 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "d375166b-c980-424c-8f99-5da75080aa26")
+		)
+		(hierarchical_label
+			(name "AN9")
+			(shape bidirectional)
+			(at 88.138 85.598 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "49232a6f-292b-43ea-84d4-1d3acf4be2b1")
+		)
+		(hierarchical_label
+			(name "RD5")
+			(shape bidirectional)
+			(at 200.66 108.458 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "c82c7dd4-6eb9-45ae-9060-73e67fd540ef")
+		)
+		(hierarchical_label
+			(name "RE1")
+			(shape bidirectional)
+			(at 88.138 121.158 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "d5b71d2d-767a-4da7-ad5b-4847caf88185")
+		)
+		(hierarchical_label
+			(name "RD2")
+			(shape bidirectional)
+			(at 88.138 110.998 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "679420db-1fa2-430f-9483-177c60ac9413")
+		)
+		(hierarchical_label
+			(name "RA5")
+			(shape bidirectional)
+			(at 88.138 60.198 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "82da276d-c8a2-457b-bf4f-8d87d442aa3e")
+		)
+		(hierarchical_label
+			(name "SDA_2")
+			(shape bidirectional)
+			(at 88.138 108.458 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "17ec2517-d07a-442f-8de0-e649e684b7ee")
+		)
+		(hierarchical_label
+			(name "RC1")
+			(shape bidirectional)
+			(at 88.138 95.758 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "f97472f0-f1c9-4586-a99e-fac2abf985d9")
+		)
+		(hierarchical_label
+			(name "VREF-")
+			(shape bidirectional)
+			(at 88.138 55.118 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "74ec4208-c768-4a94-b001-c21315bb90b5")
+		)
+		(hierarchical_label
+			(name "AN10")
+			(shape bidirectional)
+			(at 88.138 80.518 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "6957bae2-8ee0-4bed-bdf5-9f1ab57725e0")
+		)
+		(hierarchical_label
+			(name "AN8")
+			(shape bidirectional)
+			(at 88.138 83.058 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "e472d2a5-860c-44cc-b0a3-32f3cb75dc63")
 		)
 		(instances
 			(project "amper_volt_meter"
@@ -411,6 +2151,54 @@
 				(justify left top)
 			)
 		)
+				(hierarchical_label
+			(name "RD7")
+			(shape bidirectional)
+			(at 150.495 97.663 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "c6f0e9c9-62de-4e1c-b444-c53faa189a61")
+		)
+		(hierarchical_label
+			(name "RD5")
+			(shape bidirectional)
+			(at 150.495 92.583 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "1b9828d2-9557-4424-b7b6-4cbde3ee5cee")
+		)
+		(hierarchical_label
+			(name "RD4")
+			(shape bidirectional)
+			(at 150.495 90.043 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "700fd009-fd47-46b4-b509-162b20751efd")
+		)
+		(hierarchical_label
+			(name "RD6")
+			(shape bidirectional)
+			(at 150.495 95.123 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "9125836a-9427-4651-909e-77620db263ff")
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -457,6 +2245,54 @@
 				(justify left top)
 			)
 		)
+				(hierarchical_label
+			(name "AN10")
+			(shape bidirectional)
+			(at 77.724 153.543 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "5487e959-887d-4bdf-871e-ed5b3e9cc86d")
+		)
+		(hierarchical_label
+			(name "AN9")
+			(shape bidirectional)
+			(at 46.609 152.146 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "5e2efa6f-77d8-4852-b32f-0d38436f0d14")
+		)
+		(hierarchical_label
+			(name "AMPER")
+			(shape bidirectional)
+			(at 60.706 69.469 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "67ccb4fe-e229-4e26-bc33-f40f1f109f52")
+		)
+		(hierarchical_label
+			(name "AN8")
+			(shape bidirectional)
+			(at 143.002 75.057 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "18b071ab-db87-4c40-b5c3-110d6baccb86")
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -502,6 +2338,90 @@
 				)
 				(justify left top)
 			)
+		)
+				(hierarchical_label
+			(name "DC_RPI")
+			(shape bidirectional)
+			(at 234.3912 113.3348 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "e6357951-b395-47d5-ba12-a0660f6fc415")
+		)
+		(hierarchical_label
+			(name "SCL_2")
+			(shape bidirectional)
+			(at 143.8402 99.9998 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "5d116f91-a425-4911-bba2-85a1ae96647e")
+		)
+		(hierarchical_label
+			(name "SDA_2")
+			(shape bidirectional)
+			(at 157.5562 104.1908 180)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "d6202ca5-c033-48d6-a789-7b05fa408fd6")
+		)
+		(hierarchical_label
+			(name "SCL_1")
+			(shape bidirectional)
+			(at 234.3912 105.7148 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "f9ecd289-03bc-4fb3-b251-5f02c250d43b")
+		)
+		(hierarchical_label
+			(name "SDA_1")
+			(shape bidirectional)
+			(at 234.3912 108.2548 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "4bc8eb8e-a061-4275-942d-bbb5b2eafd15")
+		)
+		(hierarchical_label
+			(name "BLK_RPI")
+			(shape bidirectional)
+			(at 234.3912 115.8748 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "6e05ff2e-0242-433c-a04c-b2a658fb08cc")
+		)
+		(hierarchical_label
+			(name "RES_RPI")
+			(shape bidirectional)
+			(at 234.3912 110.7948 0)
+			(fields_autoplaced yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+			(uuid "520bd2d2-8780-43e2-8ae7-c7ca9a6d8517")
 		)
 		(instances
 			(project "amper_volt_meter"

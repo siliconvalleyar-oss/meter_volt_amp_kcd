@@ -617,9 +617,18 @@
 		)
 		(uuid "fcd7486b-092f-4e9f-bddc-e34f975cd5f6")
 	)
-	(global_label "RD7"
-		(shape input)
+		(hierarchical_label
+		(name "RD7")
+		(shape bidirectional)
 		(at 150.495 97.663 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e169973-591f-42f3-b5cf-72f1957b13a9")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -641,9 +650,18 @@
 			)
 		)
 	)
-	(global_label "RD5"
-		(shape input)
+		(hierarchical_label
+		(name "RD5")
+		(shape bidirectional)
 		(at 150.495 92.583 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ccb7e921-c605-4a7a-94d7-968bc6bbb1d6")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -665,9 +683,18 @@
 			)
 		)
 	)
-	(global_label "RD4"
-		(shape input)
+		(hierarchical_label
+		(name "RD4")
+		(shape bidirectional)
 		(at 150.495 90.043 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f74678d-9e0e-4b85-8329-b5feb4dfa9a4")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -689,9 +716,18 @@
 			)
 		)
 	)
-	(global_label "RD6"
-		(shape input)
+		(hierarchical_label
+		(name "RD6")
+		(shape bidirectional)
 		(at 150.495 95.123 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8bc5229-4b5d-49e6-8e23-91021a2a3d79")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font

@@ -3403,9 +3403,18 @@
 		)
 		(uuid "ffe5dcc8-77ec-47e3-ba20-208610310491")
 	)
-	(global_label "rb10"
-		(shape input)
+		(hierarchical_label
+		(name "rb10")
+		(shape bidirectional)
 		(at 189.865 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bae40ca5-46bf-4209-9402-7ad9f14a8eaa")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3427,9 +3436,18 @@
 			)
 		)
 	)
-	(global_label "rg9"
-		(shape input)
+		(hierarchical_label
+		(name "rg9")
+		(shape bidirectional)
 		(at 90.805 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38a64fb9-83a3-4b06-aa0e-28adda367b00")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3451,9 +3469,18 @@
 			)
 		)
 	)
-	(global_label "VREF-"
-		(shape input)
+		(hierarchical_label
+		(name "VREF-")
+		(shape bidirectional)
 		(at 90.805 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0b1b83b-495d-46c5-93f0-f2a2b1e60a09")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3475,9 +3502,18 @@
 			)
 		)
 	)
-	(global_label "rf8"
-		(shape input)
+		(hierarchical_label
+		(name "rf8")
+		(shape bidirectional)
 		(at 189.865 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5ee2830-9b0a-45e7-b17e-5e2575041b1c")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3499,9 +3535,18 @@
 			)
 		)
 	)
-	(global_label "ra15"
-		(shape input)
+		(hierarchical_label
+		(name "ra15")
+		(shape bidirectional)
 		(at 90.805 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2536b0d-7833-45e5-beef-a672b8b8fb88")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3523,9 +3568,18 @@
 			)
 		)
 	)
-	(global_label "RD5"
-		(shape input)
+		(hierarchical_label
+		(name "RD5")
+		(shape bidirectional)
 		(at 189.865 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b232585-5b34-4607-ad19-4dfed21a5339")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3547,9 +3601,18 @@
 			)
 		)
 	)
-	(global_label "re9"
-		(shape input)
+		(hierarchical_label
+		(name "re9")
+		(shape bidirectional)
 		(at 90.805 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b488b5dc-e64d-48df-89bd-ccd7992b4036")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3571,9 +3634,18 @@
 			)
 		)
 	)
-	(global_label "RD2"
-		(shape input)
+		(hierarchical_label
+		(name "RD2")
+		(shape bidirectional)
 		(at 189.865 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9ed2aa3-5e5f-4b59-95ed-882600c3fbe1")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3595,9 +3667,18 @@
 			)
 		)
 	)
-	(global_label "rd11"
-		(shape input)
+		(hierarchical_label
+		(name "rd11")
+		(shape bidirectional)
 		(at 189.865 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef069409-54b0-408d-8841-e873153359b6")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3619,9 +3700,18 @@
 			)
 		)
 	)
-	(global_label "rg12"
-		(shape input)
+		(hierarchical_label
+		(name "rg12")
+		(shape bidirectional)
 		(at 90.805 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98bc5e3a-edfa-4cba-908a-0054953dcd35")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3643,9 +3733,18 @@
 			)
 		)
 	)
-	(global_label "RC1"
-		(shape input)
+		(hierarchical_label
+		(name "RC1")
+		(shape bidirectional)
 		(at 90.805 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2b115b4-46a0-4ddc-abf2-274115cca994")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3667,9 +3766,18 @@
 			)
 		)
 	)
-	(global_label "RC4"
-		(shape input)
+		(hierarchical_label
+		(name "RC4")
+		(shape bidirectional)
 		(at 90.805 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7016e93f-9874-4aba-919a-2b26a3198de8")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3691,9 +3799,18 @@
 			)
 		)
 	)
-	(global_label "re6"
-		(shape input)
+		(hierarchical_label
+		(name "re6")
+		(shape bidirectional)
 		(at 90.805 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54670d27-07e1-4b62-be46-0ca973f16082")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3715,9 +3832,18 @@
 			)
 		)
 	)
-	(global_label "RB7"
-		(shape input)
+		(hierarchical_label
+		(name "RB7")
+		(shape bidirectional)
 		(at 189.865 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d996bbf-79f9-43a0-b62c-944398f335da")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3739,9 +3865,18 @@
 			)
 		)
 	)
-	(global_label "rg1"
-		(shape input)
+		(hierarchical_label
+		(name "rg1")
+		(shape bidirectional)
 		(at 90.805 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f98f29a-3a17-4449-bf59-5b8985f3f205")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3763,9 +3898,18 @@
 			)
 		)
 	)
-	(global_label "rd8"
-		(shape input)
+		(hierarchical_label
+		(name "rd8")
+		(shape bidirectional)
 		(at 189.865 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82e2d749-59b5-477d-b08c-fddaf01076d2")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3787,9 +3931,18 @@
 			)
 		)
 	)
-	(global_label "RE2"
-		(shape input)
+		(hierarchical_label
+		(name "RE2")
+		(shape bidirectional)
 		(at 90.805 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "394030de-0a90-4aed-9c1d-cd302d5062bf")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3811,9 +3964,18 @@
 			)
 		)
 	)
-	(global_label "rg15"
-		(shape input)
+		(hierarchical_label
+		(name "rg15")
+		(shape bidirectional)
 		(at 90.805 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7558d5c6-816a-4157-be85-1d9962f82b93")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3835,9 +3997,18 @@
 			)
 		)
 	)
-	(global_label "rg13"
-		(shape input)
+		(hierarchical_label
+		(name "rg13")
+		(shape bidirectional)
 		(at 90.805 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a46c14f-c188-4205-bc8e-ba37393cde40")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3859,9 +4030,18 @@
 			)
 		)
 	)
-	(global_label "RC3"
-		(shape input)
+		(hierarchical_label
+		(name "RC3")
+		(shape bidirectional)
 		(at 90.805 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0cda90e5-5726-45c5-93ef-4e47e85aa758")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3883,9 +4063,18 @@
 			)
 		)
 	)
-	(global_label "rf1"
-		(shape input)
+		(hierarchical_label
+		(name "rf1")
+		(shape bidirectional)
 		(at 189.865 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ea2145d-11ba-411d-9dbb-b5392588837e")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3907,9 +4096,18 @@
 			)
 		)
 	)
-	(global_label "RB0"
-		(shape input)
+		(hierarchical_label
+		(name "RB0")
+		(shape bidirectional)
 		(at 151.765 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7f015f6-0caf-4dd9-8e4c-043bd5abff9b")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3931,9 +4129,18 @@
 			)
 		)
 	)
-	(global_label "RD3"
-		(shape input)
+		(hierarchical_label
+		(name "RD3")
+		(shape bidirectional)
 		(at 189.865 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3abff78-a331-4100-8941-2138b05de94e")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3955,9 +4162,18 @@
 			)
 		)
 	)
-	(global_label "rc14"
-		(shape input)
+		(hierarchical_label
+		(name "rc14")
+		(shape bidirectional)
 		(at 90.805 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b5c0aed-f9b0-47d1-8764-52a1c356414d")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3979,9 +4195,18 @@
 			)
 		)
 	)
-	(global_label "AN9"
-		(shape input)
+		(hierarchical_label
+		(name "AN9")
+		(shape bidirectional)
 		(at 151.765 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9312837f-d1bf-4d9b-88b6-6667b6af274d")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4003,9 +4228,18 @@
 			)
 		)
 	)
-	(global_label "AN8"
-		(shape input)
+		(hierarchical_label
+		(name "AN8")
+		(shape bidirectional)
 		(at 151.765 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "baeef566-2bb1-433f-b050-30c378050376")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4027,9 +4261,18 @@
 			)
 		)
 	)
-	(global_label "RD0"
-		(shape input)
+		(hierarchical_label
+		(name "RD0")
+		(shape bidirectional)
 		(at 189.865 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9626828a-c69c-44f3-8b27-c95046b2c740")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4051,9 +4294,18 @@
 			)
 		)
 	)
-	(global_label "RD1"
-		(shape input)
+		(hierarchical_label
+		(name "RD1")
+		(shape bidirectional)
 		(at 189.865 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f25f8a43-804d-4062-be97-233c4cdb9f44")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4075,9 +4327,18 @@
 			)
 		)
 	)
-	(global_label "RA4"
-		(shape input)
+		(hierarchical_label
+		(name "RA4")
+		(shape bidirectional)
 		(at 90.805 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a77ef77-90f2-4652-a2a4-d6b4b3883007")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4099,9 +4360,18 @@
 			)
 		)
 	)
-	(global_label "rc13"
-		(shape input)
+		(hierarchical_label
+		(name "rc13")
+		(shape bidirectional)
 		(at 90.805 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "109758a9-60ab-4199-8635-799abc066707")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4123,9 +4393,18 @@
 			)
 		)
 	)
-	(global_label "RD6"
-		(shape input)
+		(hierarchical_label
+		(name "RD6")
+		(shape bidirectional)
 		(at 189.865 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f105f963-924d-4f58-80a3-6bc25be751fb")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4147,9 +4426,18 @@
 			)
 		)
 	)
-	(global_label "PGC"
-		(shape input)
+		(hierarchical_label
+		(name "PGC")
+		(shape bidirectional)
 		(at 189.865 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea864638-1af8-43e3-99f5-676a21683df0")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4171,9 +4459,18 @@
 			)
 		)
 	)
-	(global_label "RC2"
-		(shape input)
+		(hierarchical_label
+		(name "RC2")
+		(shape bidirectional)
 		(at 90.805 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b365ad52-20f6-4ed2-a692-0eb11210ae49")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4195,9 +4492,18 @@
 			)
 		)
 	)
-	(global_label "RA5"
-		(shape input)
+		(hierarchical_label
+		(name "RA5")
+		(shape bidirectional)
 		(at 90.805 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5afa63ac-d299-4f3d-be9e-e46e4dd2a59b")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4219,9 +4525,18 @@
 			)
 		)
 	)
-	(global_label "ra6"
-		(shape input)
+		(hierarchical_label
+		(name "ra6")
+		(shape bidirectional)
 		(at 90.805 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86075e60-85ae-4c8c-9400-b9bdbfc7fd54")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4243,9 +4558,18 @@
 			)
 		)
 	)
-	(global_label "re7"
-		(shape input)
+		(hierarchical_label
+		(name "re7")
+		(shape bidirectional)
 		(at 90.805 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ffc17131-54d8-43f6-b166-b7aace3688c8")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4267,9 +4591,18 @@
 			)
 		)
 	)
-	(global_label "rd15"
-		(shape input)
+		(hierarchical_label
+		(name "rd15")
+		(shape bidirectional)
 		(at 189.865 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c0a884e-2015-4482-b6c0-4cc61310b107")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4291,9 +4624,18 @@
 			)
 		)
 	)
-	(global_label "rb9"
-		(shape input)
+		(hierarchical_label
+		(name "rb9")
+		(shape bidirectional)
 		(at 189.865 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e79d4bcf-1e85-4148-8cbd-2fe69b62bffd")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4315,9 +4657,18 @@
 			)
 		)
 	)
-	(global_label "RD4"
-		(shape input)
+		(hierarchical_label
+		(name "RD4")
+		(shape bidirectional)
 		(at 189.865 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f801bbf-7a02-4321-a1d5-5d08710f8926")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4339,9 +4690,18 @@
 			)
 		)
 	)
-	(global_label "ra9"
-		(shape input)
+		(hierarchical_label
+		(name "ra9")
+		(shape bidirectional)
 		(at 90.805 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ab99a1b-00e2-49f0-a62d-f9bc9a67d99b")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4363,9 +4723,18 @@
 			)
 		)
 	)
-	(global_label "RD7"
-		(shape input)
+		(hierarchical_label
+		(name "RD7")
+		(shape bidirectional)
 		(at 189.865 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af8c74c9-b0d8-490f-a7ca-80a75dfeb583")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4387,9 +4756,18 @@
 			)
 		)
 	)
-	(global_label "rd14"
-		(shape input)
+		(hierarchical_label
+		(name "rd14")
+		(shape bidirectional)
 		(at 189.865 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b8df35b-4aa0-4546-9a5f-ce3bb897a740")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4411,9 +4789,18 @@
 			)
 		)
 	)
-	(global_label "ra7"
-		(shape input)
+		(hierarchical_label
+		(name "ra7")
+		(shape bidirectional)
 		(at 90.805 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f58d208c-f665-4277-a4bf-ec266f80a3ac")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4435,9 +4822,18 @@
 			)
 		)
 	)
-	(global_label "mclr"
-		(shape input)
+		(hierarchical_label
+		(name "mclr")
+		(shape bidirectional)
 		(at 189.865 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f0396fc-f703-4e89-8bb1-8e219fede942")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4459,9 +4855,18 @@
 			)
 		)
 	)
-	(global_label "rb13"
-		(shape input)
+		(hierarchical_label
+		(name "rb13")
+		(shape bidirectional)
 		(at 189.865 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e698efe-f078-418c-be35-58baabf4ccf8")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4483,9 +4888,18 @@
 			)
 		)
 	)
-	(global_label "PGD"
-		(shape input)
+		(hierarchical_label
+		(name "PGD")
+		(shape bidirectional)
 		(at 189.865 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8125b0e3-108f-48f4-b91b-58c8c2fa3d80")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4507,9 +4921,18 @@
 			)
 		)
 	)
-	(global_label "rg3_d-"
-		(shape input)
+		(hierarchical_label
+		(name "rg3_d-")
+		(shape bidirectional)
 		(at 81.915 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae5af214-3039-4720-a20f-5409c9f7ff2a")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4531,9 +4954,18 @@
 			)
 		)
 	)
-	(global_label "RB6"
-		(shape input)
+		(hierarchical_label
+		(name "RB6")
+		(shape bidirectional)
 		(at 189.865 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39d7726f-c08b-48c9-acf5-49825422ad39")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4555,9 +4987,18 @@
 			)
 		)
 	)
-	(global_label "rg8"
-		(shape input)
+		(hierarchical_label
+		(name "rg8")
+		(shape bidirectional)
 		(at 90.805 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "344adf22-a474-456f-9d87-88f241220ef2")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4579,9 +5020,18 @@
 			)
 		)
 	)
-	(global_label "RA0"
-		(shape input)
+		(hierarchical_label
+		(name "RA0")
+		(shape bidirectional)
 		(at 90.805 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dafa1e51-ba1a-4590-895b-782eaf9c4a43")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4603,9 +5053,18 @@
 			)
 		)
 	)
-	(global_label "AN10"
-		(shape input)
+		(hierarchical_label
+		(name "AN10")
+		(shape bidirectional)
 		(at 151.765 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "21c05a0d-ab8d-41de-81a4-a042feaf8851")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4627,9 +5086,18 @@
 			)
 		)
 	)
-	(global_label "rd9"
-		(shape input)
+		(hierarchical_label
+		(name "rd9")
+		(shape bidirectional)
 		(at 189.865 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8850855b-36ce-4772-a1cd-86f6ad71dc3b")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4651,9 +5119,18 @@
 			)
 		)
 	)
-	(global_label "RE0"
-		(shape input)
+		(hierarchical_label
+		(name "RE0")
+		(shape bidirectional)
 		(at 90.805 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70438daf-eec0-4a45-b3e2-87a8acc48cd6")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4675,9 +5152,18 @@
 			)
 		)
 	)
-	(global_label "re8"
-		(shape input)
+		(hierarchical_label
+		(name "re8")
+		(shape bidirectional)
 		(at 90.805 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96a8e077-867f-4a2b-94e5-c13215f58598")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4699,9 +5185,18 @@
 			)
 		)
 	)
-	(global_label "rf4"
-		(shape input)
+		(hierarchical_label
+		(name "rf4")
+		(shape bidirectional)
 		(at 189.865 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e79fa802-bef6-4ca5-87fe-924786f93d81")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4723,9 +5218,18 @@
 			)
 		)
 	)
-	(global_label "osc1"
-		(shape input)
+		(hierarchical_label
+		(name "osc1")
+		(shape bidirectional)
 		(at 80.645 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07af93a5-b108-42f0-9efa-b85579b58b9b")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4747,9 +5251,18 @@
 			)
 		)
 	)
-	(global_label "osc2"
-		(shape input)
+		(hierarchical_label
+		(name "osc2")
+		(shape bidirectional)
 		(at 80.645 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9258ee72-274b-4758-b349-c2c55285de84")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4771,9 +5284,18 @@
 			)
 		)
 	)
-	(global_label "rf2"
-		(shape input)
+		(hierarchical_label
+		(name "rf2")
+		(shape bidirectional)
 		(at 189.865 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b0fa99c5-18e0-49c1-9dfb-42bcb5bd9104")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4795,9 +5317,18 @@
 			)
 		)
 	)
-	(global_label "vbus"
-		(shape input)
+		(hierarchical_label
+		(name "vbus")
+		(shape bidirectional)
 		(at 80.772 151.003 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71e33121-04a3-4868-9b2e-1c5a18b2f039")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4819,9 +5350,18 @@
 			)
 		)
 	)
-	(global_label "rd10"
-		(shape input)
+		(hierarchical_label
+		(name "rd10")
+		(shape bidirectional)
 		(at 189.865 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a35d2aa6-0947-463c-9f3e-35553d7ed0d6")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4843,9 +5383,18 @@
 			)
 		)
 	)
-	(global_label "RA1"
-		(shape input)
+		(hierarchical_label
+		(name "RA1")
+		(shape bidirectional)
 		(at 90.805 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ffc13a1-a6b7-48ec-8a10-271a4a455691")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4867,9 +5416,18 @@
 			)
 		)
 	)
-	(global_label "rg0"
-		(shape input)
+		(hierarchical_label
+		(name "rg0")
+		(shape bidirectional)
 		(at 90.805 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93d33be2-5991-4919-83cc-c5d75de70587")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4891,9 +5449,18 @@
 			)
 		)
 	)
-	(global_label "rf13"
-		(shape input)
+		(hierarchical_label
+		(name "rf13")
+		(shape bidirectional)
 		(at 189.865 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f818250-29cd-41e2-a722-535615d57b94")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4915,9 +5482,18 @@
 			)
 		)
 	)
-	(global_label "VREF+"
-		(shape input)
+		(hierarchical_label
+		(name "VREF+")
+		(shape bidirectional)
 		(at 90.805 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a462aa8a-8d9e-4210-99e1-46a8bfe444d0")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4939,9 +5515,18 @@
 			)
 		)
 	)
-	(global_label "rd13"
-		(shape input)
+		(hierarchical_label
+		(name "rd13")
+		(shape bidirectional)
 		(at 189.865 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69d6bcfb-3dc4-4b16-948b-1f0fed0ed0e2")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4963,9 +5548,18 @@
 			)
 		)
 	)
-	(global_label "rg14"
-		(shape input)
+		(hierarchical_label
+		(name "rg14")
+		(shape bidirectional)
 		(at 90.805 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65daf0b2-c3b2-49ca-889a-c1c139e6c86d")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4987,9 +5581,18 @@
 			)
 		)
 	)
-	(global_label "rf12"
-		(shape input)
+		(hierarchical_label
+		(name "rf12")
+		(shape bidirectional)
 		(at 189.865 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "21d80edf-533d-4b74-9f7c-9d80f43ad075")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5011,9 +5614,18 @@
 			)
 		)
 	)
-	(global_label "RE3"
-		(shape input)
+		(hierarchical_label
+		(name "RE3")
+		(shape bidirectional)
 		(at 90.805 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2611520-9c43-4df1-970a-38ada4c0af65")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5035,9 +5647,18 @@
 			)
 		)
 	)
-	(global_label "rf5"
-		(shape input)
+		(hierarchical_label
+		(name "rf5")
+		(shape bidirectional)
 		(at 189.865 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5897f28-1917-4a74-9711-c36dc063f317")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5059,9 +5680,18 @@
 			)
 		)
 	)
-	(global_label "rg7"
-		(shape input)
+		(hierarchical_label
+		(name "rg7")
+		(shape bidirectional)
 		(at 90.805 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "210e4d74-ab2e-4768-8acb-bec9b9ba76e4")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5083,9 +5713,18 @@
 			)
 		)
 	)
-	(global_label "RE4"
-		(shape input)
+		(hierarchical_label
+		(name "RE4")
+		(shape bidirectional)
 		(at 90.805 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb69f180-b303-4087-977f-5d3a35e79f60")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5107,9 +5746,18 @@
 			)
 		)
 	)
-	(global_label "RE5"
-		(shape input)
+		(hierarchical_label
+		(name "RE5")
+		(shape bidirectional)
 		(at 90.805 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1620cc7b-37ad-4040-a514-acaaaffee0d7")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5131,9 +5779,18 @@
 			)
 		)
 	)
-	(global_label "ra10"
-		(shape input)
+		(hierarchical_label
+		(name "ra10")
+		(shape bidirectional)
 		(at 90.805 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8c3f893-ddb7-4b81-ad86-a2347b6b2087")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5155,9 +5812,18 @@
 			)
 		)
 	)
-	(global_label "rb14"
-		(shape input)
+		(hierarchical_label
+		(name "rb14")
+		(shape bidirectional)
 		(at 189.865 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8c77cc2-9a71-48f3-a2f7-6c418b989376")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5179,9 +5845,18 @@
 			)
 		)
 	)
-	(global_label "rb11"
-		(shape input)
+		(hierarchical_label
+		(name "rb11")
+		(shape bidirectional)
 		(at 189.865 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d99afcb0-728c-47a9-a652-c3f2c619165d")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5203,9 +5878,18 @@
 			)
 		)
 	)
-	(global_label "rf0"
-		(shape input)
+		(hierarchical_label
+		(name "rf0")
+		(shape bidirectional)
 		(at 189.865 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a47fc653-491f-4d59-adf9-126eeafcfee3")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5227,9 +5911,18 @@
 			)
 		)
 	)
-	(global_label "rg6"
-		(shape input)
+		(hierarchical_label
+		(name "rg6")
+		(shape bidirectional)
 		(at 90.805 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a1f62a3-88a9-4226-8f63-243bdd73f654")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5251,9 +5944,18 @@
 			)
 		)
 	)
-	(global_label "rd12"
-		(shape input)
+		(hierarchical_label
+		(name "rd12")
+		(shape bidirectional)
 		(at 189.865 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84dd70a5-aa49-4791-bbf7-e6c039a06202")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5275,9 +5977,18 @@
 			)
 		)
 	)
-	(global_label "rb12"
-		(shape input)
+		(hierarchical_label
+		(name "rb12")
+		(shape bidirectional)
 		(at 189.865 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "371db028-129b-4f33-a492-40d8e54b8d34")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5299,9 +6010,18 @@
 			)
 		)
 	)
-	(global_label "rg2_d+"
-		(shape input)
+		(hierarchical_label
+		(name "rg2_d+")
+		(shape bidirectional)
 		(at 81.915 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da7746a3-f5a0-443c-82b8-bd3f27878eae")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5323,9 +6043,18 @@
 			)
 		)
 	)
-	(global_label "ra14"
-		(shape input)
+		(hierarchical_label
+		(name "ra14")
+		(shape bidirectional)
 		(at 90.805 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b3ec277-0dad-4e0c-8a26-95c395f2b125")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5347,9 +6076,18 @@
 			)
 		)
 	)
-	(global_label "RE1"
-		(shape input)
+		(hierarchical_label
+		(name "RE1")
+		(shape bidirectional)
 		(at 90.805 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8b779b5-9566-4cb7-bc7c-9c2c5c9c11c2")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5371,9 +6109,18 @@
 			)
 		)
 	)
-	(global_label "rb8"
-		(shape input)
+		(hierarchical_label
+		(name "rb8")
+		(shape bidirectional)
 		(at 189.865 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c630e4d6-17f4-4f94-9262-73516063017e")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5395,9 +6142,18 @@
 			)
 		)
 	)
-	(global_label "rb15"
-		(shape input)
+		(hierarchical_label
+		(name "rb15")
+		(shape bidirectional)
 		(at 189.865 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "432ec918-8cce-4c11-aec9-7da274bdeb00")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5419,9 +6175,18 @@
 			)
 		)
 	)
-	(global_label "rf3"
-		(shape input)
+		(hierarchical_label
+		(name "rf3")
+		(shape bidirectional)
 		(at 189.865 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c45ff8e-a338-4a1c-aaad-7b34a4d05c9f")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font

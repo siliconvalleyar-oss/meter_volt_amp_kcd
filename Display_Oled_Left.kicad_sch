@@ -1859,9 +1859,18 @@
 		)
 		(uuid "fffdc4ef-b892-4c0c-8ca6-1aa27217a859")
 	)
-	(global_label "SDA_1"
-		(shape input)
+		(hierarchical_label
+		(name "SDA_1")
+		(shape bidirectional)
 		(at 84.709 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd4ea597-6bb9-448d-b704-719750112501")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1883,9 +1892,18 @@
 			)
 		)
 	)
-	(global_label "BLK_RPI"
-		(shape input)
+		(hierarchical_label
+		(name "BLK_RPI")
+		(shape bidirectional)
 		(at 84.709 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2ef4a67a-f1ed-4858-ba90-d17cc81fe201")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1907,9 +1925,18 @@
 			)
 		)
 	)
-	(global_label "DC_RPI"
-		(shape input)
+		(hierarchical_label
+		(name "DC_RPI")
+		(shape bidirectional)
 		(at 84.709 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e95c526-19ae-431f-92ab-ddd6261a9f01")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1931,9 +1958,18 @@
 			)
 		)
 	)
-	(global_label "SCL_1"
-		(shape input)
+		(hierarchical_label
+		(name "SCL_1")
+		(shape bidirectional)
 		(at 84.709 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3996eaa5-be8e-44fb-8bc6-d63d4689d43f")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1955,9 +1991,18 @@
 			)
 		)
 	)
-	(global_label "RES_RPI"
-		(shape input)
+		(hierarchical_label
+		(name "RES_RPI")
+		(shape bidirectional)
 		(at 84.709 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6f7ba36-5235-4052-a863-62e0c56b6c35")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1979,9 +2024,18 @@
 			)
 		)
 	)
-	(global_label "SCL_2"
-		(shape input)
+		(hierarchical_label
+		(name "SCL_2")
+		(shape bidirectional)
 		(at 128.524 97.663 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56331f6d-a425-4832-bec2-75decdd9c710")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2003,9 +2057,18 @@
 			)
 		)
 	)
-	(global_label "SDA_2"
-		(shape input)
+		(hierarchical_label
+		(name "SDA_2")
+		(shape bidirectional)
 		(at 137.414 99.822 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c98770ef-8785-40b7-8c6d-da5f204d6a84")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font

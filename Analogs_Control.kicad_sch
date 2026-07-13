@@ -2100,9 +2100,18 @@
 		)
 		(uuid "dfd17f4e-9ef0-435a-8bb3-4976616e58b1")
 	)
-	(global_label "AN10"
-		(shape input)
+		(hierarchical_label
+		(name "AN10")
+		(shape bidirectional)
 		(at 77.724 153.543 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "268e9500-84c1-4c18-8c91-0997c0590c79")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2124,9 +2133,18 @@
 			)
 		)
 	)
-	(global_label "AN9"
-		(shape input)
+		(hierarchical_label
+		(name "AN9")
+		(shape bidirectional)
 		(at 46.609 152.146 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7623e6ff-430c-475b-b46d-fcf7c48ce7ed")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2148,9 +2166,18 @@
 			)
 		)
 	)
-	(global_label "AMPER"
-		(shape input)
+		(hierarchical_label
+		(name "AMPER")
+		(shape bidirectional)
 		(at 60.706 69.469 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d34ca224-aa1e-4cd6-a9c1-672a9632470c")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2172,9 +2199,18 @@
 			)
 		)
 	)
-	(global_label "AN8"
-		(shape input)
+		(hierarchical_label
+		(name "AN8")
+		(shape bidirectional)
 		(at 143.002 75.057 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc1d6ef3-6947-4a5c-8149-2b95a307aa1b")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font

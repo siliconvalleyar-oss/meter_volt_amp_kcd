@@ -2085,9 +2085,18 @@
 		)
 		(uuid "ffc0fec6-5fb1-4675-99f5-b49b691d875f")
 	)
-	(global_label "RC7"
-		(shape input)
+		(hierarchical_label
+		(name "RC7")
+		(shape bidirectional)
 		(at 48.514 90.678 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "facf1d6e-e5eb-4eca-86bc-1477623b599c")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2109,9 +2118,18 @@
 			)
 		)
 	)
-	(global_label "RE2"
-		(shape input)
+		(hierarchical_label
+		(name "RE2")
+		(shape bidirectional)
 		(at 137.795 119.761 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54cfb8b2-90d8-4034-8f94-de0bbd3a61d3")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2133,9 +2151,18 @@
 			)
 		)
 	)
-	(global_label "RE0"
-		(shape input)
+		(hierarchical_label
+		(name "RE0")
+		(shape bidirectional)
 		(at 49.276 105.918 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41cca56d-44d6-4641-8bff-5475c6b0b94e")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2157,9 +2184,18 @@
 			)
 		)
 	)
-	(global_label "CS_4"
-		(shape input)
+		(hierarchical_label
+		(name "CS_4")
+		(shape bidirectional)
 		(at 188.341 118.618 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e186d5d4-ddb7-4111-864c-ffec2ee6d861")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2181,9 +2217,18 @@
 			)
 		)
 	)
-	(global_label "RE1"
-		(shape input)
+		(hierarchical_label
+		(name "RE1")
+		(shape bidirectional)
 		(at 93.98 119.507 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da16d23a-85f0-4f1d-aad4-b8396dea1001")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2205,9 +2250,18 @@
 			)
 		)
 	)
-	(global_label "RC6"
-		(shape input)
+		(hierarchical_label
+		(name "RC6")
+		(shape bidirectional)
 		(at 37.211 86.868 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77a64e8f-63b1-4a83-b2f2-22513b2fe9e2")
+	)
 		(fields_autoplaced yes)
 		(effects
 			(font
