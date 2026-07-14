@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 133.35 125.349)
-		(size 41.275 33.147)
+		(at 227.33 105.41)
+		(size 41.275 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "0b301535-cd84-4a21-805d-be4f537ebfda")
 		(property "Sheetname" "Digital_Control"
-			(at 133.35 124.6374 0)
+			(at 227.33 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "Digital_Control.kicad_sch"
-			(at 133.35 159.0806 0)
+			(at 227.33 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43,12 +43,66 @@
 				(justify left top)
 			)
 		)
-		
-		
-		
-		
-		
-		
+		(pin "CS_4" input
+			(at 227.33 109.22 180)
+			(uuid "44e84553-460d-44dc-908f-1eedbe8e4d85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RC6" input
+			(at 227.33 111.76 180)
+			(uuid "0f43346e-0463-4ab0-877c-b3fa498d3748")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RC7" input
+			(at 227.33 114.3 180)
+			(uuid "199d0147-1d3f-4dc9-9d75-83d774055614")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RE0" input
+			(at 227.33 116.84 180)
+			(uuid "73bc57fa-bdad-4082-87f7-94bb69eb4736")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RE1" input
+			(at 227.33 119.38 180)
+			(uuid "2eb13500-3d0f-419c-b8cc-5ec2a0821f13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RE2" input
+			(at 227.33 121.92 180)
+			(uuid "20a4cf33-1e3b-462b-a1ba-c5f86dcc0baa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -58,8 +112,8 @@
 		)
 	)
 	(sheet
-		(at 207.772 74.041)
-		(size 35.179 36.068)
+		(at 229.362 52.451)
+		(size 41.148 19.939)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -74,7 +128,7 @@
 		)
 		(uuid "283e249b-17fa-4123-ad59-a4970e9d33a5")
 		(property "Sheetname" "Display_Oled_Left"
-			(at 207.772 73.3294 0)
+			(at 229.362 51.7394 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85,7 +139,7 @@
 			)
 		)
 		(property "Sheetfile" "Display_Oled_Left.kicad_sch"
-			(at 207.772 110.6936 0)
+			(at 229.362 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -95,13 +149,76 @@
 				(justify left top)
 			)
 		)
-		
-		
-		
-		
-		
-		
-		
+		(pin "BLK_RPI" input
+			(at 229.362 54.61 180)
+			(uuid "d11acef5-3106-452a-83ef-9c971edcc3c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_RPI" input
+			(at 229.362 57.15 180)
+			(uuid "89b80fbf-16b0-48ff-a22e-013df7d5084b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RES_RPI" input
+			(at 229.362 59.69 180)
+			(uuid "a795ed2d-1de6-497a-8920-1efd598467be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_1" input
+			(at 229.362 62.23 180)
+			(uuid "904bb6f6-39e4-4a76-a816-8383e7203f77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_2" input
+			(at 229.362 64.77 180)
+			(uuid "a47254f1-8060-4119-ae2d-6af0c4ff2979")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_1" input
+			(at 229.362 67.31 180)
+			(uuid "2a1d36a4-ba40-4d73-a3e2-1c333b42aeec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_2" input
+			(at 229.362 69.85 180)
+			(uuid "56689cc4-f060-45e0-bd5e-7040021d1a28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -111,7 +228,7 @@
 		)
 	)
 	(sheet
-		(at 66.929 124.206)
+		(at 16.129 96.266)
 		(size 37.846 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -127,7 +244,7 @@
 		)
 		(uuid "2914e67b-33d9-4834-b079-0a9220979c82")
 		(property "Sheetname" "Display_LCD"
-			(at 66.929 123.4944 0)
+			(at 16.129 95.5544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -138,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "Display_LCD.kicad_sch"
-			(at 66.929 159.0806 0)
+			(at 16.129 131.1406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -148,17 +265,76 @@
 				(justify left top)
 			)
 		)
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		(pin "RC0" input
+			(at 16.129 99.06 180)
+			(uuid "cb715444-eded-4a4e-8d23-aca59492bdc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RC1" input
+			(at 16.129 101.6 180)
+			(uuid "7a9c922d-0511-442a-a118-957f3dec63c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RD2" input
+			(at 16.129 104.14 180)
+			(uuid "d5559884-dd45-44ca-b45b-e502f1afa940")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RD3" input
+			(at 16.129 106.68 180)
+			(uuid "cca464d1-1ce7-4825-b96f-c7963ed0fbce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RE1" input
+			(at 16.129 109.22 180)
+			(uuid "f7ca16b2-d597-4bf2-b83e-0060db3b8eb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RE2" input
+			(at 16.129 111.76 180)
+			(uuid "93ad047c-8cdc-43ce-8588-973b24950039")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VO" input
+			(at 16.129 114.3 180)
+			(uuid "73fcfe6a-7940-4159-866d-8b94e1f26ace")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -168,7 +344,7 @@
 		)
 	)
 	(sheet
-		(at 127.254 164.9476)
+		(at 232.664 139.5476)
 		(size 38.4048 24.0284)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -183,8 +359,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "4eb2191c-ed2d-4fff-a056-0bccc5ca9826")
-		(property "Sheetname" "oS_AnalogDevices"
-			(at 127.254 164.236 0)
+		(property "Sheetname" "DiscoveryAnalog3"
+			(at 232.664 138.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -195,7 +371,7 @@
 			)
 		)
 		(property "Sheetfile" "oS_AnaloDev.kicad_sch"
-			(at 127.254 189.5606 0)
+			(at 232.664 164.1606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -214,8 +390,8 @@
 		)
 	)
 	(sheet
-		(at 66.421 165.862)
-		(size 39.624 25.654)
+		(at 81.661 16.51)
+		(size 39.624 149.606)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -230,7 +406,7 @@
 		)
 		(uuid "549296ff-1096-4a6f-924b-a01494d8442e")
 		(property "Sheetname" "PIM100"
-			(at 66.421 165.1504 0)
+			(at 81.661 15.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -241,7 +417,7 @@
 			)
 		)
 		(property "Sheetfile" "PIM100.kicad_sch"
-			(at 66.421 192.1006 0)
+			(at 81.661 166.7006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -251,97 +427,96 @@
 				(justify left top)
 			)
 		)
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		(pin "AN8" input
+			(at 81.661 143.51 180)
+			(uuid "be5c33a5-0df2-4315-86f7-13db2c9f8765")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AN9" input
+			(at 81.661 146.05 180)
+			(uuid "20e14e3f-7942-4501-93c1-d9ead23817c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AN10" input
+			(at 81.661 148.59 180)
+			(uuid "22c1040f-130e-44e4-ba01-e565863aeddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "mclr" input
+			(at 81.661 151.13 180)
+			(uuid "f80d94f1-258d-460c-85c8-ca105e0d61a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "osc1" input
+			(at 81.661 153.67 180)
+			(uuid "27165a7c-d2ad-4cc0-af5f-c37d826671fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "osc2" input
+			(at 81.661 156.21 180)
+			(uuid "fad1cd55-96b4-4843-91ff-3dbb27088f84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PGC" input
+			(at 81.661 158.75 180)
+			(uuid "d18c4262-d9e1-47d6-a6f6-0ad5b1618475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PGD" input
+			(at 81.661 161.29 180)
+			(uuid "2ea1a73c-5133-4a9b-86ea-08265800c68b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RA0" input
+			(at 81.661 163.83 180)
+			(uuid "88014ddd-765c-4136-86fb-b751f4511b98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -351,7 +526,7 @@
 		)
 	)
 	(sheet
-		(at 201.041 125.349)
+		(at 15.621 159.639)
 		(size 38.989 34.036)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -367,7 +542,7 @@
 		)
 		(uuid "68bcc12b-0984-4adb-86dc-c2f584e11a9e")
 		(property "Sheetname" "Power_Distribution"
-			(at 201.041 124.6374 0)
+			(at 15.621 158.9274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -378,7 +553,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Distribution.kicad_sch"
-			(at 201.041 159.9696 0)
+			(at 15.621 194.2596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -397,7 +572,7 @@
 		)
 	)
 	(sheet
-		(at 67.183 32.004)
+		(at 16.383 15.494)
 		(size 37.846 29.718)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -413,7 +588,7 @@
 		)
 		(uuid "74c3696e-dda9-4e41-9c02-5e756dc00ace")
 		(property "Sheetname" "Buttons"
-			(at 67.183 31.2924 0)
+			(at 16.383 14.7824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -424,7 +599,7 @@
 			)
 		)
 		(property "Sheetfile" "Buttons.kicad_sch"
-			(at 67.183 62.3066 0)
+			(at 16.383 45.7966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -434,11 +609,56 @@
 				(justify left top)
 			)
 		)
-		
-		
-		
-		
-		
+		(pin "GPIO20" input
+			(at 16.383 21.59 180)
+			(uuid "b49e3f8b-0d0e-45be-ba5b-b53db2ff2f43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO21" input
+			(at 16.383 24.13 180)
+			(uuid "f8e1fb8e-4302-41ab-afe5-52d29ba1cb8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO22" input
+			(at 16.383 26.67 180)
+			(uuid "e29759ed-1ae9-49ad-966a-b06dd67244dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO23" input
+			(at 16.383 29.21 180)
+			(uuid "35fd5d78-ca09-456e-9219-8d8a11f6e4eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO24" input
+			(at 16.383 31.75 180)
+			(uuid "a25f3552-d43b-45d5-91b3-1113da3bffed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -448,8 +668,8 @@
 		)
 	)
 	(sheet
-		(at 133.477 73.914)
-		(size 40.894 36.576)
+		(at 152.527 15.494)
+		(size 40.894 140.716)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -464,7 +684,7 @@
 		)
 		(uuid "b0ca9638-e9a2-4d8a-9c73-ce5c437e0625")
 		(property "Sheetname" "ucontroller_pic18F46j50"
-			(at 133.477 73.2024 0)
+			(at 152.527 14.7824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -475,7 +695,7 @@
 			)
 		)
 		(property "Sheetfile" "ucontroller_pic18F46j50.kicad_sch"
-			(at 133.477 111.0746 0)
+			(at 152.527 156.7946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -485,70 +705,6 @@
 				(justify left top)
 			)
 		)
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -558,8 +714,8 @@
 		)
 	)
 	(sheet
-		(at 134.366 32.131)
-		(size 41.148 29.464)
+		(at 228.346 81.28)
+		(size 41.148 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -574,7 +730,7 @@
 		)
 		(uuid "c7d419ee-db35-4680-9f83-e183810d9dc3")
 		(property "Sheetname" "Leds_Ports"
-			(at 134.366 31.4194 0)
+			(at 228.346 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -585,7 +741,7 @@
 			)
 		)
 		(property "Sheetfile" "Leds_Ports.kicad_sch"
-			(at 134.366 62.1796 0)
+			(at 228.346 97.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -595,14 +751,46 @@
 				(justify left top)
 			)
 		)
-		
-		
-		
-		
-		
-		
-		
-		
+		(pin "RD4" input
+			(at 228.346 86.36 180)
+			(uuid "44fb94fe-c6ff-4055-ac84-b4d32fca1de2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RD5" input
+			(at 228.346 88.9 180)
+			(uuid "ae91d854-b031-44c9-bf96-a24c190f5519")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RD6" input
+			(at 228.346 91.44 180)
+			(uuid "8b460114-231f-456c-8669-72d05ed39f7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RD7" input
+			(at 228.346 93.98 180)
+			(uuid "cbc34e47-3d70-4746-9430-48c9c9c39cf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -612,8 +800,8 @@
 		)
 	)
 	(sheet
-		(at 201.676 32.131)
-		(size 41.275 29.845)
+		(at 229.616 21.971)
+		(size 41.275 19.939)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -628,7 +816,7 @@
 		)
 		(uuid "d2810356-5733-4cf4-b1b4-37081fe01530")
 		(property "Sheetname" "Analogs_Control"
-			(at 201.676 31.4194 0)
+			(at 229.616 21.2594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -639,7 +827,7 @@
 			)
 		)
 		(property "Sheetfile" "Analogs_Control.kicad_sch"
-			(at 201.676 62.5606 0)
+			(at 229.616 42.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -649,13 +837,46 @@
 				(justify left top)
 			)
 		)
-		
-		
-		
-		
-		
-		
-		
+		(pin "AMPER" input
+			(at 229.616 27.94 180)
+			(uuid "fe4c1200-3f37-4853-95b9-741332cf586c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AN8" input
+			(at 229.616 31.75 180)
+			(uuid "049080dc-deaa-4db4-b02b-0a75c2e56e6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AN9" input
+			(at 229.616 35.56 180)
+			(uuid "c91decd2-672c-4a98-95fe-9f25cda07fcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AN10" input
+			(at 229.616 38.1 180)
+			(uuid "1c810a6e-c580-43dd-9891-2232285c3b36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -665,7 +886,7 @@
 		)
 	)
 	(sheet
-		(at 66.929 73.66)
+		(at 16.129 52.07)
 		(size 37.592 37.846)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -681,7 +902,7 @@
 		)
 		(uuid "f62fc848-fb80-4104-826c-eb02129eaaef")
 		(property "Sheetname" "Display_Oled_Rigth"
-			(at 66.929 72.9484 0)
+			(at 16.129 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -692,7 +913,7 @@
 			)
 		)
 		(property "Sheetfile" "Display_Oled.kicad_sch"
-			(at 66.929 112.0906 0)
+			(at 16.129 90.5006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -702,20 +923,76 @@
 				(justify left top)
 			)
 		)
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		(pin "BLK_RPI" input
+			(at 16.129 58.42 180)
+			(uuid "52f1d4ca-1bd3-4c21-ab43-129c2e6cc3c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_RPI" input
+			(at 16.129 60.96 180)
+			(uuid "115d62ec-870b-4abb-a90a-ba64470ae4e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RES_RPI" input
+			(at 16.129 63.5 180)
+			(uuid "8261f1bc-ed26-4c1d-9b46-5a2ed70a816f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_1" input
+			(at 16.129 66.04 180)
+			(uuid "746edcd6-0a02-448d-8f2a-b205163b635c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_2" input
+			(at 16.129 68.58 180)
+			(uuid "bb00a35d-ebce-47b4-b150-5784530d79b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_1" input
+			(at 16.129 71.12 180)
+			(uuid "a3f7ef7f-8bee-47fb-a98e-028ac46f9ce4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_2" input
+			(at 16.129 73.66 180)
+			(uuid "5d550706-85b0-4158-a590-f3e57c681d1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746"
@@ -729,4 +1006,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

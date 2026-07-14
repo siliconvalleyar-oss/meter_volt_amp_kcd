@@ -2030,7 +2030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c4bd94c-f583-49e4-b9e1-fa96519970a0")
-		(property "Reference" "R?"
+		(property "Reference" "R301"
 			(at 143.2052 91.7448 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2312,10 +2312,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/283e249b-17fa-4123-ad59-a4970e9d33a5"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/f62fc848-fb80-4104-826c-eb02129eaaef"
 					(reference "#PWR0306")
 					(unit 1)
@@ -2628,7 +2624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e54f3b37-21a6-4f69-a4bc-eef517556896")
-		(property "Reference" "R?"
+		(property "Reference" "R302"
 			(at 152.0952 91.7448 90)
 			(show_name no)
 			(do_not_autoplace no)

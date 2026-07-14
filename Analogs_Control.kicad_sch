@@ -2207,7 +2207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "030b746c-5eca-4607-9aa8-ff466a1c4adb")
-		(property "Reference" "R?"
+		(property "Reference" "R804"
 			(at 75.438 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2273,10 +2273,6 @@
 				)
 			)
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "R804")
 					(unit 1)
@@ -2306,7 +2302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e6cd97a-d567-47c0-ad24-4931025737ea")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0806"
 			(at 129.286 176.276 0)
 			(hide yes)
 			(show_name no)
@@ -2364,10 +2360,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0806")
 					(unit 1)
@@ -2392,7 +2384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1359417e-21fb-4590-9831-a9ac5e88237e")
-		(property "Reference" "R?"
+		(property "Reference" "R805"
 			(at 122.936 145.796 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2458,10 +2450,6 @@
 				)
 			)
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "R805")
 					(unit 1)
@@ -2491,7 +2479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22994bf2-285b-42eb-ad17-31ce5e8a280d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0814"
 			(at 232.283 63.754 0)
 			(hide yes)
 			(show_name no)
@@ -2549,10 +2537,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0814")
 					(unit 1)
@@ -2659,7 +2643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39f7c4e0-6205-4749-adce-a3bf886368e0")
-		(property "Reference" "J?"
+		(property "Reference" "J806"
 			(at 211.709 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,10 +2700,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/74c3696e-dda9-4e41-9c02-5e756dc00ace"
-					(reference "J?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "J806")
 					(unit 1)
@@ -2775,7 +2755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a131b69-07a0-46b0-bacc-a66218cd412a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0807"
 			(at 154.432 142.875 0)
 			(hide yes)
 			(show_name no)
@@ -2833,10 +2813,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0807")
 					(unit 1)
@@ -2941,7 +2917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d51be72-c8a2-43a4-affa-0644e73dc333")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0802"
 			(at 52.578 177.546 0)
 			(hide yes)
 			(show_name no)
@@ -2999,10 +2975,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0802")
 					(unit 1)
@@ -3028,7 +3000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "448f5ee1-eccb-4d80-9acd-71f2ca75492f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0805"
 			(at 129.286 144.526 0)
 			(hide yes)
 			(show_name no)
@@ -3086,10 +3058,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0805")
 					(unit 1)
@@ -3198,7 +3166,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "521ee720-79f3-4cf2-8b50-a6596b3bfd6b")
-		(property "Reference" "R?"
+		(property "Reference" "R808"
 			(at 148.082 156.845 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,10 +3232,6 @@
 				)
 			)
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "R808")
 					(unit 1)
@@ -3297,7 +3261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ce26090-7722-4471-b9f2-ad7f4782eac5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0812"
 			(at 213.36 118.364 0)
 			(hide yes)
 			(show_name no)
@@ -3355,10 +3319,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0812")
 					(unit 1)
@@ -3384,7 +3344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "622f1ed4-85e6-4edf-a6d9-3f92f4085d9f")
-		(property "Reference" "J?"
+		(property "Reference" "J801"
 			(at 65.278 153.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,10 +3401,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/74c3696e-dda9-4e41-9c02-5e756dc00ace"
-					(reference "J?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "J801")
 					(unit 1)
@@ -3581,7 +3537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c7e9360-6a47-409f-a581-9a107537b5e6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0813"
 			(at 232.283 87.376 0)
 			(hide yes)
 			(show_name no)
@@ -3639,10 +3595,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0813")
 					(unit 1)
@@ -3668,7 +3620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "823452c2-340e-4ad9-9b5b-04a651c35469")
-		(property "Reference" "J?"
+		(property "Reference" "J803"
 			(at 146.05 153.035 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,10 +3677,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/74c3696e-dda9-4e41-9c02-5e756dc00ace"
-					(reference "J?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "J803")
 					(unit 1)
@@ -3784,7 +3732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "896d4444-c876-4b27-890a-ef8cc3bba38d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0810"
 			(at 102.489 110.109 0)
 			(hide yes)
 			(show_name no)
@@ -3842,10 +3790,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0810")
 					(unit 1)
@@ -4032,7 +3976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ba063a2-04db-48b3-800b-e414a8f0c91c")
-		(property "Reference" "R?"
+		(property "Reference" "R803"
 			(at 75.438 146.812 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4098,10 +4042,6 @@
 				)
 			)
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "R803")
 					(unit 1)
@@ -4131,7 +4071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a453ecd9-56ef-408b-82e3-2477708253e5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0803"
 			(at 81.788 145.542 0)
 			(hide yes)
 			(show_name no)
@@ -4189,10 +4129,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0803")
 					(unit 1)
@@ -4217,7 +4153,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6171d67-8e52-4b02-a602-b42d1bb2a392")
-		(property "Reference" "R?"
+		(property "Reference" "R806"
 			(at 122.936 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,10 +4219,6 @@
 				)
 			)
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "R806")
 					(unit 1)
@@ -4316,7 +4248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad6ede90-1765-4e7e-95fb-5c4530abba11")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0808"
 			(at 154.432 174.625 0)
 			(hide yes)
 			(show_name no)
@@ -4374,10 +4306,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0808")
 					(unit 1)
@@ -4403,7 +4331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b764f0ae-d1fe-4197-9614-f7f289774072")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0801"
 			(at 52.578 145.796 0)
 			(hide yes)
 			(show_name no)
@@ -4461,10 +4389,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0801")
 					(unit 1)
@@ -4490,7 +4414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c00de23c-5074-4e28-8a17-f9087f8688de")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0809"
 			(at 65.532 103.124 0)
 			(hide yes)
 			(show_name no)
@@ -4548,10 +4472,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0809")
 					(unit 1)
@@ -4577,7 +4497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ad975d-ed2c-4da6-8763-bad1b4ef2b32")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0804"
 			(at 81.788 177.292 0)
 			(hide yes)
 			(show_name no)
@@ -4635,10 +4555,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0804")
 					(unit 1)
@@ -4941,7 +4857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c2b0ff-fece-4e56-ba0f-f030ba28d61b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0811"
 			(at 196.215 120.269 0)
 			(hide yes)
 			(show_name no)
@@ -4999,10 +4915,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "#PWR0811")
 					(unit 1)
@@ -5028,7 +4940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4d815fc-7951-4046-a308-6830e6fc56fe")
-		(property "Reference" "J?"
+		(property "Reference" "J805"
 			(at 208.915 53.213 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5085,10 +4997,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/74c3696e-dda9-4e41-9c02-5e756dc00ace"
-					(reference "J?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "J805")
 					(unit 1)
@@ -5240,7 +5148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da1e6b4a-d3de-423c-9cf9-5b52f5ef4c09")
-		(property "Reference" "R?"
+		(property "Reference" "R807"
 			(at 148.082 144.145 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5306,10 +5214,6 @@
 				)
 			)
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "R807")
 					(unit 1)
@@ -5339,7 +5243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3e51c69-4802-497c-b0d8-3ab8f7679032")
-		(property "Reference" "J?"
+		(property "Reference" "J802"
 			(at 94.488 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,10 +5300,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/74c3696e-dda9-4e41-9c02-5e756dc00ace"
-					(reference "J?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "J802")
 					(unit 1)
@@ -5454,7 +5354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f03fd043-77eb-440e-9020-d5b0eb71af2f")
-		(property "Reference" "R?"
+		(property "Reference" "R802"
 			(at 46.228 159.766 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,10 +5420,6 @@
 				)
 			)
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "R802")
 					(unit 1)
@@ -5552,7 +5448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7da7e8b-fa47-418c-b220-cd742278c74e")
-		(property "Reference" "R?"
+		(property "Reference" "R801"
 			(at 46.228 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5618,10 +5514,6 @@
 				)
 			)
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "R801")
 					(unit 1)
@@ -5735,7 +5627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fed6465e-b0ba-47f9-9a6e-23008893c4cd")
-		(property "Reference" "J?"
+		(property "Reference" "J804"
 			(at 170.688 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,10 +5684,6 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/74c3696e-dda9-4e41-9c02-5e756dc00ace"
-					(reference "J?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/d2810356-5733-4cf4-b1b4-37081fe01530"
 					(reference "J804")
 					(unit 1)

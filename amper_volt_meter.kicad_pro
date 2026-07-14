@@ -658,16 +658,16 @@
       {
         "filename": "amper_volt_meter.kicad_sch",
         "name": "amper_volt_meter",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "606ef755-236d-4283-a129-fc8150c20746"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1106-1107",
     "variants": []
   },
   "sheets": [
     [
       "606ef755-236d-4283-a129-fc8150c20746",
-      ""
+      "amper_volt_meter"
     ],
     [
       "b0ca9638-e9a2-4d8a-9c73-ce5c437e0625",
@@ -711,7 +711,7 @@
     ],
     [
       "4eb2191c-ed2d-4fff-a056-0bccc5ca9826",
-      "oS_AnalogDevices"
+      "DiscoveryAnalog3"
     ]
   ],
   "text_variables": {},

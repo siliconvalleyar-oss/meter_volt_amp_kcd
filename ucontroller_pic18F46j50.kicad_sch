@@ -4051,7 +4051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1caed3a2-c7d8-4080-ab91-5b2167b99790")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0207"
 			(at 202.819 145.034 0)
 			(hide yes)
 			(show_name no)
@@ -4111,10 +4111,6 @@
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746/b0ca9638-e9a2-4d8a-9c73-ce5c437e0625"
 					(reference "#PWR0207")
-					(unit 1)
-				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4442,7 +4438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26340cab-f2b0-46d2-8ea4-350f980e72f5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0202"
 			(at 52.705 70.485 0)
 			(hide yes)
 			(show_name no)
@@ -4504,10 +4500,6 @@
 					(reference "#PWR0202")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -4529,7 +4521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cf6da93-52ce-4680-ab88-14f38d8cde54")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0201"
 			(at 47.752 115.189 0)
 			(hide yes)
 			(show_name no)
@@ -4591,10 +4583,6 @@
 					(reference "#PWR0201")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -4616,7 +4604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32fed802-432a-4a27-b55b-204c9a35eb23")
-		(property "Reference" "C?"
+		(property "Reference" "C202"
 			(at 72.644 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4688,10 +4676,6 @@
 					(reference "C202")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "C?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
@@ -4717,7 +4701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40fc8b9d-6f60-4c5b-8d9f-809aa4a72149")
-		(property "Reference" "J?"
+		(property "Reference" "J205"
 			(at 245.4402 44.0944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,10 +4774,6 @@
 					(reference "J205")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "J?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -4815,7 +4795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65b1b5a2-7192-464a-8119-e9d42fa40a7b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0204"
 			(at 68.961 156.972 0)
 			(hide yes)
 			(show_name no)
@@ -4877,10 +4857,6 @@
 					(reference "#PWR0204")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -4901,7 +4877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e4e9ebc-e299-45f3-9004-4f117b14e0ec")
-		(property "Reference" "R?"
+		(property "Reference" "R201"
 			(at 251.46 79.375 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4971,10 +4947,6 @@
 					(reference "R201")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
@@ -4999,7 +4971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76dabfee-f02c-46c3-801a-26f98782f062")
-		(property "Reference" "C?"
+		(property "Reference" "C201"
 			(at 42.672 95.123 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,10 +5043,6 @@
 					(reference "C201")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "C?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
@@ -5100,7 +5068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7adbd0f6-9354-41cd-b5b6-e872a9eda4ef")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0211"
 			(at 272.669 63.119 0)
 			(hide yes)
 			(show_name no)
@@ -5162,10 +5130,6 @@
 					(reference "#PWR0211")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -5187,7 +5151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bd50a62-563e-42e7-a3b3-4c94f202f58e")
-		(property "Reference" "C?"
+		(property "Reference" "C204"
 			(at 85.471 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,10 +5223,6 @@
 					(reference "C204")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "C?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
@@ -5288,7 +5248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "869ebc30-be9b-48df-a469-2e00a6e98c1c")
-		(property "Reference" "Y?"
+		(property "Reference" "Y201"
 			(at 74.295 68.8341 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,10 +5318,6 @@
 					(reference "Y201")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "Y?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -5383,7 +5339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cc3fdae-0739-484d-8cf7-8ae7e06117f9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0209"
 			(at 257.937 83.693 0)
 			(hide yes)
 			(show_name no)
@@ -5441,16 +5397,8 @@
 		)
 		(instances
 			(project "amper_volt_meter"
-				(path "/606ef755-236d-4283-a129-fc8150c20746/283e249b-17fa-4123-ad59-a4970e9d33a5"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/606ef755-236d-4283-a129-fc8150c20746/b0ca9638-e9a2-4d8a-9c73-ce5c437e0625"
 					(reference "#PWR0209")
-					(unit 1)
-				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/f62fc848-fb80-4104-826c-eb02129eaaef"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5478,7 +5426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f3d16a7-64d1-4a65-8fdd-709845525831")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0206"
 			(at 200.279 35.179 0)
 			(hide yes)
 			(show_name no)
@@ -5540,10 +5488,6 @@
 					(reference "#PWR0206")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -5565,7 +5509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "902be644-8a3d-41de-aa8a-41dbfeee40a0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0210"
 			(at 266.319 45.339 0)
 			(hide yes)
 			(show_name no)
@@ -5627,10 +5571,6 @@
 					(reference "#PWR0210")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -5652,7 +5592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5770ab8-1597-47bd-963c-74d8b2934ff6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0208"
 			(at 240.03 112.522 0)
 			(hide yes)
 			(show_name no)
@@ -5714,10 +5654,6 @@
 					(reference "#PWR0208")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -5738,7 +5674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6c9b265-691d-4e67-a432-f7bd6ce65277")
-		(property "Reference" "R?"
+		(property "Reference" "R202"
 			(at 251.333 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5808,10 +5744,6 @@
 					(reference "R202")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
@@ -5837,7 +5769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f2ebe4-35f4-45a3-8ed9-22181559d6a5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0205"
 			(at 81.661 156.972 0)
 			(hide yes)
 			(show_name no)
@@ -5899,10 +5831,6 @@
 					(reference "#PWR0205")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -5924,7 +5852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7766cab-bce6-4767-9acd-a13344b27489")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0203"
 			(at 59.436 90.043 0)
 			(hide yes)
 			(show_name no)
@@ -5986,10 +5914,6 @@
 					(reference "#PWR0203")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407/84ab4a69-ccf3-4ce1-bace-67b0704405a9"
@@ -6011,7 +5935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dff6702f-cd2a-4c31-9fdb-4deb79c2d346")
-		(property "Reference" "C?"
+		(property "Reference" "C203"
 			(at 72.771 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6083,10 +6007,6 @@
 					(reference "C203")
 					(unit 1)
 				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "C?")
-					(unit 1)
-				)
 			)
 			(project "rpi2w_epaper_zigbee"
 				(path "/b399551b-4b97-4302-8921-d6009c0adde4/1d579dcc-e933-4401-b651-260801c00407"
@@ -6111,7 +6031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e54577d1-26e9-427c-ada5-2eae8152a4c6")
-		(property "Reference" "R?"
+		(property "Reference" "R203"
 			(at 255.27 84.455 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6179,10 +6099,6 @@
 			(project "amper_volt_meter"
 				(path "/606ef755-236d-4283-a129-fc8150c20746/b0ca9638-e9a2-4d8a-9c73-ce5c437e0625"
 					(reference "R203")
-					(unit 1)
-				)
-				(path "/606ef755-236d-4283-a129-fc8150c20746/c7d419ee-db35-4680-9f83-e183810d9dc3"
-					(reference "R?")
 					(unit 1)
 				)
 			)

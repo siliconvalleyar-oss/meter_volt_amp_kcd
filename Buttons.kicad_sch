@@ -1667,7 +1667,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04adc4ef-63a2-4ca5-b442-c36822090a33")
-		(property "Reference" "R?"
+		(property "Reference" "R1002"
 			(at 121.158 87.757 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1765,7 +1765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1498215b-6695-4b8b-952c-626eb6ab7670")
-		(property "Reference" "R?"
+		(property "Reference" "R1004"
 			(at 121.158 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1863,7 +1863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ca103bd-50c0-4d7a-ad8f-a08e4122ecf3")
-		(property "Reference" "R?"
+		(property "Reference" "R1003"
 			(at 121.158 99.187 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2488,7 +2488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60e3fe25-0ede-4f47-8a46-cd1755e6aaa4")
-		(property "Reference" "R?"
+		(property "Reference" "R1006"
 			(at 132.461 90.297 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,7 +2669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "786adfb5-3ab0-4556-b01f-22eb29952641")
-		(property "Reference" "R?"
+		(property "Reference" "R1001"
 			(at 121.158 66.167 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3036,7 +3036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "982cb046-9d8b-4111-8b70-5d10e1ee93c2")
-		(property "Reference" "R?"
+		(property "Reference" "R1009"
 			(at 184.785 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3316,7 +3316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a567cb60-3122-408a-8888-007224424f96")
-		(property "Reference" "R?"
+		(property "Reference" "R1005"
 			(at 125.603 68.707 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3613,7 +3613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5622113-9875-499f-bf45-542c2156edcd")
-		(property "Reference" "R?"
+		(property "Reference" "R1010"
 			(at 147.32 127.762 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3711,7 +3711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9e8dbd3-0f62-4ad7-9408-a1e8f5ff9380")
-		(property "Reference" "R?"
+		(property "Reference" "R1007"
 			(at 136.144 101.727 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4004,7 +4004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dedf79fc-a151-4546-8edf-b6cf66102b04")
-		(property "Reference" "R?"
+		(property "Reference" "R1008"
 			(at 180.34 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)

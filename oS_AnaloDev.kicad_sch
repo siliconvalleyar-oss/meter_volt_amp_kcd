@@ -1595,4 +1595,335 @@
 			)
 		)
 	)
+
+	(hierarchical_label "D4"
+		(shape bidirectional)
+		(at 125.5776 85.9028 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22e225a6-af9a-46c2-8d8e-0b989d818d41")
+	)
+	(hierarchical_label "D6"
+		(shape bidirectional)
+		(at 125.5776 80.8228 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c9c45cc-5b25-48b5-ac8e-622a5df594d3")
+	)
+	(hierarchical_label "SDI/SDO (P1)"
+		(shape bidirectional)
+		(at 156.0576 85.9028 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5db07891-719b-4b23-ad95-d0983a3d9f1e")
+	)
+	(hierarchical_label "GND/AI2"
+		(shape bidirectional)
+		(at 156.0576 108.7628 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4a27baa-8c35-4839-931c-029f5457ed5f")
+	)
+	(hierarchical_label "INT/CLK1 (C1)"
+		(shape bidirectional)
+		(at 156.0576 101.1428 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f918d4c-586d-481e-8a8c-246dc777bfe6")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 156.0576 98.6028 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cac3ad8d-d75d-4669-bc97-7ab63dc860a2")
+	)
+	(hierarchical_label "D5"
+		(shape bidirectional)
+		(at 125.5776 83.3628 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4779bc4d-93f6-4dbe-8b60-219feefba114")
+	)
+	(hierarchical_label "INT/CLK2 (C2)"
+		(shape bidirectional)
+		(at 156.0576 88.4428 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd2b39e3-c0d9-4699-b967-6c2ffdb05662")
+	)
+	(hierarchical_label "GND/AI1"
+		(shape bidirectional)
+		(at 156.0576 111.3028 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a7d0274-b5e9-47b1-bc1e-7d440c9eaf03")
+	)
+	(hierarchical_label "DO10 (10)"
+		(shape bidirectional)
+		(at 156.0576 90.9828 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4dfde05b-2f59-4706-bf9a-d85661dda9af")
+	)
+	(hierarchical_label "DO9 (9)"
+		(shape bidirectional)
+		(at 156.0576 93.5228 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77d90769-db00-40f9-a17f-0764c1f4e392")
+	)
+	(hierarchical_label "D2"
+		(shape bidirectional)
+		(at 125.5776 90.9828 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77843a52-7529-42aa-bfb0-dad73c3f88dc")
+	)
+	(hierarchical_label "D7"
+		(shape bidirectional)
+		(at 125.5776 78.2828 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e673e08-fe70-4622-8661-f306d516d0b4")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 125.5776 98.6028 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61fb0c45-8200-479b-85bd-b529db5442a8")
+	)
+	(hierarchical_label "SDI/SDO/UART_TX (P2)"
+		(shape bidirectional)
+		(at 156.0576 83.3628 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d9e4cee-173f-448b-b674-a9d83ea1c6bd")
+	)
+	(hierarchical_label "SPI_CS/UART_RTS/PWM1 (P4)"
+		(shape bidirectional)
+		(at 156.0576 78.2828 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31be2c15-bcf0-4cdb-85be-900ac5a0b9da")
+	)
+	(hierarchical_label "D8"
+		(shape bidirectional)
+		(at 125.5776 75.7428 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12defcc9-b802-4c91-97ff-8ed282a2b8fd")
+	)
+	(hierarchical_label "UART_RX/PWM2 (P5)"
+		(shape bidirectional)
+		(at 156.0576 75.7428 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a4b3e9d-c51e-4abf-8c7d-797254af0f52")
+	)
+	(hierarchical_label "AI1+/OSC1 (1+)"
+		(shape bidirectional)
+		(at 125.5776 111.3028 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e82a93a-3405-41c0-92f2-a2f363ebb843")
+	)
+	(hierarchical_label "AI2+/OSC12(1+)"
+		(shape bidirectional)
+		(at 125.5776 108.7628 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89db9318-933d-44cb-8dc0-a3668c6402ed")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 125.5776 106.2228 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "451b5884-b1f1-4482-8b9f-a40ffc528765")
+	)
+	(hierarchical_label "DC Output 2 (V2)"
+		(shape bidirectional)
+		(at 156.0576 103.6828 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9512166a-bf2f-4051-8342-e15344484c6a")
+	)
+	(hierarchical_label "Trigger Input (T1)"
+		(shape bidirectional)
+		(at 125.5776 96.0628 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d63a170-65d2-4490-9eda-bd4cdeab1a74")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 156.0576 106.2228 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d71c9fba-c465-4f52-a0ed-ffefd390410a")
+	)
+	(hierarchical_label "DC Output 1 (V1)"
+		(shape bidirectional)
+		(at 125.5776 103.6828 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c08590e-1322-4f6d-adea-1b4e75de1126")
+	)
+	(hierarchical_label "SPI_CLK/UART_CTS (P3)"
+		(shape bidirectional)
+		(at 156.0576 80.8228 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a654f06-0aaa-4084-bcc2-359a35229017")
+	)
+	(hierarchical_label "D1"
+		(shape bidirectional)
+		(at 125.5776 93.5228 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3fa496ca-cb5c-44c0-8c60-84b73c860ee8")
+	)
+	(hierarchical_label "Trigger Output (T0)"
+		(shape bidirectional)
+		(at 156.0576 96.0628 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20f3f5df-bcab-4e17-912a-ae4e0c9082a7")
+	)
+	(hierarchical_label "AWG1 (W1)"
+		(shape bidirectional)
+		(at 125.5776 101.1428 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "887d5be5-70ba-4ac7-bb30-9b6b210a463d")
+	)
+	(hierarchical_label "D3"
+		(shape bidirectional)
+		(at 125.5776 88.4428 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99abdc1d-2a04-4dab-89d6-dbe438cafd64")
+	)
 )
