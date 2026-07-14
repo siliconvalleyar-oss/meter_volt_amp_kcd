@@ -671,7 +671,7 @@
     ],
     [
       "b0ca9638-e9a2-4d8a-9c73-ce5c437e0625",
-      "pic18F46j50"
+      "ucontroller_pic18F46j50"
     ],
     [
       "f62fc848-fb80-4104-826c-eb02129eaaef",
@@ -686,12 +686,12 @@
       "Digital_Control"
     ],
     [
-      "68bcc12b-0984-4adb-86dc-c2f584e11a9e",
-      "Power_Distribution"
-    ],
-    [
       "283e249b-17fa-4123-ad59-a4970e9d33a5",
       "Display_Oled_Left"
+    ],
+    [
+      "68bcc12b-0984-4adb-86dc-c2f584e11a9e",
+      "Power_Distribution"
     ],
     [
       "d2810356-5733-4cf4-b1b4-37081fe01530",
@@ -711,7 +711,7 @@
     ],
     [
       "4eb2191c-ed2d-4fff-a056-0bccc5ca9826",
-      "DiscoveryAnalog3"
+      "oS_AnalogDevices"
     ]
   ],
   "text_variables": {},
