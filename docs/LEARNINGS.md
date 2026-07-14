@@ -219,7 +219,45 @@ __pycache__/
 
 ---
 
-## 10. Flujo de Trabajo Completo
+## 10. Pines Jerárquicos en Sheet Symbols (Defecto Zig-Zag)
+
+### Problema
+Al agregar pines jerárquicos a un sheet symbol en el schematic principal, si el `at` (punto de conexión) del pin está en el borde exacto del rectángulo, KiCad dibuja líneas en zig-zag verdes que sobresalen fuera del rectángulo.
+
+### Causa
+En KiCad, el `at` de un pin es el **punto de conexión** (la punta donde se conectan los wires). KiCad dibuja automáticamente un "stub" desde el borde del rectángulo hasta el punto de conexión. Si el punto está en el borde exacto, el stub tiene longitud cero y se genera el defecto visual.
+
+### Solución
+Colocar los puntos de conexión **FUERA** del rectángulo con un offset de `2.54mm`:
+
+```
+# Pines izquierdos (rot=180): punto FUERA a la izquierda
+x_pin = sheet_x - 2.54
+
+# Pines derechos (rot=0): punto FUERA a la derecha  
+x_pin = sheet_x + sheet_width + 2.54
+```
+
+### Fórmula para reposicionar pines
+```python
+pin_len = 2.54  # offset fuera del rectángulo
+
+# Izquierdos
+at_x = sheet_x - pin_len
+
+# Derechos
+at_x = sheet_x + sheet_width + pin_len
+```
+
+### Regla general
+- **Siempre** colocar el `at` de los pins FUERA del rectángulo
+- El rectángulo define el tamaño visual del sheet symbol
+- Los pins se dibujan como stubs desde el borde hasta el punto de conexión
+- Espaciado recomendado entre pins: 2.54mm
+
+---
+
+## 11. Flujo de Trabajo Completo
 
 1. **Explorar**: Encontrar todos los archivos en el directorio
 2. **Deduplicar**: Identificar y eliminar duplicados
