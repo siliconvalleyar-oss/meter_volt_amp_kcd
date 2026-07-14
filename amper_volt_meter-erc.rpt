@@ -1,142 +1,517 @@
-ERC report (2026-07-14T00:16:59, Encoding UTF8)
+ERC report (2026-07-14T00:24:02, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 166.21 mm): Hierarchical Sheet Pin 'RB0'
+    @(16.129 mm, 99.06 mm): Hierarchical Sheet Pin 'RC0'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 168.75 mm): Hierarchical Sheet Pin 'RB6'
+    @(16.129 mm, 101.60 mm): Hierarchical Sheet Pin 'RC1'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 171.29 mm): Hierarchical Sheet Pin 'RB7'
+    @(16.129 mm, 104.14 mm): Hierarchical Sheet Pin 'RD2'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 173.83 mm): Hierarchical Sheet Pin 'RB8'
+    @(16.129 mm, 106.68 mm): Hierarchical Sheet Pin 'RD3'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 176.37 mm): Hierarchical Sheet Pin 'RB9'
+    @(16.129 mm, 109.22 mm): Hierarchical Sheet Pin 'RE1'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 178.91 mm): Hierarchical Sheet Pin 'RB10'
+    @(16.129 mm, 111.76 mm): Hierarchical Sheet Pin 'RE2'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 181.45 mm): Hierarchical Sheet Pin 'RB11'
+    @(16.129 mm, 114.30 mm): Hierarchical Sheet Pin 'VO'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 183.99 mm): Hierarchical Sheet Pin 'RB12'
+    @(68.961 mm, 20.24 mm): Hierarchical Sheet Pin 'MCLR'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 186.53 mm): Hierarchical Sheet Pin 'RB13'
+    @(68.961 mm, 22.78 mm): Hierarchical Sheet Pin 'OSC1'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 189.07 mm): Hierarchical Sheet Pin 'RB14'
+    @(68.961 mm, 25.32 mm): Hierarchical Sheet Pin 'OSC2'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 191.61 mm): Hierarchical Sheet Pin 'RB15'
+    @(68.961 mm, 27.86 mm): Hierarchical Sheet Pin 'PGC'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 194.15 mm): Hierarchical Sheet Pin 'RC1'
+    @(68.961 mm, 30.40 mm): Hierarchical Sheet Pin 'PGD'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 196.69 mm): Hierarchical Sheet Pin 'RC2'
+    @(68.961 mm, 32.94 mm): Hierarchical Sheet Pin 'VREF-'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 199.23 mm): Hierarchical Sheet Pin 'RC3'
+    @(68.961 mm, 35.48 mm): Hierarchical Sheet Pin 'VREF+'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 201.77 mm): Hierarchical Sheet Pin 'RC4'
+    @(68.961 mm, 38.02 mm): Hierarchical Sheet Pin 'AN8'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 204.31 mm): Hierarchical Sheet Pin 'RC13'
+    @(68.961 mm, 40.48 mm): Hierarchical Sheet Pin 'RB0'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 206.85 mm): Hierarchical Sheet Pin 'RC14'
+    @(68.961 mm, 40.56 mm): Hierarchical Sheet Pin 'AN8'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 209.39 mm): Hierarchical Sheet Pin 'RD0'
+    @(68.961 mm, 43.02 mm): Hierarchical Sheet Pin 'RB6'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 211.93 mm): Hierarchical Sheet Pin 'RD1'
+    @(68.961 mm, 43.10 mm): Hierarchical Sheet Pin 'AN9'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 214.47 mm): Hierarchical Sheet Pin 'RD2'
+    @(68.961 mm, 45.56 mm): Hierarchical Sheet Pin 'RB7'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 217.01 mm): Hierarchical Sheet Pin 'RD3'
+    @(68.961 mm, 45.64 mm): Hierarchical Sheet Pin 'AN9'
 [pin_not_connected]: Pin not connected
     ; error
-    @(66.421 mm, 219.55 mm): Hierarchical Sheet Pin 'RD4'
+    @(68.961 mm, 48.10 mm): Hierarchical Sheet Pin 'RB8'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 166.21 mm): Hierarchical Sheet Pin 'RE9'
+    @(68.961 mm, 48.18 mm): Hierarchical Sheet Pin 'AN10'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 168.75 mm): Hierarchical Sheet Pin 'RF0'
+    @(68.961 mm, 50.64 mm): Hierarchical Sheet Pin 'RB9'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 171.29 mm): Hierarchical Sheet Pin 'RF1'
+    @(68.961 mm, 50.72 mm): Hierarchical Sheet Pin 'AN10'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 173.83 mm): Hierarchical Sheet Pin 'RF2'
+    @(68.961 mm, 53.18 mm): Hierarchical Sheet Pin 'RB10'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 176.37 mm): Hierarchical Sheet Pin 'RF3'
+    @(68.961 mm, 53.26 mm): Hierarchical Sheet Pin 'RA0'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 178.91 mm): Hierarchical Sheet Pin 'RF4'
+    @(68.961 mm, 55.72 mm): Hierarchical Sheet Pin 'RB11'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 181.45 mm): Hierarchical Sheet Pin 'RF5'
+    @(68.961 mm, 55.80 mm): Hierarchical Sheet Pin 'RA1'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 183.99 mm): Hierarchical Sheet Pin 'RF8'
+    @(68.961 mm, 58.26 mm): Hierarchical Sheet Pin 'RB12'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 186.53 mm): Hierarchical Sheet Pin 'RF12'
+    @(68.961 mm, 58.34 mm): Hierarchical Sheet Pin 'RA4'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 189.07 mm): Hierarchical Sheet Pin 'RF13'
+    @(68.961 mm, 60.80 mm): Hierarchical Sheet Pin 'RB13'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 191.61 mm): Hierarchical Sheet Pin 'RG0'
+    @(68.961 mm, 60.88 mm): Hierarchical Sheet Pin 'RA5'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 194.15 mm): Hierarchical Sheet Pin 'RG1'
+    @(68.961 mm, 63.34 mm): Hierarchical Sheet Pin 'RB14'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 196.69 mm): Hierarchical Sheet Pin 'RG6'
+    @(68.961 mm, 63.42 mm): Hierarchical Sheet Pin 'RA6'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 199.23 mm): Hierarchical Sheet Pin 'RG7'
+    @(68.961 mm, 65.88 mm): Hierarchical Sheet Pin 'RB15'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 201.77 mm): Hierarchical Sheet Pin 'RG8'
+    @(68.961 mm, 65.96 mm): Hierarchical Sheet Pin 'RA7'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 204.31 mm): Hierarchical Sheet Pin 'RG9'
+    @(68.961 mm, 68.42 mm): Hierarchical Sheet Pin 'RC1'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 206.85 mm): Hierarchical Sheet Pin 'RG12'
+    @(68.961 mm, 68.50 mm): Hierarchical Sheet Pin 'RA9'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 209.39 mm): Hierarchical Sheet Pin 'RG13'
+    @(68.961 mm, 70.96 mm): Hierarchical Sheet Pin 'RC2'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 211.93 mm): Hierarchical Sheet Pin 'RG14'
+    @(68.961 mm, 71.04 mm): Hierarchical Sheet Pin 'RA10'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 214.47 mm): Hierarchical Sheet Pin 'RG15'
+    @(68.961 mm, 73.50 mm): Hierarchical Sheet Pin 'RC3'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 217.01 mm): Hierarchical Sheet Pin 'VBUS'
+    @(68.961 mm, 73.58 mm): Hierarchical Sheet Pin 'RA14'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 219.55 mm): Hierarchical Sheet Pin 'rg3_d-'
+    @(68.961 mm, 76.04 mm): Hierarchical Sheet Pin 'RC4'
 [pin_not_connected]: Pin not connected
     ; error
-    @(121.421 mm, 222.09 mm): Hierarchical Sheet Pin 'rg2_d+'
+    @(68.961 mm, 76.12 mm): Hierarchical Sheet Pin 'RA15'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 78.58 mm): Hierarchical Sheet Pin 'RC13'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 78.66 mm): Hierarchical Sheet Pin 'RB0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 81.12 mm): Hierarchical Sheet Pin 'RC14'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 81.20 mm): Hierarchical Sheet Pin 'RB6'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 83.66 mm): Hierarchical Sheet Pin 'RD0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 83.74 mm): Hierarchical Sheet Pin 'RB7'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 86.20 mm): Hierarchical Sheet Pin 'RD1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 86.28 mm): Hierarchical Sheet Pin 'RB8'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 88.74 mm): Hierarchical Sheet Pin 'RD2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 88.82 mm): Hierarchical Sheet Pin 'RB9'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 91.28 mm): Hierarchical Sheet Pin 'RD3'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 91.36 mm): Hierarchical Sheet Pin 'RB10'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 93.82 mm): Hierarchical Sheet Pin 'RD4'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 93.90 mm): Hierarchical Sheet Pin 'RB11'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 96.44 mm): Hierarchical Sheet Pin 'RB12'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 98.98 mm): Hierarchical Sheet Pin 'RB13'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 101.52 mm): Hierarchical Sheet Pin 'RB14'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 104.06 mm): Hierarchical Sheet Pin 'RB15'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 106.60 mm): Hierarchical Sheet Pin 'RC1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 109.14 mm): Hierarchical Sheet Pin 'RC2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 111.68 mm): Hierarchical Sheet Pin 'RC3'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 114.22 mm): Hierarchical Sheet Pin 'RC4'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 116.76 mm): Hierarchical Sheet Pin 'RC13'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 119.30 mm): Hierarchical Sheet Pin 'RC14'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 121.84 mm): Hierarchical Sheet Pin 'RD0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 124.38 mm): Hierarchical Sheet Pin 'RD1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 126.92 mm): Hierarchical Sheet Pin 'RD2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 129.46 mm): Hierarchical Sheet Pin 'RD3'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 132.00 mm): Hierarchical Sheet Pin 'RD4'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 134.54 mm): Hierarchical Sheet Pin 'RD4'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 137.08 mm): Hierarchical Sheet Pin 'RD5'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 139.62 mm): Hierarchical Sheet Pin 'RD5'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 142.16 mm): Hierarchical Sheet Pin 'RD6'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 144.70 mm): Hierarchical Sheet Pin 'RD6'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 147.24 mm): Hierarchical Sheet Pin 'RD7'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(68.961 mm, 149.78 mm): Hierarchical Sheet Pin 'RD7'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 15.24 mm): Hierarchical Sheet Pin 'RF0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 20.24 mm): Hierarchical Sheet Pin 'RD8'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 22.78 mm): Hierarchical Sheet Pin 'RD9'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 25.32 mm): Hierarchical Sheet Pin 'RD10'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 27.86 mm): Hierarchical Sheet Pin 'RD11'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 30.40 mm): Hierarchical Sheet Pin 'RD12'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 32.94 mm): Hierarchical Sheet Pin 'RD13'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 35.48 mm): Hierarchical Sheet Pin 'RD14'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 38.02 mm): Hierarchical Sheet Pin 'RD15'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 40.48 mm): Hierarchical Sheet Pin 'RE9'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 40.56 mm): Hierarchical Sheet Pin 'RE0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 43.10 mm): Hierarchical Sheet Pin 'RE1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 45.56 mm): Hierarchical Sheet Pin 'RF1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 45.64 mm): Hierarchical Sheet Pin 'RE2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 48.10 mm): Hierarchical Sheet Pin 'RF2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 48.18 mm): Hierarchical Sheet Pin 'RE3'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 50.64 mm): Hierarchical Sheet Pin 'RF3'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 50.72 mm): Hierarchical Sheet Pin 'RE4'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 53.18 mm): Hierarchical Sheet Pin 'RF4'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 53.26 mm): Hierarchical Sheet Pin 'RE5'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 55.72 mm): Hierarchical Sheet Pin 'RF5'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 55.80 mm): Hierarchical Sheet Pin 'RE6'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 58.26 mm): Hierarchical Sheet Pin 'RF8'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 58.34 mm): Hierarchical Sheet Pin 'RE7'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 60.80 mm): Hierarchical Sheet Pin 'RF12'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 60.88 mm): Hierarchical Sheet Pin 'RE8'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 63.34 mm): Hierarchical Sheet Pin 'RF13'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 63.42 mm): Hierarchical Sheet Pin 'RE9'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 65.88 mm): Hierarchical Sheet Pin 'RG0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 65.96 mm): Hierarchical Sheet Pin 'RF0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 68.42 mm): Hierarchical Sheet Pin 'RG1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 68.50 mm): Hierarchical Sheet Pin 'RF1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 70.96 mm): Hierarchical Sheet Pin 'RG6'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 71.04 mm): Hierarchical Sheet Pin 'RF2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 73.50 mm): Hierarchical Sheet Pin 'RG7'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 73.58 mm): Hierarchical Sheet Pin 'RF3'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 76.04 mm): Hierarchical Sheet Pin 'RG8'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 76.12 mm): Hierarchical Sheet Pin 'RF4'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 78.58 mm): Hierarchical Sheet Pin 'RG9'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 78.66 mm): Hierarchical Sheet Pin 'RF5'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 81.12 mm): Hierarchical Sheet Pin 'RG12'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 81.20 mm): Hierarchical Sheet Pin 'RF8'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 83.66 mm): Hierarchical Sheet Pin 'RG13'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 83.74 mm): Hierarchical Sheet Pin 'RF12'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 86.20 mm): Hierarchical Sheet Pin 'RG14'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 86.28 mm): Hierarchical Sheet Pin 'RF13'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 88.74 mm): Hierarchical Sheet Pin 'RG15'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 88.82 mm): Hierarchical Sheet Pin 'RG0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 91.28 mm): Hierarchical Sheet Pin 'VBUS'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 91.36 mm): Hierarchical Sheet Pin 'RG1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 93.82 mm): Hierarchical Sheet Pin 'rg3_d-'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 93.90 mm): Hierarchical Sheet Pin 'RG6'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 96.36 mm): Hierarchical Sheet Pin 'rg2_d+'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 96.44 mm): Hierarchical Sheet Pin 'RG7'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 98.98 mm): Hierarchical Sheet Pin 'RG8'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 101.52 mm): Hierarchical Sheet Pin 'RG9'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 104.06 mm): Hierarchical Sheet Pin 'RG12'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 106.60 mm): Hierarchical Sheet Pin 'RG13'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 109.14 mm): Hierarchical Sheet Pin 'RG14'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 111.68 mm): Hierarchical Sheet Pin 'RG15'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 114.22 mm): Hierarchical Sheet Pin 'VBUS'
+[hier_label_mismatch]: Sheet pin AMPER has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 116.76 mm): Hierarchical Sheet Pin 'AMPER'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 116.76 mm): Hierarchical Sheet Pin 'AMPER'
+[hier_label_mismatch]: Sheet pin BLK_RPI has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 119.30 mm): Hierarchical Sheet Pin 'BLK_RPI'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 119.30 mm): Hierarchical Sheet Pin 'BLK_RPI'
+[hier_label_mismatch]: Sheet pin DC_RPI has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 121.84 mm): Hierarchical Sheet Pin 'DC_RPI'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 121.84 mm): Hierarchical Sheet Pin 'DC_RPI'
+[hier_label_mismatch]: Sheet pin GPIO20 has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 124.38 mm): Hierarchical Sheet Pin 'GPIO20'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 124.38 mm): Hierarchical Sheet Pin 'GPIO20'
+[hier_label_mismatch]: Sheet pin GPIO21 has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 126.92 mm): Hierarchical Sheet Pin 'GPIO21'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 126.92 mm): Hierarchical Sheet Pin 'GPIO21'
+[hier_label_mismatch]: Sheet pin GPIO22 has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 129.46 mm): Hierarchical Sheet Pin 'GPIO22'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 129.46 mm): Hierarchical Sheet Pin 'GPIO22'
+[hier_label_mismatch]: Sheet pin GPIO23 has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 132.00 mm): Hierarchical Sheet Pin 'GPIO23'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 132.00 mm): Hierarchical Sheet Pin 'GPIO23'
+[hier_label_mismatch]: Sheet pin GPIO24 has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 134.54 mm): Hierarchical Sheet Pin 'GPIO24'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 134.54 mm): Hierarchical Sheet Pin 'GPIO24'
+[hier_label_mismatch]: Sheet pin RES_RPI has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 137.08 mm): Hierarchical Sheet Pin 'RES_RPI'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 137.08 mm): Hierarchical Sheet Pin 'RES_RPI'
+[hier_label_mismatch]: Sheet pin SCL_1 has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 139.62 mm): Hierarchical Sheet Pin 'SCL_1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 139.62 mm): Hierarchical Sheet Pin 'SCL_1'
+[hier_label_mismatch]: Sheet pin SCL_2 has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 142.16 mm): Hierarchical Sheet Pin 'SCL_2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 142.16 mm): Hierarchical Sheet Pin 'SCL_2'
+[hier_label_mismatch]: Sheet pin SDA_1 has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 144.70 mm): Hierarchical Sheet Pin 'SDA_1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 144.70 mm): Hierarchical Sheet Pin 'SDA_1'
+[hier_label_mismatch]: Sheet pin SDA_2 has no matching hierarchical label inside the sheet
+    ; error
+    @(123.961 mm, 147.24 mm): Hierarchical Sheet Pin 'SDA_2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 147.24 mm): Hierarchical Sheet Pin 'SDA_2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 149.78 mm): Hierarchical Sheet Pin 'rg3_d-'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(123.961 mm, 152.32 mm): Hierarchical Sheet Pin 'rg2_d+'
 [pin_not_connected]: Pin not connected
     ; error
     @(227.33 mm, 109.22 mm): Hierarchical Sheet Pin 'CS_4'
@@ -155,6 +530,27 @@ Report includes: Errors, Warnings
 [pin_not_connected]: Pin not connected
     ; error
     @(227.33 mm, 121.92 mm): Hierarchical Sheet Pin 'RE2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(229.362 mm, 54.61 mm): Hierarchical Sheet Pin 'BLK_RPI'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(229.362 mm, 57.15 mm): Hierarchical Sheet Pin 'DC_RPI'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(229.362 mm, 59.69 mm): Hierarchical Sheet Pin 'RES_RPI'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(229.362 mm, 62.23 mm): Hierarchical Sheet Pin 'SCL_1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(229.362 mm, 64.77 mm): Hierarchical Sheet Pin 'SCL_2'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(229.362 mm, 67.31 mm): Hierarchical Sheet Pin 'SDA_1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(229.362 mm, 69.85 mm): Hierarchical Sheet Pin 'SDA_2'
 [unresolved_variable]: Unresolved text variable
     ; error
     @(143.84 mm, 100.00 mm): Hierarchical Label 'SCL_2'
@@ -3566,7 +3962,7 @@ Report includes: Errors, Warnings
     @(152.40 mm, 97.79 mm): Label 'DC Output 2 (V2) '
     @(152.40 mm, 97.79 mm): Hierarchical Label 'DC Output 2 (V2)'
 
- ** ERC messages: 1175  Errors 258  Warnings 917
+ ** ERC messages: 1307  Errors 390  Warnings 917
 
  ** Ignored checks:
     - Global label only appears once in the schematic
