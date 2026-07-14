@@ -978,6 +978,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 80.01) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b76458e-22e2-488a-a72e-cc2b75219fd8")
+	)
+	(wire
+		(pts
 			(xy 121.92 77.47) (xy 139.7 77.47)
 		)
 		(stroke
@@ -985,6 +995,26 @@
 			(type default)
 		)
 		(uuid "13c6e513-1764-4f0f-96d7-c4f351e19f8c")
+	)
+	(wire
+		(pts
+			(xy 184.15 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d46c67-0285-48fa-86fe-665c60454816")
+	)
+	(wire
+		(pts
+			(xy 189.23 72.39) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca3ca33-4bee-47e5-8ca6-e1907ab6df98")
 	)
 	(wire
 		(pts
@@ -1005,6 +1035,16 @@
 			(type default)
 		)
 		(uuid "282852cd-b2d5-48cc-b54a-a2c52a7ea5e5")
+	)
+	(wire
+		(pts
+			(xy 175.26 87.63) (xy 152.4 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0964b8-960c-4024-b534-2f250f397862")
 	)
 	(wire
 		(pts
@@ -1048,6 +1088,66 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 90.17) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f78c555-7df5-43ce-a852-0860d6b10fb7")
+	)
+	(wire
+		(pts
+			(xy 186.69 74.93) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508e50c4-5874-47c8-b384-0f324855b9d1")
+	)
+	(wire
+		(pts
+			(xy 189.23 77.47) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ee99ca-b523-46bb-be26-11eb1fe7b1c9")
+	)
+	(wire
+		(pts
+			(xy 170.18 85.09) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b8b41d-e446-4840-9ace-b302dba56105")
+	)
+	(wire
+		(pts
+			(xy 182.88 95.25) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632c75ca-d294-4566-8111-276f05225887")
+	)
+	(wire
+		(pts
+			(xy 173.99 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2708a7-be78-4f32-a771-49b370afcf45")
+	)
+	(wire
+		(pts
 			(xy 121.92 102.87) (xy 139.7 102.87)
 		)
 		(stroke
@@ -1078,6 +1178,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 102.87) (xy 152.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91040239-5c19-4814-a24e-a1ded5674e8c")
+	)
+	(wire
+		(pts
 			(xy 121.92 90.17) (xy 139.7 90.17)
 		)
 		(stroke
@@ -1085,6 +1195,16 @@
 			(type default)
 		)
 		(uuid "a282b292-9708-4be5-b40d-68cd71064ef7")
+	)
+	(wire
+		(pts
+			(xy 173.99 105.41) (xy 152.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56fe280-e793-4201-be2f-51cf7e03145f")
 	)
 	(wire
 		(pts
@@ -1126,8 +1246,18 @@
 		)
 		(uuid "f7658ef8-bc32-429a-85dd-359c6f5181c0")
 	)
+	(wire
+		(pts
+			(xy 173.99 97.79) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6bc54a-a2ec-469d-ba96-292345a73eb5")
+	)
 	(label "D4"
-		(at 121.92 80.01 0)
+		(at 125.73 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1137,7 +1267,7 @@
 		(uuid "03e74f06-fa2e-438a-9aa3-600a8deaf3ca")
 	)
 	(label "D6"
-		(at 121.92 74.93 0)
+		(at 125.73 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1187,7 +1317,7 @@
 		(uuid "22e532de-4b53-4ff6-be09-113d6a5e6a55")
 	)
 	(label "D5"
-		(at 121.92 77.47 0)
+		(at 125.73 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1237,7 +1367,7 @@
 		(uuid "43b72d94-4de7-4a5e-bf94-fcc6b773390b")
 	)
 	(label "D2"
-		(at 121.92 85.09 0)
+		(at 125.73 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1247,7 +1377,7 @@
 		(uuid "4910c422-247b-4d37-abd6-b505819a5155")
 	)
 	(label "D7"
-		(at 121.92 72.39 0)
+		(at 125.73 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1257,7 +1387,7 @@
 		(uuid "5c4abfba-f502-4b29-82d2-a63a4bcf15cf")
 	)
 	(label "GND"
-		(at 121.92 92.71 0)
+		(at 127 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1317,7 +1447,7 @@
 		(uuid "8d611671-fbb0-4b78-92b5-51c10a86974e")
 	)
 	(label "AI2+{slash}OSC12(1+)"
-		(at 121.92 102.87 0)
+		(at 125.73 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1327,7 +1457,7 @@
 		(uuid "91609184-0be3-4775-8e6c-73355a45a02b")
 	)
 	(label "GND"
-		(at 121.92 100.33 0)
+		(at 125.73 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1347,7 +1477,7 @@
 		(uuid "a792f052-996f-4e53-abd3-938792c71990")
 	)
 	(label "Trigger Input (T1)"
-		(at 121.92 90.17 0)
+		(at 125.73 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1367,7 +1497,7 @@
 		(uuid "aa298797-40b0-472e-8da4-571c8e1ba787")
 	)
 	(label "DC Output 1 (V1)"
-		(at 121.92 97.79 0)
+		(at 124.46 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1387,7 +1517,7 @@
 		(uuid "baa3a6d1-4fb1-472c-a1a2-e25918ac7d42")
 	)
 	(label "D1"
-		(at 121.92 87.63 0)
+		(at 125.73 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1407,7 +1537,7 @@
 		(uuid "dd8719f8-c7e1-4002-8a09-cac91a75c848")
 	)
 	(label "AWG1 (W1)"
-		(at 121.92 95.25 0)
+		(at 124.46 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1417,7 +1547,7 @@
 		(uuid "e80e7d8e-c564-4dd2-acb7-3fd21b2aa037")
 	)
 	(label "D3"
-		(at 121.92 82.55 0)
+		(at 125.73 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1437,9 +1567,9 @@
 		)
 		(uuid "12defcc9-b802-4c91-97ff-8ed282a2b8fd")
 	)
-	(hierarchical_label "UART_RX/PWM2 (P5)"
+	(hierarchical_label "UART_RX{slash}PWM2 (P5)"
 		(shape bidirectional)
-		(at 152.4 69.85 0)
+		(at 184.15 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1447,9 +1577,9 @@
 		)
 		(uuid "1a4b3e9d-c51e-4abf-8c7d-797254af0f52")
 	)
-	(hierarchical_label "INT/CLK1 (C1)"
+	(hierarchical_label "INT{slash}CLK1 (C1)"
 		(shape bidirectional)
-		(at 152.4 95.25 0)
+		(at 182.88 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1459,7 +1589,7 @@
 	)
 	(hierarchical_label "Trigger Output (T0)"
 		(shape bidirectional)
-		(at 152.4 90.17 0)
+		(at 173.99 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1469,27 +1599,29 @@
 	)
 	(hierarchical_label "D4"
 		(shape bidirectional)
-		(at 121.92 80.01 0)
+		(at 121.92 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "22e225a6-af9a-46c2-8d8e-0b989d818d41")
 	)
 	(hierarchical_label "D7"
 		(shape bidirectional)
-		(at 121.92 72.39 0)
+		(at 121.92 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "2e673e08-fe70-4622-8661-f306d516d0b4")
 	)
-	(hierarchical_label "SPI_CS/UART_RTS/PWM1 (P4)"
+	(hierarchical_label "SPI_CS{slash}UART_RTS{slash}PWM1 (P4)"
 		(shape bidirectional)
-		(at 152.4 72.39 0)
+		(at 189.23 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1499,57 +1631,51 @@
 	)
 	(hierarchical_label "DC Output 1 (V1)"
 		(shape bidirectional)
-		(at 121.92 97.79 0)
+		(at 121.92 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "3c08590e-1322-4f6d-adea-1b4e75de1126")
 	)
 	(hierarchical_label "D6"
 		(shape bidirectional)
-		(at 121.92 74.93 0)
+		(at 121.92 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "3c9c45cc-5b25-48b5-ac8e-622a5df594d3")
 	)
 	(hierarchical_label "D1"
 		(shape bidirectional)
-		(at 121.92 87.63 0)
+		(at 121.92 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "3fa496ca-cb5c-44c0-8c60-84b73c860ee8")
 	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 121.92 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "451b5884-b1f1-4482-8b9f-a40ffc528765")
-	)
 	(hierarchical_label "D5"
 		(shape bidirectional)
-		(at 121.92 77.47 0)
+		(at 121.92 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "4779bc4d-93f6-4dbe-8b60-219feefba114")
 	)
 	(hierarchical_label "DO10 (10)"
 		(shape bidirectional)
-		(at 152.4 85.09 0)
+		(at 170.18 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1557,9 +1683,9 @@
 		)
 		(uuid "4dfde05b-2f59-4706-bf9a-d85661dda9af")
 	)
-	(hierarchical_label "SDI/SDO (P1)"
+	(hierarchical_label "SDI{slash}SDO (P1)"
 		(shape bidirectional)
-		(at 152.4 80.01 0)
+		(at 179.07 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1567,29 +1693,20 @@
 		)
 		(uuid "5db07891-719b-4b23-ad95-d0983a3d9f1e")
 	)
-	(hierarchical_label "AI1+/OSC1 (1+)"
+	(hierarchical_label "AI1+{slash}OSC1 (1+)"
 		(shape bidirectional)
-		(at 121.92 105.41 0)
+		(at 121.92 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "5e82a93a-3405-41c0-92f2-a2f363ebb843")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "SPI_CLK{slash}UART_CTS (P3)"
 		(shape bidirectional)
-		(at 121.92 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "61fb0c45-8200-479b-85bd-b529db5442a8")
-	)
-	(hierarchical_label "SPI_CLK/UART_CTS (P3)"
-		(shape bidirectional)
-		(at 152.4 74.93 0)
+		(at 186.69 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1599,17 +1716,18 @@
 	)
 	(hierarchical_label "D2"
 		(shape bidirectional)
-		(at 121.92 85.09 0)
+		(at 121.92 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "77843a52-7529-42aa-bfb0-dad73c3f88dc")
 	)
 	(hierarchical_label "DO9 (9)"
 		(shape bidirectional)
-		(at 152.4 87.63 0)
+		(at 175.26 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1617,9 +1735,9 @@
 		)
 		(uuid "77d90769-db00-40f9-a17f-0764c1f4e392")
 	)
-	(hierarchical_label "GND/AI1"
+	(hierarchical_label "GND{slash}AI1"
 		(shape bidirectional)
-		(at 152.4 105.41 0)
+		(at 173.99 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1629,37 +1747,40 @@
 	)
 	(hierarchical_label "AWG1 (W1)"
 		(shape bidirectional)
-		(at 121.92 95.25 0)
+		(at 121.92 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "887d5be5-70ba-4ac7-bb30-9b6b210a463d")
 	)
-	(hierarchical_label "AI2+/OSC12(1+)"
+	(hierarchical_label "AI2+{slash}OSC12(1+)"
 		(shape bidirectional)
-		(at 121.92 102.87 0)
+		(at 121.92 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "89db9318-933d-44cb-8dc0-a3668c6402ed")
 	)
 	(hierarchical_label "Trigger Input (T1)"
 		(shape bidirectional)
-		(at 121.92 90.17 0)
+		(at 121.92 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "8d63a170-65d2-4490-9eda-bd4cdeab1a74")
 	)
 	(hierarchical_label "DC Output 2 (V2)"
 		(shape bidirectional)
-		(at 152.4 97.79 0)
+		(at 173.99 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1669,17 +1790,18 @@
 	)
 	(hierarchical_label "D3"
 		(shape bidirectional)
-		(at 121.92 82.55 0)
+		(at 121.92 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "99abdc1d-2a04-4dab-89d6-dbe438cafd64")
 	)
-	(hierarchical_label "SDI/SDO/UART_TX (P2)"
+	(hierarchical_label "SDI{slash}SDO{slash}UART_TX (P2)"
 		(shape bidirectional)
-		(at 152.4 77.47 0)
+		(at 189.23 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1687,9 +1809,9 @@
 		)
 		(uuid "9d9e4cee-173f-448b-b674-a9d83ea1c6bd")
 	)
-	(hierarchical_label "GND/AI2"
+	(hierarchical_label "GND{slash}AI2"
 		(shape bidirectional)
-		(at 152.4 102.87 0)
+		(at 171.45 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1697,35 +1819,15 @@
 		)
 		(uuid "a4a27baa-8c35-4839-931c-029f5457ed5f")
 	)
-	(hierarchical_label "INT/CLK2 (C2)"
+	(hierarchical_label "INT{slash}CLK2 (C2)"
 		(shape bidirectional)
-		(at 152.4 82.55 0)
+		(at 173.99 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "bd2b39e3-c0d9-4699-b967-6c2ffdb05662")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 152.4 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cac3ad8d-d75d-4669-bc97-7ab63dc860a2")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 152.4 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d71c9fba-c465-4f52-a0ed-ffefd390410a")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x15_Odd_Even")
@@ -1749,7 +1851,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x15_Odd_Even"
+		(property "Value" "Discovery Analog 3"
 			(at 146.05 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)

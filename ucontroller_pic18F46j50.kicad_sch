@@ -3247,7 +3247,7 @@
 			)
 		)
 	)
-	(hierarchical_label "pgd"
+	(hierarchical_label "PGD"
 		(shape input)
 		(at 194.818 70.358 0)
 		(fields_autoplaced yes)
@@ -3259,7 +3259,7 @@
 		)
 		(uuid "0962e8a1-6c3d-4adf-99b1-dcd2947de354")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1708 70.358 0)
+			(at 194.818 71.628 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,7 +3367,7 @@
 			)
 		)
 	)
-	(hierarchical_label "pgc"
+	(hierarchical_label "PGC"
 		(shape input)
 		(at 262.2296 59.3344 0)
 		(fields_autoplaced yes)
@@ -3379,7 +3379,7 @@
 		)
 		(uuid "2dcd5dd1-005d-4417-89d4-c31b0c6b8f43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.522 59.3344 0)
+			(at 262.2296 60.6044 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3391,7 +3391,7 @@
 			)
 		)
 	)
-	(hierarchical_label "mclr"
+	(hierarchical_label "MCLR"
 		(shape input)
 		(at 88.138 47.498 180)
 		(fields_autoplaced yes)
@@ -3403,7 +3403,7 @@
 		)
 		(uuid "37b30a93-1cc1-433c-9a67-999f70224010")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.9989 47.498 0)
+			(at 88.138 48.768 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,7 +3607,7 @@
 			)
 		)
 	)
-	(hierarchical_label "mclr"
+	(hierarchical_label "MCLR"
 		(shape input)
 		(at 256.6416 49.1744 0)
 		(fields_autoplaced yes)
@@ -3619,7 +3619,7 @@
 		)
 		(uuid "af7c53ee-cae2-44f1-816e-507a54d3bf52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.7807 49.1744 0)
+			(at 256.6416 50.4444 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,7 +3631,7 @@
 			)
 		)
 	)
-	(hierarchical_label "pgd"
+	(hierarchical_label "PGD"
 		(shape input)
 		(at 262.1534 56.7944 0)
 		(fields_autoplaced yes)
@@ -3643,7 +3643,7 @@
 		)
 		(uuid "afdc82b3-c433-4732-bdbd-fefe73801a68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.5062 56.7944 0)
+			(at 262.1534 58.0644 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3655,7 +3655,7 @@
 			)
 		)
 	)
-	(hierarchical_label "pgc"
+	(hierarchical_label "PGC"
 		(shape input)
 		(at 194.818 67.818 0)
 		(fields_autoplaced yes)
@@ -3667,7 +3667,7 @@
 		)
 		(uuid "b1b60aaf-d49d-4236-b40e-298de3e3d5cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1104 67.818 0)
+			(at 194.818 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5152,7 +5152,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bd50a62-563e-42e7-a3b3-4c94f202f58e")
 		(property "Reference" "C204"
-			(at 85.471 137.922 0)
+			(at 85.09 137.9219 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5162,8 +5162,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 85.471 140.462 0)
+		(property "Value" "1U"
+			(at 85.09 140.4619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
