@@ -219,41 +219,173 @@ __pycache__/
 
 ---
 
-## 10. Pines Jerárquicos en Sheet Symbols (Defecto Zig-Zag)
+## 10. Guía Completa: Pines Jerárquicos en Sheet Symbols
 
-### Problema
-Al agregar pines jerárquicos a un sheet symbol en el schematic principal, si el `at` (punto de conexión) del pin está en el borde exacto del rectángulo, KiCad dibuja líneas en zig-zag verdes que sobresalen fuera del rectángulo.
+### Conceptos Clave
 
-### Causa
-En KiCad, el `at` de un pin es el **punto de conexión** (la punta donde se conectan los wires). KiCad dibuja automáticamente un "stub" desde el borde del rectángulo hasta el punto de conexión. Si el punto está en el borde exacto, el stub tiene longitud cero y se genera el defecto visual.
+Un **sheet symbol** en KiCad es el rectángulo que aparece en el schematic padre (root) y representa un sub-schematic (child). Los **pins** son las conexiones que permiten pasar señales entre el padre y el hijo.
 
-### Solución
-Colocar los puntos de conexión **FUERA** del rectángulo con un offset de `2.54mm`:
-
+**Anatomía de un pin:**
 ```
-# Pines izquierdos (rot=180): punto FUERA a la izquierda
-x_pin = sheet_x - 2.54
-
-# Pines derechos (rot=0): punto FUERA a la derecha  
-x_pin = sheet_x + sheet_width + 2.54
+(pin "NOMBRE" input
+    (at X Y ROT)        ← Punto de conexión (donde se conectan los wires)
+    (uuid "...")
+    (effects ...)
+)
 ```
 
-### Fórmula para reposicionar pines
+### Regla #1: SIEMPRE offset 2.54mm FUERA del rectángulo
+
+El `at` del pin es el **punto de conexión** (la punta). KiCad dibuja automáticamente un "stub" desde el borde del rectángulo hasta este punto.
+
+```
+RECTÁNGULO          STUB        PUNTO DE CONEXIÓN
+┌──────────┐      ────────→        •  ← (at X Y)
+│          │
+└──────────┘
+```
+
+**Si el punto está EN el borde = zig-zag defectuoso**
+**Si el punto está FUERA del borde = stub correcto**
+
+### Fórmulas
+
 ```python
-pin_len = 2.54  # offset fuera del rectángulo
+PIN_LEN = 2.54  # mm, offset estándar
 
-# Izquierdos
-at_x = sheet_x - pin_len
+# Pines IZQUIERDOS (rotación 180°)
+at_x = sheet_x - PIN_LEN
+at_y = sheet_y + margin + (index + 1) * SPACING
 
-# Derechos
-at_x = sheet_x + sheet_width + pin_len
+# Pines DERECHOS (rotación 0°)
+at_x = sheet_x + sheet_width + PIN_LEN
+at_y = sheet_y + margin + (index + 1) * SPACING
 ```
 
-### Regla general
-- **Siempre** colocar el `at` de los pins FUERA del rectángulo
-- El rectángulo define el tamaño visual del sheet symbol
-- Los pins se dibujan como stubs desde el borde hasta el punto de conexión
-- Espaciado recomendado entre pins: 2.54mm
+### Espaciado entre pines
+
+- **Mínimo recomendado**: 2.54mm entre pines
+- **Espaciado estándar**: 2.54mm (100 mil)
+- **Para sheets grandes**: 2.54mm funciona bien con hasta ~80 pines
+
+```python
+SPACING = 2.54  # mm entre cada pin
+
+# Calcular altura del sheet
+needed_height = num_pins * SPACING + 2 * MARGIN
+sheet_height = max(needed_height, 30.0)  # mínimo 30mm
+```
+
+### Ejemplo Completo: Sheet con 6 pines
+
+```python
+import uuid as uuid_mod
+
+# Datos del sheet
+sheet_x = 100.0
+sheet_y = 50.0
+sheet_w = 55.0
+sheet_h = 40.0
+pin_len = 2.54
+margin = 5.0
+spacing = 2.54
+
+# Pines del sub-schematic (ordenados por puerto)
+left_labels = ['AN8', 'AN9', 'RA0']   # 3 pines
+right_labels = ['RD2', 'RD3', 'RD4']  # 3 pines
+
+# Generar pines izquierdos
+for i, name in enumerate(left_labels):
+    y = sheet_y + margin + (i + 1) * spacing
+    pin = f'''		(pin "{name}" input
+			(at {sheet_x - pin_len} {y:.2f} 180)
+			(uuid "{str(uuid_mod.uuid4())}")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)'''
+
+# Generar pines derechos
+for i, name in enumerate(right_labels):
+    y = sheet_y + margin + (i + 1) * spacing
+    pin = f'''		(pin "{name}" input
+			(at {sheet_x + sheet_w + pin_len} {y:.2f} 0)
+			(uuid "{str(uuid_mod.uuid4())}")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)'''
+```
+
+### Visualización del resultado
+
+```
+         PIN_IZQ              RECTÁNGULO              PIN_DER
+            •───────────────┌──────────┐───────────────• AN8
+            •───────────────│          │───────────────• AN9
+            •───────────────│  CHILD   │───────────────• RD2
+                             │          │
+                             └──────────┘
+    X = sheet_x - 2.54                          X = sheet_x + width + 2.54
+```
+
+### Errores Comunes
+
+| Error | Causa | Solución |
+|-------|-------|----------|
+| Zig-zag verde | `at` en el borde del rectángulo | Mover `at` 2.54mm fuera |
+| Pines superpuestos | Espaciado < 2.54mm | Usar spacing = 2.54 |
+| Pins fuera de vista | Sheet muy pequeño | Calcular `sheet_h` según num_pins |
+| Pins mezclados entre sheets | Búsqueda regex incorrecta | Usar `instances` como límite |
+
+### Script de Verificación
+
+```python
+import re
+
+def verify_sheet_pins(filepath, sheet_uuid):
+    with open(filepath) as f:
+        content = f.read()
+    
+    idx = content.find(f'uuid "{sheet_uuid}"')
+    sheet_start = content.rfind('(sheet', 0, idx)
+    instances_idx = content.find('(instances', idx)
+    sheet_section = content[sheet_start:instances_idx]
+    
+    # Encontrar posición del sheet
+    at_match = re.search(r'\(at ([\d.]+) ([\d.]+)\)', content[sheet_start:idx])
+    sheet_x = float(at_match.group(1))
+    
+    size_match = re.search(r'\(size ([\d.]+) ([\d.]+)\)', content[sheet_start:idx])
+    sheet_w = float(size_match.group(1))
+    
+    # Verificar pins
+    left_x_correct = sheet_x - 2.54
+    right_x_correct = sheet_x + sheet_w + 2.54
+    
+    for m in re.finditer(r'\(pin "([^"]+)" input\s*\n\s*\(at ([\d.]+) ([\d.]+) (\d+)\)', sheet_section):
+        name, x, y, rot = m.group(1), float(m.group(2)), float(m.group(3)), int(m.group(4))
+        if rot == 180 and abs(x - left_x_correct) > 0.1:
+            print(f'WARNING: {name} left pin at wrong X: {x} (expected {left_x_correct})')
+        elif rot == 0 and abs(x - right_x_correct) > 0.1:
+            print(f'WARNING: {name} right pin at wrong X: {x} (expected {right_x_correct})')
+    
+    print('Verification complete')
+```
+
+### Resumen de Reglas
+
+1. **Siempre** offset 2.54mm fuera del rectángulo
+2. **Siempre** espaciado de 2.54mm entre pins
+3. **Calcular** altura del sheet según número de pins
+4. **Ordenar** pins por puerto (RA, RB, RC, RD, etc.)
+5. **Verificar** que todos los pins están en la posición correcta
 
 ---
 
