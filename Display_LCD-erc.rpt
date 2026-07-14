@@ -1,4 +1,4 @@
-ERC report (2026-07-13T23:33:18, Encoding UTF8)
+ERC report (2026-07-14T00:09:49, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -26,6 +26,9 @@ Report includes: Errors, Warnings
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(139.70 mm, 103.505 mm): Symbol DS1 Pin 16 [LED(-), Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(149.555 mm, 86.97 mm): Symbol #PWR01 Hidden pin 1 [+5F, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(149.555 mm, 132.944 mm): Symbol #PWR03 Hidden pin 1 [GND, Power input, Line]
@@ -77,12 +80,9 @@ Report includes: Errors, Warnings
 [unresolved_variable]: Unresolved text variable
     ; error
     @(206.096 mm, 113.386 mm): Hierarchical Label 'RE1'
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(216.764 mm, 117.196 mm): Symbol #PWR0702 Hidden pin 1 [+5F, Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(93.523 mm, 75.387 mm): Symbol #PWR0702 Hidden pin 1 [+5F, Power input, Line]
+    @(93.523 mm, 75.387 mm): Symbol #PWR010 Hidden pin 1 [+5F, Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(93.523 mm, 75.387 mm): Symbol R? Pin 1 [Passive, Line]
@@ -127,7 +127,7 @@ Report includes: Errors, Warnings
     @(130.099 mm, 109.677 mm): Symbol Q1 [Q_NPN_BCE]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(131.115 mm, 87.579 mm): Symbol #PWR0702 Hidden pin 1 [+5F, Power input, Line]
+    @(131.115 mm, 87.579 mm): Symbol #PWR05 Hidden pin 1 [+5F, Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(131.115 mm, 89.713 mm): Symbol R? Pin 1 [Passive, Line]
@@ -163,7 +163,7 @@ Report includes: Errors, Warnings
     @(139.70 mm, 100.965 mm): Horizontal Wire, length 8.585 mm
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(149.555 mm, 86.97 mm): Symbol #PWR0702 Hidden pin 1 [+5F, Power input, Line]
+    @(149.555 mm, 86.97 mm): Symbol #PWR01 Hidden pin 1 [+5F, Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(149.555 mm, 87.351 mm): Vertical Wire, length 0.381 mm
@@ -262,7 +262,7 @@ Report includes: Errors, Warnings
     @(193.675 mm, 134.518 mm): Horizontal Wire, length 0.127 mm
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(193.802 mm, 98.196 mm): Symbol #PWR0702 Hidden pin 1 [+5F, Power input, Line]
+    @(193.802 mm, 98.196 mm): Symbol #PWR02 Hidden pin 1 [+5F, Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(193.802 mm, 100.051 mm): Vertical Wire, length 1.854 mm
@@ -322,7 +322,7 @@ Report includes: Errors, Warnings
     @(206.096 mm, 113.386 mm): Hierarchical Label 'RE1'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(216.764 mm, 117.196 mm): Symbol #PWR0702 Hidden pin 1 [+5F, Power input, Line]
+    @(216.764 mm, 117.196 mm): Symbol #PWR07 Hidden pin 1 [+5F, Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(216.764 mm, 118.745 mm): Vertical Wire, length 1.549 mm

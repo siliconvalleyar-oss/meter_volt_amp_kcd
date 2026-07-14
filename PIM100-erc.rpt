@@ -1,4 +1,4 @@
-ERC report (2026-07-13T23:33:50, Encoding UTF8)
+ERC report (2026-07-14T00:10:23, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -13,25 +13,22 @@ Report includes: Errors, Warnings
     @(81.915 mm, 125.73 mm): Hierarchical Label 'rg3_d-'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(80.645 mm, 77.47 mm): Hierarchical Label 'osc1'
+    @(80.645 mm, 77.47 mm): Hierarchical Label 'OSC1'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(80.645 mm, 85.09 mm): Hierarchical Label 'osc2'
-[unresolved_variable]: Unresolved text variable
+    @(80.645 mm, 85.09 mm): Hierarchical Label 'OSC2'
+[pin_not_connected]: Hierarchical label 'OSC1' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(80.772 mm, 151.003 mm): Hierarchical Label 'vbus'
-[pin_not_connected]: Hierarchical label 'osc1' in root sheet cannot be connected to non-existent parent sheet
+    @(80.645 mm, 77.47 mm): Hierarchical Label 'OSC1'
+[pin_not_connected]: Hierarchical label 'OSC2' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(80.645 mm, 77.47 mm): Hierarchical Label 'osc1'
-[pin_not_connected]: Hierarchical label 'osc2' in root sheet cannot be connected to non-existent parent sheet
-    ; error
-    @(80.645 mm, 85.09 mm): Hierarchical Label 'osc2'
+    @(80.645 mm, 85.09 mm): Hierarchical Label 'OSC2'
 [label_dangling]: Label not connected
     ; error
-    @(80.772 mm, 151.003 mm): Hierarchical Label 'vbus'
-[pin_not_connected]: Hierarchical label 'vbus' in root sheet cannot be connected to non-existent parent sheet
+    @(80.772 mm, 151.003 mm): Hierarchical Label 'VBUS'
+[pin_not_connected]: Hierarchical label 'VBUS' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(80.772 mm, 151.003 mm): Hierarchical Label 'vbus'
+    @(80.772 mm, 151.003 mm): Hierarchical Label 'VBUS'
 [unresolved_variable]: Unresolved text variable
     ; error
     @(90.805 mm, 39.37 mm): Hierarchical Label 'VREF-'
@@ -46,31 +43,25 @@ Report includes: Errors, Warnings
     @(81.915 mm, 125.73 mm): Hierarchical Label 'rg3_d-'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 57.15 mm): Hierarchical Label 'ra10'
+    @(90.805 mm, 62.23 mm): Hierarchical Label 'RA15'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 59.69 mm): Hierarchical Label 'ra14'
+    @(90.805 mm, 138.43 mm): Hierarchical Label 'RG12'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 62.23 mm): Hierarchical Label 'ra15'
+    @(90.805 mm, 140.97 mm): Hierarchical Label 'RG13'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 138.43 mm): Hierarchical Label 'rg12'
+    @(90.805 mm, 143.51 mm): Hierarchical Label 'RG14'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 140.97 mm): Hierarchical Label 'rg13'
+    @(90.805 mm, 146.05 mm): Hierarchical Label 'RG15'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 143.51 mm): Hierarchical Label 'rg14'
+    @(90.805 mm, 80.01 mm): Hierarchical Label 'RC13'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 146.05 mm): Hierarchical Label 'rg15'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(90.805 mm, 80.01 mm): Hierarchical Label 'rc13'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(90.805 mm, 82.55 mm): Hierarchical Label 'rc14'
+    @(90.805 mm, 82.55 mm): Hierarchical Label 'RC14'
 [unresolved_variable]: Unresolved text variable
     ; error
     @(90.805 mm, 67.31 mm): Hierarchical Label 'RC1'
@@ -115,43 +106,37 @@ Report includes: Errors, Warnings
     @(90.805 mm, 46.99 mm): Hierarchical Label 'RA5'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 49.53 mm): Hierarchical Label 'ra6'
+    @(90.805 mm, 49.53 mm): Hierarchical Label 'RA6'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 52.07 mm): Hierarchical Label 'ra7'
+    @(90.805 mm, 118.11 mm): Hierarchical Label 'RG0'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 54.61 mm): Hierarchical Label 'ra9'
+    @(90.805 mm, 120.65 mm): Hierarchical Label 'RG1'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 118.11 mm): Hierarchical Label 'rg0'
+    @(90.805 mm, 128.27 mm): Hierarchical Label 'RG6'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 120.65 mm): Hierarchical Label 'rg1'
+    @(90.805 mm, 130.81 mm): Hierarchical Label 'RG7'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 128.27 mm): Hierarchical Label 'rg6'
+    @(90.805 mm, 133.35 mm): Hierarchical Label 'RG8'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 130.81 mm): Hierarchical Label 'rg7'
+    @(90.805 mm, 135.89 mm): Hierarchical Label 'RG9'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 133.35 mm): Hierarchical Label 'rg8'
+    @(90.805 mm, 105.41 mm): Hierarchical Label 'RE6'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 135.89 mm): Hierarchical Label 'rg9'
+    @(90.805 mm, 107.95 mm): Hierarchical Label 'RE7'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 105.41 mm): Hierarchical Label 're6'
+    @(90.805 mm, 110.49 mm): Hierarchical Label 'RE8'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(90.805 mm, 107.95 mm): Hierarchical Label 're7'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(90.805 mm, 110.49 mm): Hierarchical Label 're8'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(90.805 mm, 113.03 mm): Hierarchical Label 're9'
+    @(90.805 mm, 113.03 mm): Hierarchical Label 'RE9'
 [pin_not_connected]: Hierarchical label 'RA0' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(90.805 mm, 34.29 mm): Hierarchical Label 'RA0'
@@ -170,24 +155,24 @@ Report includes: Errors, Warnings
 [pin_not_connected]: Hierarchical label 'RA5' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(90.805 mm, 46.99 mm): Hierarchical Label 'RA5'
-[pin_not_connected]: Hierarchical label 'ra6' in root sheet cannot be connected to non-existent parent sheet
+[pin_not_connected]: Hierarchical label 'RA6' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 49.53 mm): Hierarchical Label 'ra6'
-[pin_not_connected]: Hierarchical label 'ra7' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 49.53 mm): Hierarchical Label 'RA6'
+[pin_not_connected]: Hierarchical label 'RA7' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 52.07 mm): Hierarchical Label 'ra7'
-[pin_not_connected]: Hierarchical label 'ra9' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 52.07 mm): Hierarchical Label 'RA7'
+[pin_not_connected]: Hierarchical label 'RA9' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 54.61 mm): Hierarchical Label 'ra9'
-[pin_not_connected]: Hierarchical label 'ra10' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 54.61 mm): Hierarchical Label 'RA9'
+[pin_not_connected]: Hierarchical label 'RA10' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 57.15 mm): Hierarchical Label 'ra10'
-[pin_not_connected]: Hierarchical label 'ra14' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 57.15 mm): Hierarchical Label 'RA10'
+[pin_not_connected]: Hierarchical label 'RA14' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 59.69 mm): Hierarchical Label 'ra14'
-[pin_not_connected]: Hierarchical label 'ra15' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 59.69 mm): Hierarchical Label 'RA14'
+[pin_not_connected]: Hierarchical label 'RA15' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 62.23 mm): Hierarchical Label 'ra15'
+    @(90.805 mm, 62.23 mm): Hierarchical Label 'RA15'
 [pin_not_connected]: Hierarchical label 'RC1' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(90.805 mm, 67.31 mm): Hierarchical Label 'RC1'
@@ -200,12 +185,12 @@ Report includes: Errors, Warnings
 [pin_not_connected]: Hierarchical label 'RC4' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(90.805 mm, 74.93 mm): Hierarchical Label 'RC4'
-[pin_not_connected]: Hierarchical label 'rc13' in root sheet cannot be connected to non-existent parent sheet
+[pin_not_connected]: Hierarchical label 'RC13' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 80.01 mm): Hierarchical Label 'rc13'
-[pin_not_connected]: Hierarchical label 'rc14' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 80.01 mm): Hierarchical Label 'RC13'
+[pin_not_connected]: Hierarchical label 'RC14' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 82.55 mm): Hierarchical Label 'rc14'
+    @(90.805 mm, 82.55 mm): Hierarchical Label 'RC14'
 [pin_not_connected]: Hierarchical label 'RE0' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(90.805 mm, 90.17 mm): Hierarchical Label 'RE0'
@@ -224,42 +209,48 @@ Report includes: Errors, Warnings
 [pin_not_connected]: Hierarchical label 'RE5' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(90.805 mm, 102.87 mm): Hierarchical Label 'RE5'
-[pin_not_connected]: Hierarchical label 're6' in root sheet cannot be connected to non-existent parent sheet
+[pin_not_connected]: Hierarchical label 'RE6' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 105.41 mm): Hierarchical Label 're6'
-[pin_not_connected]: Hierarchical label 're7' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 105.41 mm): Hierarchical Label 'RE6'
+[pin_not_connected]: Hierarchical label 'RE7' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 107.95 mm): Hierarchical Label 're7'
-[pin_not_connected]: Hierarchical label 're8' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 107.95 mm): Hierarchical Label 'RE7'
+[pin_not_connected]: Hierarchical label 'RE8' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 110.49 mm): Hierarchical Label 're8'
-[pin_not_connected]: Hierarchical label 're9' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 110.49 mm): Hierarchical Label 'RE8'
+[pin_not_connected]: Hierarchical label 'RE9' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 113.03 mm): Hierarchical Label 're9'
-[pin_not_connected]: Hierarchical label 'rg1' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 113.03 mm): Hierarchical Label 'RE9'
+[pin_not_connected]: Hierarchical label 'RG0' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 120.65 mm): Hierarchical Label 'rg1'
-[pin_not_connected]: Hierarchical label 'rg6' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 118.11 mm): Hierarchical Label 'RG0'
+[pin_not_connected]: Hierarchical label 'RG1' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 128.27 mm): Hierarchical Label 'rg6'
-[pin_not_connected]: Hierarchical label 'rg8' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 120.65 mm): Hierarchical Label 'RG1'
+[pin_not_connected]: Hierarchical label 'RG6' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 133.35 mm): Hierarchical Label 'rg8'
-[pin_not_connected]: Hierarchical label 'rg9' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 128.27 mm): Hierarchical Label 'RG6'
+[pin_not_connected]: Hierarchical label 'RG7' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 135.89 mm): Hierarchical Label 'rg9'
-[pin_not_connected]: Hierarchical label 'rg12' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 130.81 mm): Hierarchical Label 'RG7'
+[pin_not_connected]: Hierarchical label 'RG8' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 138.43 mm): Hierarchical Label 'rg12'
-[pin_not_connected]: Hierarchical label 'rg13' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 133.35 mm): Hierarchical Label 'RG8'
+[pin_not_connected]: Hierarchical label 'RG9' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 140.97 mm): Hierarchical Label 'rg13'
-[pin_not_connected]: Hierarchical label 'rg14' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 135.89 mm): Hierarchical Label 'RG9'
+[pin_not_connected]: Hierarchical label 'RG12' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 143.51 mm): Hierarchical Label 'rg14'
-[pin_not_connected]: Hierarchical label 'rg15' in root sheet cannot be connected to non-existent parent sheet
+    @(90.805 mm, 138.43 mm): Hierarchical Label 'RG12'
+[pin_not_connected]: Hierarchical label 'RG13' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(90.805 mm, 146.05 mm): Hierarchical Label 'rg15'
+    @(90.805 mm, 140.97 mm): Hierarchical Label 'RG13'
+[pin_not_connected]: Hierarchical label 'RG14' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(90.805 mm, 143.51 mm): Hierarchical Label 'RG14'
+[pin_not_connected]: Hierarchical label 'RG15' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(90.805 mm, 146.05 mm): Hierarchical Label 'RG15'
 [pin_not_connected]: Pin not connected
     ; error
     @(90.805 mm, 151.13 mm): Symbol U1101 Pin 54 [VBUS, Input, Line]
@@ -305,9 +296,9 @@ Report includes: Errors, Warnings
 [unresolved_variable]: Unresolved text variable
     ; error
     @(151.765 mm, 54.61 mm): Hierarchical Label 'AN10'
-[pin_not_connected]: Hierarchical label 'mclr' in root sheet cannot be connected to non-existent parent sheet
+[pin_not_connected]: Hierarchical label 'MCLR' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 36.83 mm): Hierarchical Label 'mclr'
+    @(189.865 mm, 36.83 mm): Hierarchical Label 'MCLR'
 [pin_not_connected]: Hierarchical label 'PGD' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(189.865 mm, 41.91 mm): Hierarchical Label 'PGD'
@@ -320,30 +311,27 @@ Report includes: Errors, Warnings
 [pin_not_connected]: Hierarchical label 'RB7' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(189.865 mm, 59.69 mm): Hierarchical Label 'RB7'
-[pin_not_connected]: Hierarchical label 'rb8' in root sheet cannot be connected to non-existent parent sheet
+[pin_not_connected]: Hierarchical label 'RB8' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 62.23 mm): Hierarchical Label 'rb8'
-[pin_not_connected]: Hierarchical label 'rb9' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 62.23 mm): Hierarchical Label 'RB8'
+[pin_not_connected]: Hierarchical label 'RB9' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 64.77 mm): Hierarchical Label 'rb9'
-[pin_not_connected]: Hierarchical label 'rb10' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 64.77 mm): Hierarchical Label 'RB9'
+[pin_not_connected]: Hierarchical label 'RB10' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 67.31 mm): Hierarchical Label 'rb10'
-[pin_not_connected]: Hierarchical label 'rb11' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 67.31 mm): Hierarchical Label 'RB10'
+[pin_not_connected]: Hierarchical label 'RB11' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 69.85 mm): Hierarchical Label 'rb11'
-[pin_not_connected]: Hierarchical label 'rb12' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 69.85 mm): Hierarchical Label 'RB11'
+[pin_not_connected]: Hierarchical label 'RB13' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 72.39 mm): Hierarchical Label 'rb12'
-[pin_not_connected]: Hierarchical label 'rb13' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 74.93 mm): Hierarchical Label 'RB13'
+[pin_not_connected]: Hierarchical label 'RB14' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 74.93 mm): Hierarchical Label 'rb13'
-[pin_not_connected]: Hierarchical label 'rb14' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 77.47 mm): Hierarchical Label 'RB14'
+[pin_not_connected]: Hierarchical label 'RB15' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 77.47 mm): Hierarchical Label 'rb14'
-[pin_not_connected]: Hierarchical label 'rb15' in root sheet cannot be connected to non-existent parent sheet
-    ; error
-    @(189.865 mm, 80.01 mm): Hierarchical Label 'rb15'
+    @(189.865 mm, 80.01 mm): Hierarchical Label 'RB15'
 [pin_not_connected]: Hierarchical label 'RD0' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(189.865 mm, 85.09 mm): Hierarchical Label 'RD0'
@@ -368,93 +356,60 @@ Report includes: Errors, Warnings
 [pin_not_connected]: Hierarchical label 'RD7' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(189.865 mm, 102.87 mm): Hierarchical Label 'RD7'
-[pin_not_connected]: Hierarchical label 'rd8' in root sheet cannot be connected to non-existent parent sheet
+[pin_not_connected]: Hierarchical label 'RD8' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 105.41 mm): Hierarchical Label 'rd8'
-[pin_not_connected]: Hierarchical label 'rd9' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 105.41 mm): Hierarchical Label 'RD8'
+[pin_not_connected]: Hierarchical label 'RD9' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 107.95 mm): Hierarchical Label 'rd9'
-[pin_not_connected]: Hierarchical label 'rd10' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 107.95 mm): Hierarchical Label 'RD9'
+[pin_not_connected]: Hierarchical label 'RD10' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 110.49 mm): Hierarchical Label 'rd10'
-[pin_not_connected]: Hierarchical label 'rd11' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 110.49 mm): Hierarchical Label 'RD10'
+[pin_not_connected]: Hierarchical label 'RD11' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 113.03 mm): Hierarchical Label 'rd11'
-[pin_not_connected]: Hierarchical label 'rd12' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 113.03 mm): Hierarchical Label 'RD11'
+[pin_not_connected]: Hierarchical label 'RD12' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 115.57 mm): Hierarchical Label 'rd12'
-[pin_not_connected]: Hierarchical label 'rd13' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 115.57 mm): Hierarchical Label 'RD12'
+[pin_not_connected]: Hierarchical label 'RD13' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 118.11 mm): Hierarchical Label 'rd13'
-[pin_not_connected]: Hierarchical label 'rd14' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 118.11 mm): Hierarchical Label 'RD13'
+[pin_not_connected]: Hierarchical label 'RD14' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 120.65 mm): Hierarchical Label 'rd14'
-[pin_not_connected]: Hierarchical label 'rd15' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 120.65 mm): Hierarchical Label 'RD14'
+[pin_not_connected]: Hierarchical label 'RD15' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 123.19 mm): Hierarchical Label 'rd15'
-[pin_not_connected]: Hierarchical label 'rf0' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 123.19 mm): Hierarchical Label 'RD15'
+[pin_not_connected]: Hierarchical label 'RF0' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 128.27 mm): Hierarchical Label 'rf0'
-[pin_not_connected]: Hierarchical label 'rf1' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 128.27 mm): Hierarchical Label 'RF0'
+[pin_not_connected]: Hierarchical label 'RF1' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 130.81 mm): Hierarchical Label 'rf1'
-[pin_not_connected]: Hierarchical label 'rf2' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 130.81 mm): Hierarchical Label 'RF1'
+[pin_not_connected]: Hierarchical label 'RF2' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 133.35 mm): Hierarchical Label 'rf2'
-[pin_not_connected]: Hierarchical label 'rf3' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 133.35 mm): Hierarchical Label 'RF2'
+[pin_not_connected]: Hierarchical label 'RF3' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 135.89 mm): Hierarchical Label 'rf3'
-[pin_not_connected]: Hierarchical label 'rf4' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 135.89 mm): Hierarchical Label 'RF3'
+[pin_not_connected]: Hierarchical label 'RF4' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 138.43 mm): Hierarchical Label 'rf4'
-[pin_not_connected]: Hierarchical label 'rf5' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 138.43 mm): Hierarchical Label 'RF4'
+[pin_not_connected]: Hierarchical label 'RF5' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 140.97 mm): Hierarchical Label 'rf5'
-[pin_not_connected]: Hierarchical label 'rf8' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 140.97 mm): Hierarchical Label 'RF5'
+[pin_not_connected]: Hierarchical label 'RF8' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 143.51 mm): Hierarchical Label 'rf8'
-[pin_not_connected]: Hierarchical label 'rf12' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 143.51 mm): Hierarchical Label 'RF8'
+[pin_not_connected]: Hierarchical label 'RF12' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 146.05 mm): Hierarchical Label 'rf12'
-[pin_not_connected]: Hierarchical label 'rf13' in root sheet cannot be connected to non-existent parent sheet
+    @(189.865 mm, 146.05 mm): Hierarchical Label 'RF12'
+[pin_not_connected]: Hierarchical label 'RF13' in root sheet cannot be connected to non-existent parent sheet
     ; error
-    @(189.865 mm, 148.59 mm): Hierarchical Label 'rf13'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 138.43 mm): Hierarchical Label 'rf4'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 140.97 mm): Hierarchical Label 'rf5'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 143.51 mm): Hierarchical Label 'rf8'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 62.23 mm): Hierarchical Label 'rb8'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 64.77 mm): Hierarchical Label 'rb9'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 105.41 mm): Hierarchical Label 'rd8'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 107.95 mm): Hierarchical Label 'rd9'
+    @(189.865 mm, 148.59 mm): Hierarchical Label 'RF13'
 [unresolved_variable]: Unresolved text variable
     ; error
     @(189.865 mm, 57.15 mm): Hierarchical Label 'RB6'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 59.69 mm): Hierarchical Label 'RB7'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 85.09 mm): Hierarchical Label 'RD0'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 87.63 mm): Hierarchical Label 'RD1'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 90.17 mm): Hierarchical Label 'RD2'
 [unresolved_variable]: Unresolved text variable
     ; error
     @(189.865 mm, 41.91 mm): Hierarchical Label 'PGD'
@@ -463,37 +418,7 @@ Report includes: Errors, Warnings
     @(189.865 mm, 44.45 mm): Hierarchical Label 'PGC'
 [unresolved_variable]: Unresolved text variable
     ; error
-    @(189.865 mm, 36.83 mm): Hierarchical Label 'mclr'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 67.31 mm): Hierarchical Label 'rb10'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 69.85 mm): Hierarchical Label 'rb11'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 72.39 mm): Hierarchical Label 'rb12'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 74.93 mm): Hierarchical Label 'rb13'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 110.49 mm): Hierarchical Label 'rd10'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 113.03 mm): Hierarchical Label 'rd11'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 115.57 mm): Hierarchical Label 'rd12'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 118.11 mm): Hierarchical Label 'rd13'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 120.65 mm): Hierarchical Label 'rd14'
-[unresolved_variable]: Unresolved text variable
-    ; error
-    @(189.865 mm, 123.19 mm): Hierarchical Label 'rd15'
+    @(189.865 mm, 36.83 mm): Hierarchical Label 'MCLR'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(32.385 mm, 54.61 mm): Symbol C1101 Pin 1 [Passive, Line]
@@ -547,10 +472,10 @@ Report includes: Errors, Warnings
     @(55.245 mm, 76.20 mm): Symbol #PWR012 Hidden pin 1 [GND, Power input, Line]
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(80.645 mm, 77.47 mm): Hierarchical Label 'osc1'
+    @(80.645 mm, 77.47 mm): Hierarchical Label 'OSC1'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(80.645 mm, 85.09 mm): Hierarchical Label 'osc2'
+    @(80.645 mm, 85.09 mm): Hierarchical Label 'OSC2'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(80.772 mm, 151.003 mm): Horizontal Wire, length 10.16 mm
@@ -586,22 +511,22 @@ Report includes: Errors, Warnings
     @(90.805 mm, 46.99 mm): Hierarchical Label 'RA5'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 49.53 mm): Hierarchical Label 'ra6'
+    @(90.805 mm, 49.53 mm): Hierarchical Label 'RA6'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 52.07 mm): Hierarchical Label 'ra7'
+    @(90.805 mm, 52.07 mm): Hierarchical Label 'RA7'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 54.61 mm): Hierarchical Label 'ra9'
+    @(90.805 mm, 54.61 mm): Hierarchical Label 'RA9'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 57.15 mm): Hierarchical Label 'ra10'
+    @(90.805 mm, 57.15 mm): Hierarchical Label 'RA10'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 59.69 mm): Hierarchical Label 'ra14'
+    @(90.805 mm, 59.69 mm): Hierarchical Label 'RA14'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 62.23 mm): Hierarchical Label 'ra15'
+    @(90.805 mm, 62.23 mm): Hierarchical Label 'RA15'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(90.805 mm, 67.31 mm): Hierarchical Label 'RC1'
@@ -619,10 +544,10 @@ Report includes: Errors, Warnings
     @(90.805 mm, 77.47 mm): Horizontal Wire, length 10.16 mm
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 80.01 mm): Hierarchical Label 'rc13'
+    @(90.805 mm, 80.01 mm): Hierarchical Label 'RC13'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 82.55 mm): Hierarchical Label 'rc14'
+    @(90.805 mm, 82.55 mm): Hierarchical Label 'RC14'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(90.805 mm, 85.09 mm): Horizontal Wire, length 10.16 mm
@@ -646,49 +571,49 @@ Report includes: Errors, Warnings
     @(90.805 mm, 102.87 mm): Hierarchical Label 'RE5'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 105.41 mm): Hierarchical Label 're6'
+    @(90.805 mm, 105.41 mm): Hierarchical Label 'RE6'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 107.95 mm): Hierarchical Label 're7'
+    @(90.805 mm, 107.95 mm): Hierarchical Label 'RE7'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 110.49 mm): Hierarchical Label 're8'
+    @(90.805 mm, 110.49 mm): Hierarchical Label 'RE8'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 113.03 mm): Hierarchical Label 're9'
+    @(90.805 mm, 113.03 mm): Hierarchical Label 'RE9'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 118.11 mm): Hierarchical Label 'rg0'
+    @(90.805 mm, 118.11 mm): Hierarchical Label 'RG0'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 120.65 mm): Hierarchical Label 'rg1'
+    @(90.805 mm, 120.65 mm): Hierarchical Label 'RG1'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 128.27 mm): Hierarchical Label 'rg6'
+    @(90.805 mm, 128.27 mm): Hierarchical Label 'RG6'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 130.81 mm): Hierarchical Label 'rg7'
+    @(90.805 mm, 130.81 mm): Hierarchical Label 'RG7'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 133.35 mm): Hierarchical Label 'rg8'
+    @(90.805 mm, 133.35 mm): Hierarchical Label 'RG8'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 135.89 mm): Hierarchical Label 'rg9'
+    @(90.805 mm, 135.89 mm): Hierarchical Label 'RG9'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 138.43 mm): Hierarchical Label 'rg12'
+    @(90.805 mm, 138.43 mm): Hierarchical Label 'RG12'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 140.97 mm): Hierarchical Label 'rg13'
+    @(90.805 mm, 140.97 mm): Hierarchical Label 'RG13'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 143.51 mm): Hierarchical Label 'rg14'
+    @(90.805 mm, 143.51 mm): Hierarchical Label 'RG14'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(90.805 mm, 146.05 mm): Symbol U1101 Pin 1 [RG15, Bidirectional, Line]
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(90.805 mm, 146.05 mm): Hierarchical Label 'rg15'
+    @(90.805 mm, 146.05 mm): Hierarchical Label 'RG15'
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
     @(80.772 mm, 151.003 mm): Horizontal Wire, length 10.16 mm
@@ -952,7 +877,7 @@ Report includes: Errors, Warnings
     @(170.053 mm, 148.717 mm): Vertical Wire, length 0.127 mm
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 36.83 mm): Hierarchical Label 'mclr'
+    @(189.865 mm, 36.83 mm): Hierarchical Label 'MCLR'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(189.865 mm, 41.91 mm): Hierarchical Label 'PGD'
@@ -967,28 +892,28 @@ Report includes: Errors, Warnings
     @(189.865 mm, 59.69 mm): Hierarchical Label 'RB7'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 62.23 mm): Hierarchical Label 'rb8'
+    @(189.865 mm, 62.23 mm): Hierarchical Label 'RB8'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 64.77 mm): Hierarchical Label 'rb9'
+    @(189.865 mm, 64.77 mm): Hierarchical Label 'RB9'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 67.31 mm): Hierarchical Label 'rb10'
+    @(189.865 mm, 67.31 mm): Hierarchical Label 'RB10'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 69.85 mm): Hierarchical Label 'rb11'
+    @(189.865 mm, 69.85 mm): Hierarchical Label 'RB11'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 72.39 mm): Hierarchical Label 'rb12'
+    @(189.865 mm, 72.39 mm): Hierarchical Label 'RB12'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 74.93 mm): Hierarchical Label 'rb13'
+    @(189.865 mm, 74.93 mm): Hierarchical Label 'RB13'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 77.47 mm): Hierarchical Label 'rb14'
+    @(189.865 mm, 77.47 mm): Hierarchical Label 'RB14'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 80.01 mm): Hierarchical Label 'rb15'
+    @(189.865 mm, 80.01 mm): Hierarchical Label 'RB15'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(189.865 mm, 85.09 mm): Hierarchical Label 'RD0'
@@ -1015,57 +940,57 @@ Report includes: Errors, Warnings
     @(189.865 mm, 102.87 mm): Hierarchical Label 'RD7'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 105.41 mm): Hierarchical Label 'rd8'
+    @(189.865 mm, 105.41 mm): Hierarchical Label 'RD8'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 107.95 mm): Hierarchical Label 'rd9'
+    @(189.865 mm, 107.95 mm): Hierarchical Label 'RD9'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 110.49 mm): Hierarchical Label 'rd10'
+    @(189.865 mm, 110.49 mm): Hierarchical Label 'RD10'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 113.03 mm): Hierarchical Label 'rd11'
+    @(189.865 mm, 113.03 mm): Hierarchical Label 'RD11'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 115.57 mm): Hierarchical Label 'rd12'
+    @(189.865 mm, 115.57 mm): Hierarchical Label 'RD12'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 118.11 mm): Hierarchical Label 'rd13'
+    @(189.865 mm, 118.11 mm): Hierarchical Label 'RD13'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 120.65 mm): Hierarchical Label 'rd14'
+    @(189.865 mm, 120.65 mm): Hierarchical Label 'RD14'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 123.19 mm): Hierarchical Label 'rd15'
+    @(189.865 mm, 123.19 mm): Hierarchical Label 'RD15'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 128.27 mm): Hierarchical Label 'rf0'
+    @(189.865 mm, 128.27 mm): Hierarchical Label 'RF0'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 130.81 mm): Hierarchical Label 'rf1'
+    @(189.865 mm, 130.81 mm): Hierarchical Label 'RF1'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 133.35 mm): Hierarchical Label 'rf2'
+    @(189.865 mm, 133.35 mm): Hierarchical Label 'RF2'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 135.89 mm): Hierarchical Label 'rf3'
+    @(189.865 mm, 135.89 mm): Hierarchical Label 'RF3'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 138.43 mm): Hierarchical Label 'rf4'
+    @(189.865 mm, 138.43 mm): Hierarchical Label 'RF4'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 140.97 mm): Hierarchical Label 'rf5'
+    @(189.865 mm, 140.97 mm): Hierarchical Label 'RF5'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 143.51 mm): Hierarchical Label 'rf8'
+    @(189.865 mm, 143.51 mm): Hierarchical Label 'RF8'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 146.05 mm): Hierarchical Label 'rf12'
+    @(189.865 mm, 146.05 mm): Hierarchical Label 'RF12'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(189.865 mm, 148.59 mm): Hierarchical Label 'rf13'
+    @(189.865 mm, 148.59 mm): Hierarchical Label 'RF13'
 
- ** ERC messages: 354  Errors 164  Warnings 190
+ ** ERC messages: 329  Errors 139  Warnings 190
 
  ** Ignored checks:
     - Global label only appears once in the schematic

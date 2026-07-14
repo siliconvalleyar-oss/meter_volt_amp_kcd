@@ -1,4 +1,4 @@
-ERC report (2026-07-13T23:33:26, Encoding UTF8)
+ERC report (2026-07-14T00:09:58, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -193,7 +193,7 @@ Report includes: Errors, Warnings
     @(242.773 mm, 100.635 mm): Horizontal Wire, length 19.812 mm
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(250.901 mm, 90.602 mm): Symbol #PWR? Hidden pin 1 [+3.3V, Power input, Line]
+    @(250.901 mm, 90.602 mm): Symbol #PWR0306 Hidden pin 1 [+3.3V, Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(250.901 mm, 103.175 mm): Vertical Wire, length 12.573 mm

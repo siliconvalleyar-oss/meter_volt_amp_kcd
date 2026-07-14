@@ -1,4 +1,4 @@
-ERC report (2026-07-13T23:34:30, Encoding UTF8)
+ERC report (2026-07-14T00:11:05, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -193,7 +193,7 @@ Report includes: Errors, Warnings
     @(256.642 mm, 49.174 mm): Hierarchical Label 'mclr'
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(257.937 mm, 79.883 mm): Symbol #PWR? Hidden pin 1 [+5F, Power input, Line]
+    @(257.937 mm, 79.883 mm): Symbol #PWR0209 Hidden pin 1 [+5F, Power input, Line]
 [pin_not_connected]: Hierarchical label 'pgd' in root sheet cannot be connected to non-existent parent sheet
     ; error
     @(262.153 mm, 56.794 mm): Hierarchical Label 'pgd'
@@ -502,7 +502,7 @@ Report includes: Errors, Warnings
     @(256.642 mm, 49.174 mm): Horizontal Wire, length 6.756 mm
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(257.937 mm, 79.883 mm): Symbol #PWR? Hidden pin 1 [+5F, Power input, Line]
+    @(257.937 mm, 79.883 mm): Symbol #PWR0209 Hidden pin 1 [+5F, Power input, Line]
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(257.937 mm, 85.725 mm): Vertical Wire, length 5.842 mm
