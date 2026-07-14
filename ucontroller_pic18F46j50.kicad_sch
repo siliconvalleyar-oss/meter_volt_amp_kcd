@@ -3223,18 +3223,9 @@
 		)
 		(uuid "a1a2a118-4dc6-421e-9422-1f11193817ad")
 	)
-		(hierarchical_label
-		(name "VDD_CORE")
-		(shape bidirectional)
+	(hierarchical_label "VDD_CORE"
+		(shape input)
 		(at 198.374 42.418 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d9caebe8-c976-41d9-b9db-33b232ac38e6")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3256,18 +3247,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "pgd")
-		(shape bidirectional)
+	(hierarchical_label "pgd"
+		(shape input)
 		(at 194.818 70.358 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4e7485ad-96e8-4d9a-9663-66deb3be9f68")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3289,18 +3271,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RE2")
-		(shape bidirectional)
+	(hierarchical_label "RE2"
+		(shape input)
 		(at 88.138 123.698 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "782ae0eb-4205-4e35-8697-ab9a6c42fac3")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3322,18 +3295,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RD4")
-		(shape bidirectional)
+	(hierarchical_label "RD4"
+		(shape input)
 		(at 200.66 105.918 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5fee9e44-0891-431e-81c1-e4e5cea1625f")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3355,18 +3319,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RC0")
-		(shape bidirectional)
+	(hierarchical_label "RC0"
+		(shape input)
 		(at 88.138 93.218 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1731e3d6-4387-4b17-a56b-42945df35dad")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3388,18 +3343,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RC7")
-		(shape bidirectional)
+	(hierarchical_label "RC7"
+		(shape input)
 		(at 198.628 100.838 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "422ec2eb-4a99-4a37-a0f5-689d3a93bff9")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3421,18 +3367,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "pgc")
-		(shape bidirectional)
+	(hierarchical_label "pgc"
+		(shape input)
 		(at 262.2296 59.3344 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e973f9ee-47cc-4e01-83c7-b9c38a650867")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3454,18 +3391,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "mclr")
-		(shape bidirectional)
+	(hierarchical_label "mclr"
+		(shape input)
 		(at 88.138 47.498 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "062d95f7-c19a-4fa9-a15d-53044ae32658")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3487,18 +3415,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RC6")
-		(shape bidirectional)
+	(hierarchical_label "RC6"
+		(shape input)
 		(at 198.628 98.298 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "284e7332-2f29-4429-8e65-bcf9a2dd5a5e")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3520,18 +3439,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "AN11")
-		(shape bidirectional)
+	(hierarchical_label "AN11"
+		(shape input)
 		(at 88.138 98.298 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3f419c87-57a5-43da-81b7-58411f07a389")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3553,18 +3463,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "SDA_1")
-		(shape bidirectional)
+	(hierarchical_label "SDA_1"
+		(shape input)
 		(at 194.818 65.278 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "88dcf4f1-cf45-4e04-8768-fbb98f684701")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3586,18 +3487,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "SCL_1")
-		(shape bidirectional)
+	(hierarchical_label "SCL_1"
+		(shape input)
 		(at 194.818 62.738 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "decdaacf-7864-44b9-b5b0-1e5af734acad")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3619,18 +3511,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "VREF+")
-		(shape bidirectional)
+	(hierarchical_label "VREF+"
+		(shape input)
 		(at 88.138 57.658 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9b43a847-fb05-4c11-a2ff-ef5df4064004")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3652,18 +3535,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RA0")
-		(shape bidirectional)
+	(hierarchical_label "RA0"
+		(shape input)
 		(at 88.138 50.038 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e05fdf3b-48c1-42fb-a654-aa478c284b78")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3685,18 +3559,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RA1")
-		(shape bidirectional)
+	(hierarchical_label "RA1"
+		(shape input)
 		(at 88.138 52.578 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "20553e9e-d07f-4628-aa5c-19e9d2e08cd4")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3718,18 +3583,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RD7")
-		(shape bidirectional)
+	(hierarchical_label "RD7"
+		(shape input)
 		(at 200.66 113.538 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ebda0e70-a0f9-4ebb-8837-abbed7b32660")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3751,18 +3607,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "mclr")
-		(shape bidirectional)
+	(hierarchical_label "mclr"
+		(shape input)
 		(at 256.6416 49.1744 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c63cfede-1fa1-47d7-a893-ea3aea3d6df2")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3784,18 +3631,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "pgd")
-		(shape bidirectional)
+	(hierarchical_label "pgd"
+		(shape input)
 		(at 262.1534 56.7944 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "003678ce-5b89-4e4b-97d7-b95b8292ad2b")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3817,18 +3655,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "pgc")
-		(shape bidirectional)
+	(hierarchical_label "pgc"
+		(shape input)
 		(at 194.818 67.818 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2268ddc1-6aa0-4094-b990-00990dd560b0")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3850,18 +3679,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RE0")
-		(shape bidirectional)
+	(hierarchical_label "RE0"
+		(shape input)
 		(at 88.138 118.618 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "064e6693-17a8-49bc-be37-b87107142974")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3883,18 +3703,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RD6")
-		(shape bidirectional)
+	(hierarchical_label "RD6"
+		(shape input)
 		(at 200.66 110.998 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8324f752-6190-45c4-b807-4a7a61a63f85")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3916,18 +3727,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "SCL_2")
-		(shape bidirectional)
+	(hierarchical_label "SCL_2"
+		(shape input)
 		(at 88.138 105.918 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "17e6b04f-ce9e-45a4-bab5-ede6640d3017")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3949,18 +3751,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RD3")
-		(shape bidirectional)
+	(hierarchical_label "RD3"
+		(shape input)
 		(at 88.138 113.538 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "87a7defe-dcbc-40d0-8ca8-b89d9ae02ddd")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3982,18 +3775,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RB0")
-		(shape bidirectional)
+	(hierarchical_label "RB0"
+		(shape input)
 		(at 88.138 62.738 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7dcd5413-8fa7-4307-bebf-b0993256d9b3")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4015,18 +3799,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "AN9")
-		(shape bidirectional)
+	(hierarchical_label "AN9"
+		(shape input)
 		(at 88.138 85.598 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "643b5932-8bad-45a8-b521-656bdda8465a")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4048,18 +3823,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RD5")
-		(shape bidirectional)
+	(hierarchical_label "RD5"
+		(shape input)
 		(at 200.66 108.458 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3670f651-ee9d-402e-9e73-c9c77efa4aa9")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4081,18 +3847,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RE1")
-		(shape bidirectional)
+	(hierarchical_label "RE1"
+		(shape input)
 		(at 88.138 121.158 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "086a4a6b-69bb-4c19-b43a-7c318de7c686")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4114,18 +3871,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RD2")
-		(shape bidirectional)
+	(hierarchical_label "RD2"
+		(shape input)
 		(at 88.138 110.998 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b576477c-e486-4a6d-858e-5529e703577d")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4147,18 +3895,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RA5")
-		(shape bidirectional)
+	(hierarchical_label "RA5"
+		(shape input)
 		(at 88.138 60.198 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "934c283e-6e49-4890-b863-0857c0824e94")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4180,18 +3919,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "SDA_2")
-		(shape bidirectional)
+	(hierarchical_label "SDA_2"
+		(shape input)
 		(at 88.138 108.458 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a53523b9-0b23-408d-a824-9ecac5d8337b")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4213,18 +3943,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RC1")
-		(shape bidirectional)
+	(hierarchical_label "RC1"
+		(shape input)
 		(at 88.138 95.758 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f43b58ce-8e20-4eec-8d25-d889e99c9467")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4246,18 +3967,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "VREF-")
-		(shape bidirectional)
+	(hierarchical_label "VREF-"
+		(shape input)
 		(at 88.138 55.118 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0ad73445-679c-4a89-87a0-dce484fdf026")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4279,18 +3991,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "AN10")
-		(shape bidirectional)
+	(hierarchical_label "AN10"
+		(shape input)
 		(at 88.138 80.518 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0278fe51-06ca-4a38-a38d-6c8f7e544fce")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4312,18 +4015,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "AN8")
-		(shape bidirectional)
+	(hierarchical_label "AN8"
+		(shape input)
 		(at 88.138 83.058 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b65a837f-acea-46a7-bf56-b80912fea63f")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font

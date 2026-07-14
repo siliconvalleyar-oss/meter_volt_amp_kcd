@@ -1536,18 +1536,9 @@
 		)
 		(uuid "f725b3a7-08b0-409b-ae0d-b7b4eee2516f")
 	)
-		(hierarchical_label
-		(name "GPIO21")
-		(shape bidirectional)
+	(hierarchical_label "GPIO21"
+		(shape input)
 		(at 142.621 94.107 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "edd839f7-ddb4-496e-9f1e-d016a071aca5")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1569,18 +1560,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "GPIO23")
-		(shape bidirectional)
+	(hierarchical_label "GPIO23"
+		(shape input)
 		(at 144.272 105.537 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1180be90-ef1b-4e6d-a026-42f009164598")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1602,18 +1584,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "GPIO24")
-		(shape bidirectional)
+	(hierarchical_label "GPIO24"
+		(shape input)
 		(at 199.517 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fd59a66e-83cf-4106-80f4-a41e9ea57e91")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1635,18 +1608,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "GPIO22")
-		(shape bidirectional)
+	(hierarchical_label "GPIO22"
+		(shape input)
 		(at 149.098 115.697 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b7e31fad-9dc8-465e-9caa-5308527b31f5")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1668,18 +1632,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "GPIO20")
-		(shape bidirectional)
+	(hierarchical_label "GPIO20"
+		(shape input)
 		(at 140.335 72.517 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9d90f771-e1f0-43b9-a96b-5d2fabc67e19")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font

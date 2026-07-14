@@ -2145,18 +2145,9 @@
 		)
 		(uuid "ff20f26d-0d52-4417-9376-acbb59b9f1f2")
 	)
-		(hierarchical_label
-		(name "RC1")
-		(shape bidirectional)
+	(hierarchical_label "RC1"
+		(shape input)
 		(at 205.8416 105.7656 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5f30dec9-05ac-47a8-a4cc-31e0a526402b")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2178,18 +2169,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RD2")
-		(shape bidirectional)
+	(hierarchical_label "RD2"
+		(shape input)
 		(at 163.6776 93.0656 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "96e174a1-2117-42c4-96f0-3dfc92e71705")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2211,18 +2193,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RE1")
-		(shape bidirectional)
+	(hierarchical_label "RE1"
+		(shape input)
 		(at 206.0956 113.3856 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7b81dba9-4464-4d36-90f9-b58839499b86")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2244,18 +2217,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RC0")
-		(shape bidirectional)
+	(hierarchical_label "RC0"
+		(shape input)
 		(at 112.3696 109.6772 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dbf43911-20cb-4321-b798-ae429372129f")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2277,18 +2241,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RE2")
-		(shape bidirectional)
+	(hierarchical_label "RE2"
+		(shape input)
 		(at 206.0956 110.8456 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6ec384dc-7dd8-42f5-9472-4e53289004c6")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2310,18 +2265,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "VO")
-		(shape bidirectional)
+	(hierarchical_label "VO"
+		(shape input)
 		(at 138.7856 93.0656 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dcc6993d-9309-4e7c-92f4-517e5fd7a762")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2343,18 +2289,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "RD3")
-		(shape bidirectional)
+	(hierarchical_label "RD3"
+		(shape input)
 		(at 163.6268 98.1456 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af1703ae-3b3c-459c-9d8a-492b3041dfc4")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2376,18 +2313,9 @@
 			)
 		)
 	)
-		(hierarchical_label
-		(name "VO")
-		(shape bidirectional)
+	(hierarchical_label "VO"
+		(shape input)
 		(at 108.6104 86.8172 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "07625f1d-8bef-4478-9370-17d991d2bc4a")
-	)
 		(fields_autoplaced yes)
 		(effects
 			(font

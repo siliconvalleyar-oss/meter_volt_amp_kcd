@@ -1,0 +1,141 @@
+ERC report (2026-07-13T23:34:21, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 75.743 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 75.743 mm): Label 'D8'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 78.283 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 78.283 mm): Label 'D7'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 80.823 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 80.823 mm): Label 'D6'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 83.363 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 83.363 mm): Label 'D5'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 85.903 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 85.903 mm): Label 'D4'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 88.443 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 88.443 mm): Label 'D3'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 90.983 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 90.983 mm): Label 'D2'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 93.523 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 93.523 mm): Label 'D1'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 96.063 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 96.063 mm): Label 'Trigger Input (T1)'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 98.603 mm): Horizontal Wire, length 17.78 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 101.143 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 101.143 mm): Label 'AWG1 (W1)'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 103.683 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 103.683 mm): Label 'DC Output 1 (V1)'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 106.223 mm): Horizontal Wire, length 17.78 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 108.763 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 108.763 mm): Label 'AI2+/OSC12(1+)'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(125.578 mm, 111.303 mm): Horizontal Wire, length 17.78 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(125.578 mm, 111.303 mm): Label 'AI1+/OSC1 (1+)'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(143.358 mm, 75.743 mm): Symbol J1 Pin 1 [Pin_1, Passive, Line]
+[footprint_link_issues]: Footprint 'PinHeader_2x15_P2.54mm_Vertical_edge_mount_smd' not found in library 'Connector_PinHeader_2.54mm'
+    ; warning
+    @(148.438 mm, 93.523 mm): Symbol J1 [Conn_02x15_Odd_Even]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 75.743 mm): Label 'UART_RX/PWM2 (P5)'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 78.283 mm): Label 'SPI_CS/UART_RTS/PWM1 (P4)'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 80.823 mm): Label 'SPI_CLK/UART_CTS (P3) '
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 83.363 mm): Label 'SDI/SDO/UART_TX (P2) '
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 85.903 mm): Label 'SDI/SDO (P1) '
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 88.443 mm): Label 'INT/CLK2 (C2) '
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 90.983 mm): Label 'DO10 (10) '
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 93.523 mm): Label 'DO9 (9) '
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 96.063 mm): Label 'Trigger Output (T0) '
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 101.143 mm): Label 'INT/CLK1 (C1) '
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 103.683 mm): Label 'DC Output 2 (V2) '
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 108.763 mm): Label 'GND/AI2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(156.058 mm, 111.303 mm): Label 'GND/AI1'
+
+ ** ERC messages: 43  Errors 0  Warnings 43
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

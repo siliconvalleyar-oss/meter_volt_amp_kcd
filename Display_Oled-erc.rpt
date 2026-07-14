@@ -1,0 +1,207 @@
+ERC report (2026-07-13T23:33:26, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[unresolved_variable]: Unresolved text variable
+    ; error
+    @(143.84 mm, 100.00 mm): Hierarchical Label 'SCL_2'
+[pin_not_connected]: Hierarchical label 'SCL_2' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(143.84 mm, 100.00 mm): Hierarchical Label 'SCL_2'
+[unresolved_variable]: Unresolved text variable
+    ; error
+    @(157.556 mm, 104.191 mm): Hierarchical Label 'SDA_2'
+[pin_not_connected]: Hierarchical label 'SDA_2' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(157.556 mm, 104.191 mm): Hierarchical Label 'SDA_2'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(158.445 mm, 77.775 mm): Symbol #PWR0301 Hidden pin 1 [+3.3V, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(163.525 mm, 99.365 mm): Symbol #PWR0302 Hidden pin 1 [+5F, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(174.955 mm, 120.955 mm): Symbol #PWR0304 Hidden pin 1 [GND, Power input, Line]
+[pin_not_connected]: Hierarchical label 'SCL_1' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(234.391 mm, 105.715 mm): Hierarchical Label 'SCL_1'
+[pin_not_connected]: Hierarchical label 'SDA_1' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(234.391 mm, 108.255 mm): Hierarchical Label 'SDA_1'
+[pin_not_connected]: Hierarchical label 'RES_RPI' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(234.391 mm, 110.795 mm): Hierarchical Label 'RES_RPI'
+[pin_not_connected]: Hierarchical label 'DC_RPI' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(234.391 mm, 113.335 mm): Hierarchical Label 'DC_RPI'
+[pin_not_connected]: Hierarchical label 'BLK_RPI' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(234.391 mm, 115.875 mm): Hierarchical Label 'BLK_RPI'
+[unresolved_variable]: Unresolved text variable
+    ; error
+    @(234.391 mm, 105.715 mm): Hierarchical Label 'SCL_1'
+[unresolved_variable]: Unresolved text variable
+    ; error
+    @(234.391 mm, 108.255 mm): Hierarchical Label 'SDA_1'
+[unresolved_variable]: Unresolved text variable
+    ; error
+    @(234.391 mm, 113.335 mm): Hierarchical Label 'DC_RPI'
+[unresolved_variable]: Unresolved text variable
+    ; error
+    @(234.391 mm, 115.875 mm): Hierarchical Label 'BLK_RPI'
+[unresolved_variable]: Unresolved text variable
+    ; error
+    @(234.391 mm, 110.795 mm): Hierarchical Label 'RES_RPI'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(143.84 mm, 100.00 mm): Horizontal Wire, length 2.921 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(146.761 mm, 99.873 mm): Vertical Wire, length 0.127 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(146.761 mm, 99.873 mm): Vertical Wire, length 0.127 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(146.761 mm, 100.00 mm): Vertical Wire, length 11.938 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(146.761 mm, 100.00 mm): Horizontal Wire, length 2.794 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(146.761 mm, 111.938 mm): Horizontal Wire, length 0.127 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(146.888 mm, 111.938 mm): Vertical Wire, length 0.127 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(146.888 mm, 112.065 mm): Horizontal Wire, length 34.417 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(149.555 mm, 77.775 mm): Horizontal Wire, length 8.89 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(149.555 mm, 87.935 mm): Symbol R? Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(149.555 mm, 87.935 mm): Vertical Wire, length 10.16 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(149.555 mm, 95.555 mm): Vertical Wire, length 4.445 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(157.556 mm, 104.191 mm): Horizontal Wire, length 0.889 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(158.445 mm, 77.775 mm): Vertical Wire, length 10.16 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(158.445 mm, 77.775 mm): Symbol #PWR0301 Hidden pin 1 [+3.3V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(158.445 mm, 87.935 mm): Symbol R? Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(158.445 mm, 95.555 mm): Vertical Wire, length 8.636 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(158.445 mm, 104.191 mm): Vertical Wire, length 2.794 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(158.445 mm, 106.985 mm): Horizontal Wire, length 22.86 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(163.525 mm, 99.365 mm): Vertical Wire, length 5.08 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(163.525 mm, 99.365 mm): Symbol #PWR0302 Hidden pin 1 [+5F, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(163.525 mm, 104.445 mm): Vertical Wire, length 5.08 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(163.525 mm, 104.445 mm): Horizontal Wire, length 17.78 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(163.525 mm, 109.525 mm): Horizontal Wire, length 17.78 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(174.955 mm, 90.475 mm): Symbol #PWR0303 Hidden pin 1 [+3.3V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(174.955 mm, 90.475 mm): Vertical Wire, length 11.43 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(174.955 mm, 101.905 mm): Horizontal Wire, length 6.35 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(174.955 mm, 114.605 mm): Horizontal Wire, length 6.35 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(174.955 mm, 120.955 mm): Symbol #PWR0304 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(174.955 mm, 120.955 mm): Vertical Wire, length 6.35 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(181.305 mm, 101.905 mm): Symbol J301 Pin 1 [Pin_1, Passive, Line]
+[footprint_link_issues]: Footprint 'Adafruit_SSD1306_No_Mounting_Holes_pads' not found in library 'Display'
+    ; warning
+    @(217.881 mm, 108.255 mm): Symbol J302 [Conn_01x07_Pin]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(222.961 mm, 100.635 mm): Symbol J302 Pin 1 [Pin_1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(222.961 mm, 103.175 mm): Horizontal Wire, length 27.94 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(234.391 mm, 105.715 mm): Horizontal Wire, length 11.43 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(234.391 mm, 105.715 mm): Hierarchical Label 'SCL_1'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(234.391 mm, 108.255 mm): Horizontal Wire, length 11.43 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(234.391 mm, 108.255 mm): Hierarchical Label 'SDA_1'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(234.391 mm, 110.795 mm): Horizontal Wire, length 11.43 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(234.391 mm, 110.795 mm): Hierarchical Label 'RES_RPI'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(234.391 mm, 113.335 mm): Horizontal Wire, length 11.43 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(234.391 mm, 113.335 mm): Hierarchical Label 'DC_RPI'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(234.391 mm, 115.875 mm): Horizontal Wire, length 11.43 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(234.391 mm, 115.875 mm): Hierarchical Label 'BLK_RPI'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(242.773 mm, 100.635 mm): Symbol #PWR0305 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(242.773 mm, 100.635 mm): Horizontal Wire, length 19.812 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.901 mm, 90.602 mm): Symbol #PWR? Hidden pin 1 [+3.3V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.901 mm, 103.175 mm): Vertical Wire, length 12.573 mm
+
+ ** ERC messages: 65  Errors 17  Warnings 48
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
