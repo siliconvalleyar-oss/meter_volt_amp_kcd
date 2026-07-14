@@ -390,7 +390,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 105.41)
+		(at 66.421 165.862)
 		(size 55 129.22)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -406,7 +406,7 @@
 		)
 		(uuid "549296ff-1096-4a6f-924b-a01494d8442e")
 		(property "Sheetname" "PIM100"
-			(at 227.33 104.41 0)
+			(at 66.421 165.1504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -417,7 +417,7 @@
 			)
 		)
 		(property "Sheetfile" "PIM100.kicad_sch"
-			(at 227.33 235.63 0)
+			(at 66.421 192.1006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
