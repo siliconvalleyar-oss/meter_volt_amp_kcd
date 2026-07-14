@@ -25,3 +25,6 @@ __pycache__/
 
 # VS Code Local History
 .history/
+
+# ERC Reports (temporales, se regeneran)
+*.rpt
