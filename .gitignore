@@ -28,3 +28,4 @@ __pycache__/
 
 # ERC Reports (temporales, se regeneran)
 *.rpt
+~amper_volt_meter.kicad_sch.lck
